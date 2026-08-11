@@ -4,7 +4,7 @@
 
 > Sections follow the research lifecycle (ideation → literature → study design → data → method → analysis → visualization → writing), not alphabetical order. Not scoped to one discipline: alongside the ML/CV tooling there are entries for study protocols, qualitative coding, survey statistics, and systematic reviews.
 
-> Honest disclosure: for 94% of entries below, the star count is the *parent repo's* stars, not a measure of this specific skill's own popularity — most Agent Skills right now live as a subfolder in someone's larger repo, not as their own independently-starred project. That's a fact about how young this ecosystem is; the raw data behind every entry is in `data/skills.json` if you want to check which ones.
+> Honest disclosure: for 95% of entries below, the star count is the *parent repo's* stars, not a measure of this specific skill's own popularity — most Agent Skills right now live as a subfolder in someone's larger repo, not as their own independently-starred project. That's a fact about how young this ecosystem is; the raw data behind every entry is in `data/skills.json` if you want to check which ones.
 
 > Curation method: each entry is chosen by reading its SKILL.md and checking it against the live repo (stars, license, last commit on that exact path) — not by running it end-to-end. Descriptions state what the skill claims to do; verify it yourself before depending on it for real work.
 
@@ -34,6 +34,10 @@
 - [Archora: Hypothesis](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/hypothesis) - Guides generation of falsifiable, structured research hypotheses from user-provided notes and content. `skill` `unverified` · ⭐46 · updated 2026-05-15.
 
 - [Claude Scholar: Research Ideation](https://github.com/Galaxy-Dawn/claude-scholar/tree/HEAD/skills/research-ideation) - Structures research project initiation through 5W1H brainstorming, systematic literature review, multi-dimensional gap analysis, and SMART research-question formulation. `skill` `MIT` · ⭐4983 · updated 2026-05-13.
+
+- [Brainstorming Research Ideas](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/brainstorming-research-ideas) - Applies structured ideation frameworks to surface research directions when entering a new problem space or reconsidering a project's direction. `skill` `MIT` · ⭐11572 · updated 2026-02-19.
+
+- [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - Applies cognitive-science creativity techniques — combinatorial creativity, analogical reasoning, and constraint manipulation — to generating research directions. `skill` `MIT` · ⭐11572 · updated 2026-02-19.
 
 ## Literature Review
 
@@ -77,6 +81,8 @@
 
 - [SLR PRISMA](https://github.com/keemanxp/slr-prisma) - Guides a systematic literature review through the full 27-item PRISMA 2020 checklist, producing a journal-format Word manuscript, an annotated PRISMA flow diagram, and APA 7th referencing, explicitly excluding meta-analysis and statistical pooling. `skill` `unverified` · ⭐90 · updated 2026-03-28.
 
+- [bioRxiv Database Search](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/biorxiv-database) - Searches bioRxiv preprint metadata and retrieves PDFs by keyword, author, date range, or subject category. `skill` `net` `unverified` · ⭐1044 · updated 2026-02-27.
+
 ## Study Design & Protocol
 
 - [TW Research Ethics Reviewer](https://github.com/fw1201/tw-research-skills/tree/HEAD/tw-research-ethics-reviewer) - Provides structured self-assessment for research ethics compliance and IRB preparation. `skill` `unverified` · ⭐8 · updated 2026-05-08.
@@ -91,6 +97,14 @@
 
 - [Fieldwork Methods](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/fieldwork-methods) - Designs qualitative data-collection instruments and protocols — interview guides, focus group guides, observation protocols, field note templates, and sampling strategies. `skill` `unverified` · ⭐20 · updated 2026-07-27.
 
+- [Survey Instrument Designer](https://github.com/scdenney/open-science-skills/tree/HEAD/plugin/skills/survey-design) - Drafts and critiques survey question wording, response scales, and instrument flow against published social-science methodology to reduce measurement bias. `skill` `unverified` · ⭐39 · updated 2026-07-02.
+
+- [Conjoint Experiment Designer](https://github.com/scdenney/open-science-skills/tree/HEAD/plugin/skills/conjoint-design) - Plans conjoint survey experiments, covering attribute architecture, randomization and orthogonality, power calculation, and AMCE/AMIE estimation. `skill` `unverified` · ⭐39 · updated 2026-07-02.
+
+- [Medical Study Design Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/design-study) - Reviews cohort logic, comparator choice, and validation strategy for medical studies to surface leakage and validity risks before analysis begins. `skill` `MIT` · ⭐246 · updated 2026-07-25.
+
+- [Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design) - Plans studies before data collection, covering randomization, blocking, factorial and crossover layouts, and cluster or adaptive designs. `skill` `MIT` · ⭐33151 · updated 2026-07-28.
+
 ## Data & Annotation
 
 - [PhD Skills: Dataset Curation](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/dataset-curation) - Analyzes dataset bias, distribution, and fairness before model training. `skill` `MIT` · ⭐357 · updated 2026-03-12.
@@ -102,6 +116,8 @@
 - [FiftyOne Dataset Export](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-dataset-export) - Exports FiftyOne datasets to standard annotation formats — COCO, YOLO, VOC, CVAT, CSV — for downstream model training and sharing. `skill` `Apache-2.0` · ⭐37 · updated 2026-05-14.
 
 - [Label Studio Setup](https://github.com/majiayu000/claude-skill-registry/tree/HEAD/skills/data/label-studio-setup) - Covers Label Studio installation, project setup, data import/export, labeling interface customization, quality control, and ML backend integration for image, text, audio, and video annotation. `skill` `MIT` · ⭐534 · updated 2026-04-20.
+
+- [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Searches HuggingFace Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list. `skill` `net` `unverified` · ⭐1044 · updated 2026-02-26.
 
 ## Model Training & Fine-Tuning
 
@@ -203,17 +219,39 @@
 
 - [Stata-to-R Translation](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/stata-r-translation) - Maps Stata commands (reghdfe, xtreg, ivregress, margins, esttab, svy:) to their R equivalents for researchers moving an analysis between the two ecosystems. `skill` `LGPL-3.0` · ⭐226 · updated 2026-07-24.
 
+- [ML Experiment Results Analysis](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/inno-experiment-analysis) - Analyzes experiment result files, runs significance tests and model comparisons, and drafts a Results section with accompanying figures. `skill` `unverified` · ⭐1044 · updated 2026-02-26.
+
+- [Meta-Analysis & Systematic Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/meta-analysis) - Runs the meta-analysis pipeline from PROSPERO protocol registration and risk-of-bias assessment through statistical synthesis and PRISMA-compliant reporting. `skill` `MIT` · ⭐246 · updated 2026-08-10.
+
+- [Medical Statistical Analysis](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/analyze-stats) - Generates reproducible Python or R code for diagnostic accuracy, agreement, survival, propensity-score, and survey-weighted analyses, with a protected-health-information check before reading any data file. `skill` `MIT` · ⭐246 · updated 2026-07-23.
+
+- [Guided Statistical Analysis](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/statistical-analysis) - Selects statistical tests, checks their assumptions, computes effect sizes, and reports results in APA format across t-tests, ANOVA, regression, and Bayesian alternatives. `skill` `MIT` · ⭐33151 · updated 2026-07-26.
+
+- [PyMC Bayesian Modeling](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pymc) - Builds, fits, and validates Bayesian hierarchical models with PyMC, covering MCMC sampling, variational inference, and posterior predictive checks. `skill` `MIT` · ⭐33151 · updated 2026-07-28.
+
+- [Complex Survey Analysis (Python)](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/svy) - Analyzes complex-sample survey data in Python with strata, PSU, and weight handling, variance estimation, and survey-weighted GLM for datasets such as NHANES, CPS, and DHS. `skill` `LGPL-3.0` · ⭐227 · updated 2026-07-15.
+
 ## Qualitative & Mixed Methods
 
 - [Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis) - Conducts thematic analysis of interviews, focus groups, or open-ended responses following Braun and Clarke's six-phase framework, covering the four upfront analytic decisions and a 15-point quality checklist. `skill` `MIT` · ⭐12 · updated 2026-05-11.
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - Codes qualitative data and builds codebooks with deductive, inductive, and hybrid coding, code frequencies, co-occurrence analysis, and intercoder reliability. `skill` `unverified` · ⭐20 · updated 2026-07-27.
 
+- [Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual) - Runs grounded theory, reflexive thematic analysis, and content analysis with codebook development and inter-coder reliability checks, exporting to NVivo, ATLAS.ti, Dedoose, and MAXQDA formats. `skill` `net` `unverified` · ⭐123 · updated 2026-07-14.
+
+- [AlterLab Qualitative Methods](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills/tree/HEAD/skills/research-tools/alterlab-qualitative-methods) - Covers qualitative design and analysis across five traditions — thematic analysis, grounded theory, interpretative phenomenological analysis, ethnography, and case study — with trustworthiness criteria. `skill` `net` `MIT` · ⭐58 · updated 2026-07-02.
+
 ## Interpretability
 
 - [SAELens: Sparse Autoencoders for Mechanistic Interpretability](https://github.com/NousResearch/hermes-agent/tree/HEAD/optional-skills/mlops/saelens) - Trains and analyzes sparse autoencoders to decompose polysemantic model activations into interpretable features, wrapping the SAELens and TransformerLens libraries. `skill` `MIT` · ⭐225368 · updated 2026-07-24.
 
 - [SHAP](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/shap) - Explains and audits machine-learning predictions with SHAP, covering explainer/masker selection, feature-attribution computation and validation, multi-output explanations, and local/global visualizations. `skill` `MIT` · ⭐32623 · updated 2026-07-23.
+
+- [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - Inspects and manipulates the internals of any PyTorch model with nnsight, including remote execution against models too large for local GPUs via NDIF. `skill` `net` `MIT` · ⭐11572 · updated 2025-12-17.
+
+- [pyvene](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/pyvene) - Performs causal tracing, activation patching, and interchange intervention training on PyTorch models through pyvene's declarative, dict-based intervention framework. `skill` `MIT` · ⭐11572 · updated 2025-12-17.
+
+- [TransformerLens](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/transformer-lens) - Reverse-engineers transformer algorithms by inspecting attention patterns and running activation-patching experiments through TransformerLens HookPoints. `skill` `MIT` · ⭐11572 · updated 2025-12-17.
 
 ## Deployment & Inference Optimization
 
@@ -288,6 +326,10 @@
 - [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) - Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code. `skill` `MIT` · ⭐332 · updated 2026-05-08.
 
 - [Anti-Autoresearch](https://github.com/wanshuiyin/Anti-Autoresearch/tree/HEAD/workflows/anti-autoresearch) - Orchestrates a reviewer-side integrity forensics sweep of a research paper — building a span-anchored evidence ledger, fanning out cross-model auditors for citation, experiment, consistency, and baseline-comparison fabrication, then computing a deterministic verdict for a human reviewer. `suite` `net` `MIT` · ⭐None · updated 2026-07-14.
+
+- [Academic Presentations & Demo Video](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/making-academic-presentations) - Turns a paper into a slide deck and optionally a narrated demo video, covering script drafting, slide generation, text-to-speech narration, and video assembly. `skill` `net` `unverified` · ⭐1044 · updated 2026-03-04.
+
+- [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` `MIT` · ⭐14483 · updated 2026-07-13.
 
 ## Contributing
 
