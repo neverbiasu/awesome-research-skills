@@ -1,0 +1,49 @@
+# Deliberately no status badge in README.md — awesome-list convention allows using CI, but not
+# advertising it. See sindresorhus/awesome pull_request_template.md.
+
+name: link-check
+
+on:
+  schedule:
+    # Weekly. Entries rot silently between manual verification passes; this is the tripwire.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "README.md"
+      - ".github/workflows/link-check.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every link in README.md
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # --max-concurrency keeps GitHub from rate-limiting us into false failures, which
+          # would train everyone to ignore this job.
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --timeout 30
+            --max-retries 3
+            --accept 200,206,429
+            --exclude-path .github
+            README.md
+          output: lychee-report.md
+          fail: false
+
+      - name: Open an issue if anything is dead
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Dead links in README.md"
+          content-filepath: lychee-report.md
+          labels: broken-link
