@@ -47,8 +47,6 @@
 
 *Finding, reading, and synthesising prior work, and keeping citations honest.*
 
-- [arXiv Skills](https://github.com/ultimatile/arxiv-skills/tree/HEAD/skills/arxiv-lookup) - Converts an arXiv paper (LaTeX-source-first, PDF fallback) into implementation-ready Markdown with preserved math, and looks up papers by DOI/title via the arXiv API. `suite` `net` `MIT` · updated 2026-04-09.
-
 - [Wenxian](https://github.com/njzjz/wenxian/tree/HEAD/skill) - Generates a BibTeX entry from a DOI, PMID, arXiv ID, or paper title by querying CrossRef, PubMed, arXiv, Semantic Scholar, and ChemRxiv. `skill` `net` `LGPL-3.0` · updated 2026-02-15.
 
 - [Semantic Scholar Skill](https://github.com/agents365-ai/semanticscholar-skill/tree/HEAD/skills/semanticscholar-skill) - Wraps the Semantic Scholar Graph API for paper search, citation-graph traversal, and author lookup across 200M+ papers, rate-limited for multi-agent use. `skill` `net` `MIT` · updated 2026-05-10.
@@ -83,8 +81,6 @@
 
 - [LitLLM](https://github.com/litllm/litllm/tree/HEAD/skill) - Generates ranked paper candidates and related-work section summaries from a paper draft, using LLM-driven debate ranking over Semantic Scholar, arXiv, and OpenAlex with citation-graph expansion. `skill` `net` `Apache-2.0` · updated 2026-05-07.
 
-- [Academic Writing: Verify Claims](https://github.com/alessandrocaforio/academic-writing/tree/HEAD/.claude/skills/verify-claims) - Verifies thesis claims against a literature corpus stored in ChromaDB using RAG queries, extracting claims from LaTeX chapters and assessing evidentiary support for each. `skill` `MIT` · updated 2026-02-17.
-
 - [SLR PRISMA](https://github.com/keemanxp/slr-prisma) - Guides a systematic literature review through the full 27-item PRISMA 2020 checklist, producing a journal-format Word manuscript, an annotated PRISMA flow diagram, and APA 7th referencing, explicitly excluding meta-analysis and statistical pooling. `skill` `unverified` · updated 2026-03-28.
 
 - [bioRxiv Database Search](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/biorxiv-database) - Searches bioRxiv preprint metadata and retrieves PDFs by keyword, author, date range, or subject category. `skill` `net` `unverified` · updated 2026-02-27.
@@ -92,8 +88,6 @@
 ## Study Design & Protocol
 
 *Deciding what to measure and how, before any data is collected — protocols, ethics review, preregistration, sampling, instrument design.*
-
-- [TW Research Ethics Reviewer](https://github.com/fw1201/tw-research-skills/tree/HEAD/tw-research-ethics-reviewer) - Provides structured self-assessment for research ethics compliance and IRB preparation. `skill` `unverified` · updated 2026-05-08.
 
 - [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Generates clinical trial protocols for medical devices or drugs through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting. `skill` `unverified` · updated 2026-06-15.
 
@@ -165,13 +159,9 @@
 
 - [K-Dense: Generate Image](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/generate-image) - Generates or edits images through the OpenRouter Image API across multiple backends (Gemini, FLUX, Seedream, Recraft, GPT-Image) for figures, concept art, and visual assets. `skill` `net` `MIT` · updated 2026-07-31.
 
-- [Analyze Generative Diffusion Model](https://github.com/pjt222/agent-almanac/tree/HEAD/skills/analyze-generative-diffusion-model) - Evaluates pre-trained diffusion models through FID, IS, and CLIP score metrics, noise-schedule inspection, cross-attention map extraction, and latent-space probing. `skill` `MIT` · updated 2026-06-05.
-
 ## Diagrams & Schematics
 
 *Architecture, pipeline, and concept figures — the drawn illustrations in a paper, as opposed to charts plotted from data.*
-
-- [TW Research Viz](https://github.com/fw1201/tw-research-skills/tree/HEAD/tw-research-viz) - Generates academic research visualizations — conceptual frameworks, literature maps, PRISMA flows, SEM path models, statistical charts — for papers, theses, and grant proposals. `skill` `net` `unverified` · updated 2026-04-26.
 
 - [Academic Figure Drawing (TikZ)](https://github.com/nanoAgentTeam/research-claw/tree/HEAD/config/.skills/figure-drawing) - Enforces a standalone-TikZ-to-PDF pipeline for academic paper figures, forbidding inline TikZ in paper source and requiring every figure to compile and be visually verified before insertion. `skill` `MIT` · updated 2026-03-19.
 
@@ -220,8 +210,6 @@
 - [Experiment Log Summarizer](https://github.com/chtc66/academic-skills/tree/HEAD/experiment-log-summarizer) - Summarizes ML experiment logs into structured Chinese output with evidence/speculation separated and a weekly-update abstract. `skill` `zh` `MIT` · updated 2026-04-05.
 
 - [FiftyOne Model Evaluation](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-model-evaluation) - Evaluates CV model predictions against ground truth using standard protocols like COCO and Open Images. `skill` `Apache-2.0` · updated 2026-05-14.
-
-- [TW Research Data Management](https://github.com/fw1201/tw-research-skills/tree/HEAD/tw-research-data-management) - Guides data management planning, privacy compliance, anonymization, and file organization, with legal references to Taiwan PDPA and GDPR. `skill` `zh-TW` `unverified` · updated 2026-05-08.
 
 - [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles a submission-ready replication package to the AEA Data and Code Availability Standard, including a replication README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan. `skill` `MIT` · updated 2026-06-09.
 
