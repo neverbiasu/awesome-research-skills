@@ -6,7 +6,7 @@
 
 > Every entry is verified against the exact repo path it links to — license and last-commit date are scoped to that subdirectory, not to the parent repo. Entries not in English carry a language tag.
 
-> No star counts, deliberately. GitHub has no per-directory star metric, and 95% of the skills below live inside someone's larger repo — the only number available for them is the parent's, which measures the wrong thing. Rather than print a figure that reads as popularity but isn't, none is shown.
+> No star counts, deliberately. GitHub has no per-directory star metric, and 94% of the skills below live inside someone's larger repo — the only number available for them is the parent's, which measures the wrong thing. Rather than print a figure that reads as popularity but isn't, none is shown.
 
 > Curation method: each entry is chosen by reading its SKILL.md and checking it against the live repo — not by running it end-to-end. Descriptions state what the skill claims to do; verify it yourself before depending on it for real work.
 
@@ -19,13 +19,11 @@
 - [Study Design & Protocol](#study-design--protocol)
 - [Data & Annotation](#data--annotation)
 - [Model Training & Fine-Tuning](#model-training--fine-tuning)
-- [Generative Image/Video Editing & Eval](#generative-imagevideo-editing--eval)
 - [Diagrams & Schematics](#diagrams--schematics)
 - [Experiment Management & Reproducibility](#experiment-management--reproducibility)
 - [Statistical Analysis](#statistical-analysis)
 - [Qualitative & Mixed Methods](#qualitative--mixed-methods)
 - [Interpretability](#interpretability)
-- [Deployment & Inference Optimization](#deployment--inference-optimization)
 - [Paper-Grade Plotting & Visualization](#paper-grade-plotting--visualization)
 - [Writing & Submission](#writing--submission)
 
@@ -147,18 +145,6 @@
 
 - [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, training, evaluation, and checkpoint review. `skill` `MIT` · updated 2026-07-26.
 
-## Generative Image/Video Editing & Eval
-
-*Generating and editing images or video, and measuring whether the output is any good.*
-
-- [HuggingFace LoRA Space Builder](https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-lora-space-builder) - Builds and publishes a Gradio demo Space for a given LoRA on FLUX, SDXL, Qwen-Image, LTX-Video, or Wan. `skill` `net` `Apache-2.0` · updated 2026-07-16.
-
-- [GPT-Image2 Skill](https://github.com/wuyoscar/GPT-Image2-Skill/tree/HEAD/skills/gpt-image) - Generates and edits images via the GPT Image 2 API from natural-language prompts, with gallery-based reference-image matching. `skill` `net` `MIT` · updated 2026-05-23.
-
-- [Video Toolkit: LTX-2](https://github.com/digitalsamba/claude-code-video-toolkit/tree/HEAD/.claude/skills/ltx2) - Generates short video clips from text or images using the LTX-2.3 model on Modal cloud GPU. `skill` `net` `MIT` · updated 2026-04-21.
-
-- [K-Dense: Generate Image](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/generate-image) - Generates or edits images through the OpenRouter Image API across multiple backends (Gemini, FLUX, Seedream, Recraft, GPT-Image) for figures, concept art, and visual assets. `skill` `net` `MIT` · updated 2026-07-31.
-
 ## Diagrams & Schematics
 
 *Architecture, pipeline, and concept figures — the drawn illustrations in a paper, as opposed to charts plotted from data.*
@@ -264,24 +250,6 @@
 - [pyvene](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/pyvene) - Performs causal tracing, activation patching, and interchange intervention training on PyTorch models through pyvene's declarative, dict-based intervention framework. `skill` `MIT` · updated 2025-12-17.
 
 - [TransformerLens](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/transformer-lens) - Reverse-engineers transformer algorithms by inspecting attention patterns and running activation-patching experiments through TransformerLens HookPoints. `skill` `MIT` · updated 2025-12-17.
-
-## Deployment & Inference Optimization
-
-*Serving a model and making inference cheap enough to actually run at scale.*
-
-- [NVIDIA TAO Run Inference Service](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-run-inference-service) - Stands up and runs a NVIDIA TAO-trained model as a live inference service. `skill` `net` `Apache-2.0` · updated 2026-06-22.
-
-- [NVIDIA Inference Builder](https://github.com/NVIDIA-AI-IOT/inference_builder/tree/HEAD/skills/inference-builder) - Generates deployable GPU-accelerated vision and video inference pipelines from a YAML config, targeting DeepStream, Triton, vLLM, or TensorRT-LLM backends. `skill` `Apache-2.0` · updated 2026-05-07.
-
-- [vLLM Ascend](https://github.com/ascend-ai-coding/awesome-ascend-skills/tree/HEAD/skills/inference/vllm-ascend) - Serves LLM inference on Huawei Ascend NPUs via the vLLM Ascend plugin, covering batch inference, API serving, and quantization. `suite` `net` `unverified` · updated 2026-05-18.
-
-- [Video Toolkit: RunPod Deployment](https://github.com/digitalsamba/claude-code-video-toolkit/tree/HEAD/.claude/skills/runpod) - Deploys five video/image processing models (Qwen-edit, Real-ESRGAN, ProPainter, SadTalker, Qwen3-TTS) as RunPod serverless endpoints with pay-per-second billing. `skill` `net` `MIT` · updated 2026-03-22.
-
-- [K-Dense: Optimize for GPU](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/optimize-for-gpu) - Converts CPU-bound Python (NumPy, pandas, scikit-learn, NetworkX, GeoPandas, Faiss workloads) to NVIDIA GPU acceleration via CuPy, Numba CUDA, cuDF, cuML, cuGraph, and related RAPIDS libraries. `skill` `MIT` · updated 2026-07-26.
-
-- [GGUF Quantization](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/10-optimization/gguf) - Converts and quantizes models to GGUF format for llama.cpp inference at 2-8 bit precision, covering Hugging Face conversion, imatrix-based quantization, and OpenAI-compatible server deployment. `skill` `MIT` · updated 2025-11-25.
-
-- [Modal](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/modal) - Deploys and serves AI/ML models on Modal's serverless cloud platform, covering on-demand GPU workloads, web endpoint serving, batch job scheduling, and scaling Python code to cloud containers. `skill` `net` `MIT` · updated 2026-07-26.
 
 ## Paper-Grade Plotting & Visualization
 
