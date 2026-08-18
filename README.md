@@ -85,6 +85,8 @@
 
 - [Critical Integrative Review](https://github.com/ozzyzhou99/critical-integrative-review-skill/tree/HEAD/write-critical-literature-review) - Builds a theory-developing literature review around a guiding question using a claim-source ledger and synthesis matrix, and blocks article-by-article summary and unsupported gap claims. `skill` `MIT` · updated 2026-08-09.
 
+- [Surveying Literature](https://github.com/chgagne/claude-skills-research/tree/HEAD/surveying-literature) - Finds related work a draft may have missed by expanding outward through the citation graph and searching the draft's topic independently, grading each candidate by how much it threatens the novelty claim. `skill` `MIT` · updated 2026-08-17.
+
 ## Study Design & Protocol
 
 *Deciding what to measure and how, before any data is collected — protocols, ethics review, preregistration, sampling, instrument design.*
@@ -107,6 +109,8 @@
 
 - [Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design) - Plans studies before data collection, covering randomization, blocking, factorial and crossover layouts, and cluster or adaptive designs. `skill` `MIT` · updated 2026-07-28.
 
+- [Research Question Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/research-question-audit) - Checks whether a plan, experiment, dataset, or claim still aligns with the frozen research question and protocol, and refuses to silently rewrite the governing artifact when drift is found. `skill` `MIT` · updated 2026-08-12.
+
 ## Data & Annotation
 
 *Sourcing, labelling, curating, and auditing the data a study runs on.*
@@ -122,6 +126,8 @@
 - [Label Studio Setup](https://github.com/majiayu000/claude-skill-registry/tree/HEAD/skills/data/label-studio-setup) - Covers Label Studio installation, project setup, data import/export, labeling interface customization, quality control, and ML backend integration for image, text, audio, and video annotation. `skill` `MIT` · updated 2026-04-20.
 
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Searches HuggingFace Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list. `skill` `net` `unverified` · updated 2026-02-26.
+
+- [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - Quality-checks raster, vector, point, and remote-sensing datasets for CRS, datum, grid alignment, resolution, nodata, geometry validity, and spatial-join cardinality before analysis. `skill` `MIT` · updated 2026-08-12.
 
 ## Model Training & Fine-Tuning
 
@@ -207,6 +213,10 @@
 
 - [Creating Analysis Projects](https://github.com/wolf5996/agentic-skills/tree/HEAD/creating-analysis-projects) - Scaffolds an R or bioinformatics analysis project on a read/write/checkpoints layout that keeps immutable inputs, tracked code, and untracked outputs separate. `skill` `unverified` · updated 2026-05-25.
 
+- [Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments) - Plans, budgets, submits, and resumes multi-job experiment campaigns on Slurm clusters, covering walltime sizing, job arrays, and recovery from jobs that produced nothing or silently ran the wrong configuration. `skill` `MIT` · updated 2026-08-12.
+
+- [Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit) - Audits an ML pipeline for train-test contamination, temporal and spatial leakage, target and proxy leakage, preprocessing leakage, and evaluation contamination, classifying each finding by severity. `skill` `MIT` · updated 2026-08-12.
+
 ## Statistical Analysis
 
 *Choosing and running the analysis: regression, causal inference, survey weighting, meta-analysis, Bayesian modelling.*
@@ -234,6 +244,8 @@
 - [Complex Survey Analysis (Python)](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/svy) - Analyzes complex-sample survey data in Python with strata, PSU, and weight handling, variance estimation, and survey-weighted GLM for datasets such as NHANES, CPS, and DHS. `skill` `LGPL-3.0` · updated 2026-07-15.
 
 - [Network Meta-Analysis Pipeline](https://github.com/xinglongMedical/nma-research-skill) - Runs a network meta-analysis from PICO to manuscript skeleton — search execution, dual-model screening, extraction, risk-of-bias, frequentist and Bayesian synthesis in R, GRADE rating, and PRISMA-NMA reporting — with five mandatory human decision gates and an audit log. `skill` `MIT` · updated 2026-08-06.
+
+- [AER Identification](https://github.com/brycewang-stanford/AER-Skills/tree/HEAD/skills/aer-identification) - Selects and stress-tests a causal identification strategy for empirical economics, covering staggered difference-in-differences, weak-IV-robust instrumental variables, regression discontinuity, synthetic control, and shift-share designs. `skill` `MIT` · updated 2026-07-08.
 
 ## Qualitative & Mixed Methods
 
@@ -276,6 +288,8 @@
 - [Archora: Figure](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/figure) - Generates runnable matplotlib/seaborn/mermaid code for research figures with a decision guide between quantitative and conceptual diagrams. `skill` `unverified` · updated 2026-05-15.
 
 - [Tufte Data Viz](https://github.com/caylent/tufte-data-viz) - Enforces Edward Tufte's data-visualization principles — data-ink ratio, direct labeling, range-frame axes — across multiple charting libraries for academic plotting. `skill` `MIT` · updated 2026-02-19.
+
+- [Map Research Sites](https://github.com/Revonia-gh/evidence-first-research-skills/tree/HEAD/.agents/skills/map-research-sites) - Validates tabular longitude and latitude data and renders reproducible SVG site maps, applying a per-row public, generalized, or restricted visibility policy with coordinate rounding. `skill` `MIT` · updated 2026-08-12.
 
 ## Writing & Submission
 
@@ -330,6 +344,8 @@
 - [CiteCheck](https://github.com/color4-alt/CiteCheck/tree/HEAD/skills/citecheck) - Extracts references from a LaTeX or PDF manuscript and verifies each one exists in Crossref, Semantic Scholar, OpenAlex, PubMed, arXiv, or dblp, then scores thematic and semantic fit against the citing context. `skill` `MIT` · updated 2026-05-28.
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - Produces a referee-grade report on an economics paper, checking identification strategy, inference, tables, equations, and references, and outputs a findings ledger with a prioritized revision plan. `skill` `unverified` · updated 2026-07-15.
+
+- [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases while suppressing findings on symbols whose domain the paper never states. `skill` `MIT` · updated 2026-08-17.
 
 ## Contributing
 
