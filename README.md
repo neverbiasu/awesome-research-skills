@@ -26,6 +26,7 @@
 - [Interpretability](#interpretability)
 - [Paper-Grade Plotting & Visualization](#paper-grade-plotting--visualization)
 - [Writing & Submission](#writing--submission)
+- [Peer Review & Rebuttal](#peer-review--rebuttal)
 
 ## Direction Scanning & Ideation
 
@@ -293,19 +294,11 @@
 
 ## Writing & Submission
 
-*Drafting the manuscript and getting it through review — structure, formatting, rebuttals, integrity checks.*
-
-- [Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer) - Simulates a five-person international journal peer-review panel with field-specific reviewer personas, producing structured editorial decisions and revision roadmaps. `skill` `hooks` `unverified` · updated 2026-08-15.
+*Drafting the manuscript and getting it submission-ready — structure, formatting, venue adaptation, self-checks before it goes out.*
 
 - [Research Paper Writing Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/tree/HEAD/research-paper-writing) - Guides revision of ML/CV/NLP papers with paragraph-level clarity checks, reverse outlining, topic-sentence mapping, and claim-evidence alignment audits. `skill` `MIT` · updated 2026-06-20.
 
 - [CCF Paper Writer](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-paper-writer) - Plans, drafts, revises, and venue-adapts research paper text for CCF-ranked venues while preserving the user's own idea scope and evidence. `skill` `MIT` · updated 2026-08-12.
-
-- [CCF Paper Reviewer](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-paper-reviewer) - Reviews a manuscript against CCF/target-venue criteria across novelty, soundness, evidence, writing quality, and format compliance, simulating a reviewer/AC panel. `skill` `MIT` · updated 2026-08-12.
-
-- [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - Structured review and revision workflow for academic manuscripts with six operating modes scaled to effort level. `skill` `unverified` · updated 2026-06-16.
-
-- [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - Converts peer reviews into evidence-based rebuttal packages through triage, strategy, drafting, and tone-repair modes. `skill` `unverified` · updated 2026-06-16.
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - Converts raw research materials into a structured outline with a plotting plan, literature-search plan, and section plan for academic paper writing. `skill` `unverified` · updated 2026-06-02.
 
@@ -335,17 +328,29 @@
 
 - [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) - Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code. `skill` `MIT` · updated 2026-05-08.
 
-- [Anti-Autoresearch](https://github.com/wanshuiyin/Anti-Autoresearch/tree/HEAD/workflows/anti-autoresearch) - Orchestrates a reviewer-side integrity forensics sweep of a research paper — building a span-anchored evidence ledger, fanning out cross-model auditors for citation, experiment, consistency, and baseline-comparison fabrication, then computing a deterministic verdict for a human reviewer. `suite` `net` `MIT` · updated 2026-08-10.
-
 - [Academic Presentations & Demo Video](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/making-academic-presentations) - Turns a paper into a slide deck and optionally a narrated demo video, covering script drafting, slide generation, text-to-speech narration, and video assembly. `skill` `net` `unverified` · updated 2026-03-04.
 
 - [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` `MIT` · updated 2026-07-13.
 
 - [CiteCheck](https://github.com/color4-alt/CiteCheck/tree/HEAD/skills/citecheck) - Extracts references from a LaTeX or PDF manuscript and verifies each one exists in Crossref, Semantic Scholar, OpenAlex, PubMed, arXiv, or dblp, then scores thematic and semantic fit against the citing context. `skill` `MIT` · updated 2026-05-28.
 
-- [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - Produces a referee-grade report on an economics paper, checking identification strategy, inference, tables, equations, and references, and outputs a findings ledger with a prioritized revision plan. `skill` `unverified` · updated 2026-07-15.
-
 - [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases while suppressing findings on symbols whose domain the paper never states. `skill` `MIT` · updated 2026-08-17.
+
+## Peer Review & Rebuttal
+
+*The other side of submission: refereeing someone else's manuscript, and answering the reviews of your own.*
+
+- [Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer) - Simulates a five-person international journal peer-review panel with field-specific reviewer personas, producing structured editorial decisions and revision roadmaps. `skill` `hooks` `unverified` · updated 2026-08-15.
+
+- [CCF Paper Reviewer](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-paper-reviewer) - Reviews a manuscript against CCF/target-venue criteria across novelty, soundness, evidence, writing quality, and format compliance, simulating a reviewer/AC panel. `skill` `MIT` · updated 2026-08-12.
+
+- [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - Structured review and revision workflow for academic manuscripts with six operating modes scaled to effort level. `skill` `unverified` · updated 2026-06-16.
+
+- [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - Converts peer reviews into evidence-based rebuttal packages through triage, strategy, drafting, and tone-repair modes. `skill` `unverified` · updated 2026-06-16.
+
+- [Anti-Autoresearch](https://github.com/wanshuiyin/Anti-Autoresearch/tree/HEAD/workflows/anti-autoresearch) - Orchestrates a reviewer-side integrity forensics sweep of a research paper — building a span-anchored evidence ledger, fanning out cross-model auditors for citation, experiment, consistency, and baseline-comparison fabrication, then computing a deterministic verdict for a human reviewer. `suite` `net` `MIT` · updated 2026-08-10.
+
+- [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - Produces a referee-grade report on an economics paper, checking identification strategy, inference, tables, equations, and references, and outputs a findings ledger with a prioritized revision plan. `skill` `unverified` · updated 2026-07-15.
 
 ## Contributing
 
