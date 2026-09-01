@@ -13,6 +13,7 @@ Every entry links to one exact directory in one repo. Each is checked against th
 - [Direction Scanning & Ideation](#direction-scanning--ideation)
 - [Literature Review](#literature-review)
 - [Study Design & Protocol](#study-design--protocol)
+- [Method Formalization & Theory](#method-formalization--theory)
 - [Data & Annotation](#data--annotation)
 - [Model Training & Fine-Tuning](#model-training--fine-tuning)
 - [Diagrams & Schematics](#diagrams--schematics)
@@ -90,9 +91,9 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Generates clinical trial protocols for medical devices or drugs through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting. `skill` `unverified` · updated 2026-06-15.
 
-- [Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister) - Drafts a structured preregistration document in OSF, AsPredicted, or AEA RCT Registry style, covering hypotheses, sampling plan, analysis plan, exclusions, and inference criteria, annotated with MUST/SHOULD/MAY clarity flags. `skill` `MIT` · updated 2026-06-09.
+- [Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister) - Drafts a structured preregistration document in OSF, AsPredicted, or AEA RCT Registry style, covering hypotheses, sampling plan, analysis plan, exclusions, and inference criteria, annotated with MUST/SHOULD/MAY clarity flags. `skill` `MIT` · updated 2026-08-21.
 
-- [Power Analysis](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/power-analysis) - Computes statistical power, required sample size, and minimum detectable effect for two-arm RCTs with clustering, multi-arm designs, or simulation-based power for non-standard designs, producing a registry-ready power section. `skill` `MIT` · updated 2026-06-09.
+- [Power Analysis](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/power-analysis) - Computes statistical power, required sample size, and minimum detectable effect for two-arm RCTs with clustering, multi-arm designs, or simulation-based power for non-standard designs, producing a registry-ready power section. `skill` `MIT` · updated 2026-08-23.
 
 - [IRB Protocol](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/irb-protocol) - Writes, revises, and evaluates IRB and ethics protocols for qualitative research, covering Common Rule exempt/expedited/full-board determination, protocol narrative, and data security planning. `skill` `unverified` · updated 2026-07-27.
 
@@ -107,6 +108,18 @@ Every entry links to one exact directory in one repo. Each is checked against th
 - [Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design) - Plans studies before data collection, covering randomization, blocking, factorial and crossover layouts, and cluster or adaptive designs. `skill` `MIT` · updated 2026-07-28.
 
 - [Research Question Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/research-question-audit) - Checks whether a plan, experiment, dataset, or claim still aligns with the frozen research question and protocol, and refuses to silently rewrite the governing artifact when drift is found. `skill` `MIT` · updated 2026-08-12.
+
+## Method Formalization & Theory
+
+*Turning an idea into a stated method: formalizing claims, checking derivations, and writing and verifying proofs.*
+
+- [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` `MIT` · updated 2026-07-13.
+
+- [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain. `skill` `MIT` · updated 2026-08-17.
+
+- [Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem) - Translates an informal mathematical problem into faithful, type-checking Lean 4 statements left at `sorry`, surfacing inequivalent readings and degenerate cases before any proof is attempted. `skill` `Apache-2.0` · updated 2026-08-19.
+
+- [Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify) - Re-derives a formula, estimator, identity, or bound at least twice independently, clusters the results by mathematical equivalence, and emits a verification matrix recording agreement and outliers. `skill` `unverified` · updated 2026-07-12.
 
 ## Data & Annotation
 
@@ -136,13 +149,13 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [TRL Training](https://github.com/huggingface/skills/tree/HEAD/skills/trl-training) - Fine-tunes transformer language models via the TRL command-line interface, covering SFT, DPO, GRPO, KTO, RLOO, and reward modeling. `skill` `net` `Apache-2.0` · updated 2026-08-03.
 
-- [Train Sentence Transformers](https://github.com/huggingface/skills/tree/HEAD/skills/train-sentence-transformers) - Trains bi-encoder, cross-encoder, and SPLADE sparse embedding models with the sentence-transformers library. `skill` `net` `Apache-2.0` · updated 2026-05-07.
+- [Train Sentence Transformers](https://github.com/huggingface/skills/tree/HEAD/skills/train-sentence-transformers) - Trains bi-encoder, cross-encoder, and SPLADE sparse embedding models with the sentence-transformers library. `skill` `net` `Apache-2.0` · updated 2026-08-18.
 
-- [NVIDIA TAO Finetune HuggingFace Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `net` `Apache-2.0` · updated 2026-06-22.
+- [NVIDIA TAO Finetune HuggingFace Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `net` `Apache-2.0` · updated 2026-09-01.
 
 - [PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch) - Runs a pre-flight checklist for long-running ML training jobs to catch misconfigured configs, paths, and monitoring before launch. `skill` `MIT` · updated 2026-04-30.
 
-- [K-Dense: Stable Baselines3](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/stable-baselines3) - Trains reinforcement learning agents with Stable Baselines3's production-ready PPO, SAC, DQN, TD3, DDPG, and A2C implementations on Gymnasium environments. `skill` `MIT` · updated 2026-07-26.
+- [K-Dense: Stable Baselines3](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/stable-baselines3) - Trains reinforcement learning agents with Stable Baselines3's production-ready PPO, SAC, DQN, TD3, DDPG, and A2C implementations on Gymnasium environments. `skill` `MIT` · updated 2026-08-29.
 
 - [K-Dense: PyTorch Lightning](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pytorch-lightning) - Organizes PyTorch training code into LightningModules with configured Trainers for multi-GPU/TPU scaling, distributed training (DDP, FSDP, DeepSpeed), and logging integrations (W&B, TensorBoard, MLflow). `skill` `MIT` · updated 2026-07-28.
 
@@ -162,7 +175,7 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Mermaid Diagram Generator](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/mermaid-diagram) - Generates and syntax-verifies Mermaid diagrams — flowcharts, sequence diagrams, class diagrams, ER diagrams, Gantt charts, and 18 other types — from a natural-language description. `skill` `MIT` · updated 2026-07-13.
 
-- [Draw.io Diagrams](https://github.com/Agents365-ai/drawio-skill/tree/HEAD/skills/drawio-skill) - Generates .drawio XML diagrams and exports to PNG/SVG/PDF/JPG via the native draw.io desktop CLI, covering flowcharts, architecture diagrams, ER/UML diagrams, network topology, and ML/DL model figures (Transformer, CNN, LSTM). `skill` `MIT` · updated 2026-08-05.
+- [Draw.io Diagrams](https://github.com/Agents365-ai/drawio-skill/tree/HEAD/skills/drawio-skill) - Generates .drawio XML diagrams and exports to PNG/SVG/PDF/JPG via the native draw.io desktop CLI, covering flowcharts, architecture diagrams, ER/UML diagrams, network topology, and ML/DL model figures (Transformer, CNN, LSTM). `skill` `MIT` · updated 2026-09-01.
 
 - [CCF-Figure](https://github.com/Deepshare-Official/CCF-Figure) - Classifies a paper's research type and mechanism to select an appropriate diagram structure — pipeline, architecture, comparison matrix, ablation matrix, or taxonomy tree — rather than mechanically applying one fixed template. `skill` `MIT` · updated 2026-06-15.
 
@@ -204,7 +217,7 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [FiftyOne Model Evaluation](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-model-evaluation) - Evaluates CV model predictions against ground truth using standard protocols like COCO and Open Images. `skill` `Apache-2.0` · updated 2026-05-14.
 
-- [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles a submission-ready replication package to the AEA Data and Code Availability Standard, including a replication README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan. `skill` `MIT` · updated 2026-06-09.
+- [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles a submission-ready replication package to the AEA Data and Code Availability Standard, including a replication README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan. `skill` `MIT` · updated 2026-08-21.
 
 - [FEM/CAE Governance](https://github.com/test1card/femis-skill) - Governs finite-element and CAE analysis claims across Ansys, Abaqus, Nastran, OpenFOAM, and COMSOL, enforcing idealization review, mesh-independence via GCI, verification and validation, and human sign-off gates. `skill` `Apache-2.0` · updated 2026-06-29.
 
@@ -220,17 +233,17 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Archora: Stats](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/stats) - Detects statistical errors and methodological fallacies in empirical research content, with structured severity levels. `skill` `unverified` · updated 2026-05-15.
 
-- [DiD / Event Study](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/did-event-study) - Runs staggered difference-in-differences and event-study analysis by driving the canonical R and Stata packages, enforcing a doubly-robust default, a mandatory diagnostic and sensitivity suite, and uniform-band inference rather than reimplementing any estimator. `skill` `MIT` · updated 2026-06-09.
+- [DiD / Event Study](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/did-event-study) - Runs staggered difference-in-differences and event-study analysis by driving the canonical R and Stata packages, enforcing a doubly-robust default, a mandatory diagnostic and sensitivity suite, and uniform-band inference rather than reimplementing any estimator. `skill` `MIT` · updated 2026-08-22.
 
 - [Complex Survey Analysis (R)](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/survey-r) - Analyzes complex survey data in R with the survey package, covering design objects, weighted means and totals, survey-weighted regression, domain estimation, and replicate weights (BRR, jackknife, bootstrap). `skill` `LGPL-3.0` · updated 2026-07-15.
 
-- [Fixest](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/fixest) - Estimates high-dimensional fixed-effects models in R with multi-way fixed effects, IV estimation, TWFE and Sun-Abraham difference-in-differences, and clustered or heteroskedasticity-robust standard errors. `skill` `LGPL-3.0` · updated 2026-07-24.
+- [Fixest](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/fixest) - Estimates high-dimensional fixed-effects models in R with multi-way fixed effects, IV estimation, TWFE and Sun-Abraham difference-in-differences, and clustered or heteroskedasticity-robust standard errors. `skill` `LGPL-3.0` · updated 2026-08-03.
 
 - [Stata-to-R Translation](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/stata-r-translation) - Maps Stata commands (reghdfe, xtreg, ivregress, margins, esttab, svy:) to their R equivalents for researchers moving an analysis between the two ecosystems. `skill` `LGPL-3.0` · updated 2026-07-24.
 
 - [ML Experiment Results Analysis](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/inno-experiment-analysis) - Analyzes experiment result files, runs significance tests and model comparisons, and drafts a Results section with accompanying figures. `skill` `unverified` · updated 2026-02-26.
 
-- [Meta-Analysis & Systematic Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/meta-analysis) - Runs the meta-analysis pipeline from PROSPERO protocol registration and risk-of-bias assessment through statistical synthesis and PRISMA-compliant reporting. `skill` `MIT` · updated 2026-08-15.
+- [Meta-Analysis & Systematic Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/meta-analysis) - Runs the meta-analysis pipeline from PROSPERO protocol registration and risk-of-bias assessment through statistical synthesis and PRISMA-compliant reporting. `skill` `MIT` · updated 2026-08-19.
 
 - [Medical Statistical Analysis](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/analyze-stats) - Generates reproducible Python or R code for diagnostic accuracy, agreement, survival, propensity-score, and survey-weighted analyses, with a protected-health-information check before reading any data file. `skill` `MIT` · updated 2026-07-23.
 
@@ -250,11 +263,15 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis) - Conducts thematic analysis of interviews, focus groups, or open-ended responses following Braun and Clarke's six-phase framework, covering the four upfront analytic decisions and a 15-point quality checklist. `skill` `MIT` · updated 2026-05-11.
 
-- [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - Codes qualitative data and builds codebooks with deductive, inductive, and hybrid coding, code frequencies, co-occurrence analysis, and intercoder reliability. `skill` `unverified` · updated 2026-08-13.
+- [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - Codes qualitative data and builds codebooks with deductive, inductive, and hybrid coding, code frequencies, co-occurrence analysis, and intercoder reliability. `skill` `unverified` · updated 2026-08-28.
 
-- [Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual) - Runs grounded theory, reflexive thematic analysis, and content analysis with codebook development and inter-coder reliability checks, exporting to NVivo, ATLAS.ti, Dedoose, and MAXQDA formats. `skill` `net` `unverified` · updated 2026-07-14.
+- [Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual) - Runs grounded theory, reflexive thematic analysis, and content analysis with codebook development and inter-coder reliability checks, exporting to NVivo, ATLAS.ti, Dedoose, and MAXQDA formats. `skill` `net` `unverified` · updated 2026-08-25.
 
 - [AlterLab Qualitative Methods](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills/tree/HEAD/skills/research-tools/alterlab-qualitative-methods) - Covers qualitative design and analysis across five traditions — thematic analysis, grounded theory, interpretative phenomenological analysis, ethnography, and case study — with trustworthiness criteria. `skill` `net` `MIT` · updated 2026-07-02.
+
+- [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - Scaffolds and indexes reflexive, comparative, integrative, and decision memos grounded in coded units, keeping the researcher's interpretation separate from the machine audit log. `skill` `MIT` · updated 2026-07-31.
+
+- [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - Tracks multi-dimensional theoretical saturation, generates phase-sensitive methodological isolation rules, and logs rule changes and overrides to a reflexivity journal. `skill` `unverified` · updated 2026-02-01.
 
 ## Interpretability
 
@@ -276,7 +293,7 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making) - Produces publication-ready matplotlib figures — bar, trend, scatter, heatmap, and multi-panel layouts — in a fixed house style with print/vector export conventions for AI conference and journal submissions. `skill` `unverified` · updated 2026-06-24.
 
-- [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Creates, revises, and audits submission-grade scientific figures for high-impact venues in Python or R, with multi-panel support and journal-ready export. `skill` `Apache-2.0` · updated 2026-08-15.
+- [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Creates, revises, and audits submission-grade scientific figures for high-impact venues in Python or R, with multi-panel support and journal-ready export. `skill` `Apache-2.0` · updated 2026-08-27.
 
 - [PaperOrchestra: Plotting Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/plotting-agent) - Generates publication-quality figures and conceptual diagrams for academic papers from experimental data and an outline, with optional VLM-based critique refinement. `skill` `net` `unverified` · updated 2026-04-10.
 
@@ -298,7 +315,7 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - Converts raw research materials into a structured outline with a plotting plan, literature-search plan, and section plan for academic paper writing. `skill` `unverified` · updated 2026-06-02.
 
-- [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - Handles LaTeX document creation, compilation, format conversion, and document analysis for academic writing. `skill` `unverified` · updated 2026-08-17.
+- [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - Handles LaTeX document creation, compilation, format conversion, and document analysis for academic writing. `skill` `unverified` · updated 2026-09-01.
 
 - [Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill) - Adapts an academic manuscript to a target journal's writing conventions by analyzing a reference corpus and revising the manuscript section by section. `skill` `MIT` · updated 2026-05-15.
 
@@ -308,9 +325,9 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Survey Writer](https://github.com/chtc66/academic-skills/tree/HEAD/survey-writer) - Writes a survey draft around a research topic by organizing multiple papers into problem-driven, method-evolution narratives rather than paper-by-paper summaries. `skill` `MIT` · updated 2026-04-05.
 
-- [Typst Paper](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/typst-paper) - Assists with existing Typst manuscripts covering compilation, venue formatting, grammar, bibliography, and submission readiness. `skill` `unverified` · updated 2026-08-10.
+- [Typst Paper](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/typst-paper) - Assists with existing Typst manuscripts covering compilation, venue formatting, grammar, bibliography, and submission readiness. `skill` `unverified` · updated 2026-08-29.
 
-- [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) - Assists graduate students with Chinese LaTeX thesis projects, covering compilation diagnosis, GB/T 7714 bibliography formatting, structure review, and blind-review anonymization. `skill` `zh` `unverified` · updated 2026-08-10.
+- [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) - Assists graduate students with Chinese LaTeX thesis projects, covering compilation diagnosis, GB/T 7714 bibliography formatting, structure review, and blind-review anonymization. `skill` `zh` `unverified` · updated 2026-08-30.
 
 - [Grant Proposal Skill](https://github.com/borghei/Claude-Skills/tree/HEAD/research/grants) - Guides grant proposal architecture, funder fit evaluation, and budget design for academic research funding. `skill` `unverified` · updated 2026-06-22.
 
@@ -326,15 +343,11 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 - [Academic Presentations & Demo Video](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/making-academic-presentations) - Turns a paper into a slide deck and optionally a narrated demo video, covering script drafting, slide generation, text-to-speech narration, and video assembly. `skill` `net` `unverified` · updated 2026-03-04.
 
-- [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` `MIT` · updated 2026-07-13.
-
-- [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain. `skill` `MIT` · updated 2026-08-17.
-
 ## Peer Review & Rebuttal
 
 *The other side of submission: refereeing someone else's manuscript, and answering the reviews of your own.*
 
-- [Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer) - Simulates a five-person international journal peer-review panel with field-specific reviewer personas, producing structured editorial decisions and revision roadmaps. `skill` `hooks` `unverified` · updated 2026-08-15.
+- [Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer) - Simulates a five-person international journal peer-review panel with field-specific reviewer personas, producing structured editorial decisions and revision roadmaps. `skill` `hooks` `unverified` · updated 2026-08-20.
 
 - [CCF Paper Reviewer](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-paper-reviewer) - Reviews a manuscript against CCF/target-venue criteria across novelty, soundness, evidence, writing quality, and format compliance, simulating a reviewer/AC panel. `skill` `MIT` · updated 2026-08-12.
 
@@ -350,7 +363,7 @@ Every entry links to one exact directory in one repo. Each is checked against th
 
 Each entry is chosen by reading its `SKILL.md` and verifying it against the live repository. Batches are also audited hands-on — walking a skill's own instructions against the files it ships — which has removed entries that read well but could not work for anyone but their author. A description states what the skill does; it is not a report of it having been run end to end on your problem.
 
-No star counts, deliberately. GitHub has no per-directory star metric, and 93% of these skills live inside someone's larger repo, where the only available number is the parent's — which measures the wrong thing.
+No star counts, deliberately. GitHub has no per-directory star metric, and 94% of these skills live inside someone's larger repo, where the only available number is the parent's — which measures the wrong thing.
 
 The structural checks behind every entry — is it substantive, is it template-farmed, does the repo verify — are discipline-independent, and they are what this list guarantees. Whether a clinical-trial, qualitative-coding, or econometrics skill is *methodologically correct for your field* is a judgment its curator cannot make across every discipline represented here. Treat domain entries as leads to evaluate, not as vetted by a subject expert.
 
