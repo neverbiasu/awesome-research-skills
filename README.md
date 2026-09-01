@@ -214,7 +214,7 @@
 
 - [Creating Analysis Projects](https://github.com/wolf5996/agentic-skills/tree/HEAD/creating-analysis-projects) - Scaffolds an R or bioinformatics analysis project on a read/write/checkpoints layout that keeps immutable inputs, tracked code, and untracked outputs separate. `skill` `unverified` · updated 2026-05-25.
 
-- [Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments) - Plans, budgets, submits, and resumes multi-job experiment campaigns on Slurm clusters, covering walltime sizing, job arrays, and recovery from jobs that produced nothing or silently ran the wrong configuration. `skill` `MIT` · updated 2026-08-12.
+- [Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments) - Covers the methodology of multi-job experiment campaigns on Slurm clusters — walltime sizing, job and array shaping, submission order, and diagnosing runs that produced nothing or silently used the wrong configuration. `skill` `MIT` · updated 2026-08-12.
 
 - [Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit) - Audits an ML pipeline for train-test contamination, temporal and spatial leakage, target and proxy leakage, preprocessing leakage, and evaluation contamination, classifying each finding by severity. `skill` `MIT` · updated 2026-08-12.
 
@@ -332,9 +332,7 @@
 
 - [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` `MIT` · updated 2026-07-13.
 
-- [CiteCheck](https://github.com/color4-alt/CiteCheck/tree/HEAD/skills/citecheck) - Extracts references from a LaTeX or PDF manuscript and verifies each one exists in Crossref, Semantic Scholar, OpenAlex, PubMed, arXiv, or dblp, then scores thematic and semantic fit against the citing context. `skill` `MIT` · updated 2026-05-28.
-
-- [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases while suppressing findings on symbols whose domain the paper never states. `skill` `MIT` · updated 2026-08-17.
+- [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain. `skill` `MIT` · updated 2026-08-17.
 
 ## Peer Review & Rebuttal
 
