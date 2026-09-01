@@ -2,15 +2,11 @@
 
 > Agent Skills for people still doing their own research — not autoresearch pipelines.
 
-> Sections follow the research lifecycle (ideation → literature → study design → data → method → analysis → visualization → writing), not alphabetical order. Not scoped to one discipline: alongside the ML/CV tooling there are entries for study protocols, qualitative coding, survey statistics, and systematic reviews.
+You are the one doing the research. These are the tools that help with a step of it: finding what has already been published, designing the study, curating the data, running and tracking the experiments, doing the statistics, drawing the figures, writing it up, and answering the reviewers.
 
-> Every entry is verified against the exact repo path it links to — license and last-commit date are scoped to that subdirectory, not to the parent repo. Entries not in English carry a language tag.
+Sections follow that order, not the alphabet. The list is not scoped to one discipline — alongside the ML and CV tooling there are entries for study protocols, qualitative coding, survey statistics, and systematic reviews.
 
-> No star counts, deliberately. GitHub has no per-directory star metric, and 93% of the skills below live inside someone's larger repo — the only number available for them is the parent's, which measures the wrong thing. Rather than print a figure that reads as popularity but isn't, none is shown.
-
-> Curation method: each entry is chosen by reading its SKILL.md and checking it against the live repo — not by running it end-to-end. Descriptions state what the skill claims to do; verify it yourself before depending on it for real work.
-
-> On domain expertise: the structural checks behind every entry (is it substantive, is it template-farmed, does the repo verify) are discipline-independent, and they are what this list actually guarantees. Whether a clinical-trial, qualitative-coding, or econometrics skill is *methodologically correct for your field* is a judgment its curator cannot make for every discipline represented here — treat domain entries as leads to evaluate, not as vetted by a subject expert.
+Every entry links to one exact directory in one repo. Each is checked against the live repository, and license and last-commit dates are scoped to that subdirectory rather than to its parent. Before depending on any of them, read [How these entries are checked](#how-these-entries-are-checked) — it says plainly what that guarantee does and does not cover.
 
 ## Contents
 
@@ -349,6 +345,16 @@
 - [Anti-Autoresearch](https://github.com/wanshuiyin/Anti-Autoresearch/tree/HEAD/workflows/anti-autoresearch) - Orchestrates a reviewer-side integrity forensics sweep of a research paper — building a span-anchored evidence ledger, fanning out cross-model auditors for citation, experiment, consistency, and baseline-comparison fabrication, then computing a deterministic verdict for a human reviewer. `suite` `net` `MIT` · updated 2026-08-10.
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - Produces a referee-grade report on an economics paper, checking identification strategy, inference, tables, equations, and references, and outputs a findings ledger with a prioritized revision plan. `skill` `unverified` · updated 2026-07-15.
+
+## How these entries are checked
+
+Each entry is chosen by reading its `SKILL.md` and verifying it against the live repository. Batches are also audited hands-on — walking a skill's own instructions against the files it ships — which has removed entries that read well but could not work for anyone but their author. A description states what the skill does; it is not a report of it having been run end to end on your problem.
+
+No star counts, deliberately. GitHub has no per-directory star metric, and 93% of these skills live inside someone's larger repo, where the only available number is the parent's — which measures the wrong thing.
+
+The structural checks behind every entry — is it substantive, is it template-farmed, does the repo verify — are discipline-independent, and they are what this list guarantees. Whether a clinical-trial, qualitative-coding, or econometrics skill is *methodologically correct for your field* is a judgment its curator cannot make across every discipline represented here. Treat domain entries as leads to evaluate, not as vetted by a subject expert.
+
+Entries not in English carry a language tag.
 
 ## Contributing
 
