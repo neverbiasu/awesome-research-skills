@@ -1,16 +1,10 @@
 # Awesome Research Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> 137 Agent Skills for people doing their own research — each one links to an exact `SKILL.md` directory, not to a repo that might contain it.
+> 137 Agent Skills for researchers — every entry links to one exact `SKILL.md` directory, checked against the live repo.
 
-**What this is.** A catalog of `SKILL.md` skills — the files Claude Code, Codex, and similar agents load — for the steps of academic and scientific research: finding prior work, formulating the question, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review.
+For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
-**Who it is for.** Researchers doing the work themselves. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
-
-**Why this list.** Every entry names one exact directory, and every claim beside it is checked by script against the live repository — license and last-commit scoped to that subdirectory, capability flags for network, credentials, and hooks, and the date each was last checked. 14 entries have additionally been walked through by hand against the files they ship, which has removed entries that read well but could not work for anyone but their author.
-
-**What "checked" does not mean.** No entry is certified as correct for your field or run end to end on your problem. [How these entries are checked](#how-these-entries-are-checked) states the boundary exactly.
-
-Machine-readable: [`index.json`](index.json) · [`index.csv`](index.csv).
+Each entry carries its own license, the last commit to its subdirectory, when this list last checked it, and flags for capabilities it requires — network, credentials, hooks. 14 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
 
 ## Contents
 
@@ -33,107 +27,107 @@ Machine-readable: [`index.json`](index.json) · [`index.csv`](index.csv).
 
 ## Start here
 
-One default and up to two alternatives per task. The full catalog below is for browsing; this table is for choosing. Picks are the curator's judgement, not a ranking by stars.
+One default and up to two alternatives per task, chosen by fit rather than by stars. Find the name in the catalog below for the link and the checked metadata.
 
 **Find what has already been published**
 
-|Skill                                                                                                                    |Best for                                                                     |In → out                                                              |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
-|**[Nature Literature Pipeline](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-literature-pipeline)**|A broad sweep across sources when you do not yet know the shape of the field |A topic or question → Scored, deduplicated candidate papers           |
-|[Surveying Literature](https://github.com/chgagne/claude-skills-research/tree/HEAD/surveying-literature)                 |A draft that may be missing prior art, graded by threat to your novelty claim|A paper draft with a bibliography → Missed-work list with novelty risk|
-|[SLR PRISMA](https://github.com/keemanxp/slr-prisma)                                                                     |A formal systematic review that must satisfy PRISMA                          |A protocol and search strategy → PRISMA-compliant screening record    |
+|Skill                         |Best for                                                                     |In → out                                                              |
+|------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
+|**Nature Literature Pipeline**|A broad sweep across sources when you do not yet know the shape of the field |A topic or question → Scored, deduplicated candidate papers           |
+|Surveying Literature          |A draft that may be missing prior art, graded by threat to your novelty claim|A paper draft with a bibliography → Missed-work list with novelty risk|
+|SLR PRISMA                    |A formal systematic review that must satisfy PRISMA                          |A protocol and search strategy → PRISMA-compliant screening record    |
 
 **Turn an interest into a research question**
 
-|Skill                                                                                              |Best for                                                         |In → out                                                          |
-|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|
-|**[Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder)** |Grounding a direction in gaps the literature actually leaves open|Literature notes and early ideas → Gaps with testable entry points|
-|[Archora: Hypothesis](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/hypothesis)|Forcing a vague idea into a falsifiable statement                |Notes and context → Structured hypotheses                         |
+|Skill                  |Best for                                                         |In → out                                                          |
+|-----------------------|-----------------------------------------------------------------|------------------------------------------------------------------|
+|**Research Gap Finder**|Grounding a direction in gaps the literature actually leaves open|Literature notes and early ideas → Gaps with testable entry points|
+|Archora: Hypothesis    |Forcing a vague idea into a falsifiable statement                |Notes and context → Structured hypotheses                         |
 
 **Design the study before collecting data**
 
-|Skill                                                                                                                |Best for                                               |In → out                                                   |
-|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
-|**[Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design)**|General randomization, blocking, and factorial planning|Research question and constraints → A design specification |
-|[Power Analysis](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/power-analysis)       |Deciding sample size and minimum detectable effect     |Effect size assumptions → Power curves and required n      |
-|[Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister)             |Locking the plan publicly before outcome data exists   |A finished design → OSF, AsPredicted, or AEA registry draft|
+|Skill                  |Best for                                               |In → out                                                   |
+|-----------------------|-------------------------------------------------------|-----------------------------------------------------------|
+|**Experimental Design**|General randomization, blocking, and factorial planning|Research question and constraints → A design specification |
+|Power Analysis         |Deciding sample size and minimum detectable effect     |Effect size assumptions → Power curves and required n      |
+|Preregister            |Locking the plan publicly before outcome data exists   |A finished design → OSF, AsPredicted, or AEA registry draft|
 
 **Formalize the method or check the math**
 
-|Skill                                                                                                  |Best for                                                     |In → out                                                                      |
-|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------|
-|**[Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify)**           |A formula, estimator, or bound that later work will depend on|One atomic derived claim → Independent re-derivations and a convergence matrix|
-|[Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs)       |Auditing a proof or appendix you already wrote               |Theorem and proof text → Localized gaps, one per step                         |
-|[Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem)|Restating a claim in Lean 4 before proving anything          |An informal statement → Type-checking Lean statement at `sorry`               |
+|Skill                |Best for                                                     |In → out                                                                      |
+|---------------------|-------------------------------------------------------------|------------------------------------------------------------------------------|
+|**Derivation Verify**|A formula, estimator, or bound that later work will depend on|One atomic derived claim → Independent re-derivations and a convergence matrix|
+|Verifying Proofs     |Auditing a proof or appendix you already wrote               |Theorem and proof text → Localized gaps, one per step                         |
+|Formalize Problem    |Restating a claim in Lean 4 before proving anything          |An informal statement → Type-checking Lean statement at `sorry`               |
 
 **Curate and audit the dataset**
 
-|Skill                                                                                                             |Best for                                                             |In → out                                                       |
-|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------|
-|**[PhD Skills: Dataset Curation](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/dataset-curation)**|Checking bias, distribution, and fairness before training            |A dataset → Bias and distribution report                       |
-|[FiftyOne Dataset Curation](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-dataset-curation)|Vision datasets, with schema, embeddings, and curated views          |An image or video dataset → FiftyOne views and quality findings|
-|[Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc)       |Spatial data, where CRS and datum mismatches silently corrupt results|Raster, vector, or point data → Quantified integrity defects   |
+|Skill                           |Best for                                                             |In → out                                                       |
+|--------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------|
+|**PhD Skills: Dataset Curation**|Checking bias, distribution, and fairness before training            |A dataset → Bias and distribution report                       |
+|FiftyOne Dataset Curation       |Vision datasets, with schema, embeddings, and curated views          |An image or video dataset → FiftyOne views and quality findings|
+|Geospatial Data QC              |Spatial data, where CRS and datum mismatches silently corrupt results|Raster, vector, or point data → Quantified integrity defects   |
 
 **Run an ML experiment**
 
-|Skill                                                                                                                 |Best for                                                       |In → out                                                           |
-|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------|
-|**[PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch)**                        |Getting a run started and tracked on your own machine or server|A training script and config → A launched, logged run              |
-|[Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments)|A multi-job campaign on a shared Slurm cluster                 |An experiment matrix and allocation → Sized, staged job submissions|
-|[Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit)           |Before you trust any number the run produced                   |Pipeline and split definitions → Leakage findings by severity      |
+|Skill                      |Best for                                                       |In → out                                                           |
+|---------------------------|---------------------------------------------------------------|-------------------------------------------------------------------|
+|**PhD Skills: Launch**     |Getting a run started and tracked on your own machine or server|A training script and config → A launched, logged run              |
+|Running Cluster Experiments|A multi-job campaign on a shared Slurm cluster                 |An experiment matrix and allocation → Sized, staged job submissions|
+|Data Leakage Audit         |Before you trust any number the run produced                   |Pipeline and split definitions → Leakage findings by severity      |
 
 **Reproduce someone else's paper**
 
-|Skill                                                                                               |Best for                                                 |In → out                                                   |
-|----------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------------|
-|**[PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce)**|Working from an arXiv URL to a measurable replication run|A paper and its code, if any → A staged replication attempt|
-|[Paper2Code](https://github.com/PrathamLearnsToCode/paper2code/tree/HEAD/skills/paper2code)         |A paper with no usable released implementation           |The paper → Citation-anchored implementation               |
+|Skill                    |Best for                                                 |In → out                                                   |
+|-------------------------|---------------------------------------------------------|-----------------------------------------------------------|
+|**PhD Skills: Reproduce**|Working from an arXiv URL to a measurable replication run|A paper and its code, if any → A staged replication attempt|
+|Paper2Code               |A paper with no usable released implementation           |The paper → Citation-anchored implementation               |
 
 **Do the statistics**
 
-|Skill                                                                                                                         |Best for                                                             |In → out                                                             |
-|------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-|**[Guided Statistical Analysis](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/statistical-analysis)**|Choosing a test, checking its assumptions, and reporting effect sizes|A dataset and a question → Test choice, assumptions, effect sizes    |
-|[AER Identification](https://github.com/brycewang-stanford/AER-Skills/tree/HEAD/skills/aer-identification)                    |Observational causal work — DiD, IV, RDD, synthetic control          |A design and data structure → Identification strategy and diagnostics|
-|[Meta-Analysis & Systematic Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/meta-analysis)                 |Pooling published evidence                                           |A protocol and extracted effects → Meta-analytic synthesis           |
+|Skill                            |Best for                                                             |In → out                                                             |
+|---------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+|**Guided Statistical Analysis**  |Choosing a test, checking its assumptions, and reporting effect sizes|A dataset and a question → Test choice, assumptions, effect sizes    |
+|AER Identification               |Observational causal work — DiD, IV, RDD, synthetic control          |A design and data structure → Identification strategy and diagnostics|
+|Meta-Analysis & Systematic Review|Pooling published evidence                                           |A protocol and extracted effects → Meta-analytic synthesis           |
 
 **Analyze interviews or open-ended text**
 
-|Skill                                                                                                             |Best for                                                         |In → out                                                      |
-|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------|
-|**[Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis)**          |Braun and Clarke reflexive thematic analysis, done by the book   |Transcripts → Themes with a quality checklist                 |
-|[Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual)|When the work must land in NVivo, ATLAS.ti, or MAXQDA            |Transcripts and a codebook → Coded data and reliability report|
-|[Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write)                      |Keeping your developing interpretation as evidence-grounded memos|Coded units and reflections → An indexed memo bank            |
+|Skill                      |Best for                                                         |In → out                                                      |
+|---------------------------|-----------------------------------------------------------------|--------------------------------------------------------------|
+|**Thematic Analysis**      |Braun and Clarke reflexive thematic analysis, done by the book   |Transcripts → Themes with a quality checklist                 |
+|Scholar Qualitative Toolkit|When the work must land in NVivo, ATLAS.ti, or MAXQDA            |Transcripts and a codebook → Coded data and reliability report|
+|Analytic Memo Writing      |Keeping your developing interpretation as evidence-grounded memos|Coded units and reflections → An indexed memo bank            |
 
 **Make the figures**
 
-|Skill                                                                                                                      |Best for                                                           |In → out                                          |
-|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------|
-|**[Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making)**                    |Charts plotted from results                                        |Result data → Publication-ready matplotlib figures|
-|[CCF-Figure](https://github.com/Deepshare-Official/CCF-Figure)                                                             |A concept or architecture diagram matched to your paper's mechanism|Method description → A diagram structure and draft|
-|[Nature Paper Skills: Figure Planner](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/figure-planner)|Deciding what belongs in which figure before drawing anything      |Claims and results → One-claim-per-figure plan    |
+|Skill                              |Best for                                                           |In → out                                          |
+|-----------------------------------|-------------------------------------------------------------------|--------------------------------------------------|
+|**Figures4Papers**                 |Charts plotted from results                                        |Result data → Publication-ready matplotlib figures|
+|CCF-Figure                         |A concept or architecture diagram matched to your paper's mechanism|Method description → A diagram structure and draft|
+|Nature Paper Skills: Figure Planner|Deciding what belongs in which figure before drawing anything      |Claims and results → One-claim-per-figure plan    |
 
 **Write and revise the manuscript**
 
-|Skill                                                                                                                            |Best for                                                |In → out                                          |
-|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------|
-|**[Research Paper Writing Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/tree/HEAD/research-paper-writing)**|Paragraph-level revision of an ML, CV, or NLP draft     |A draft → Clarity and structure edits             |
-|[Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill)                           |Retargeting a finished manuscript at a different venue  |Draft and target journal → Convention-adapted text|
-|[PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair)                             |LaTeX that overflows the template days before a deadline|A LaTeX project → Fixed overfull boxes            |
+|Skill                            |Best for                                                |In → out                                          |
+|---------------------------------|--------------------------------------------------------|--------------------------------------------------|
+|**Research Paper Writing Skills**|Paragraph-level revision of an ML, CV, or NLP draft     |A draft → Clarity and structure edits             |
+|Journal Adapt Writing Skill      |Retargeting a finished manuscript at a different venue  |Draft and target journal → Convention-adapted text|
+|PaperFit: Overflow Repair        |LaTeX that overflows the template days before a deadline|A LaTeX project → Fixed overfull boxes            |
 
 **Check your own claims before submitting**
 
-|Skill                                                                                                                          |Best for                                               |In → out                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
-|**[PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification)**         |Confirming the paper's numbers match the code and data |Paper, code, results → Numerical and terminology mismatches|
-|[Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit)|A late preflight across claims, figures, and references|A near-final manuscript → Preflight defect list            |
+|Skill                                |Best for                                               |In → out                                                   |
+|-------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
+|**PhD Skills: Paper Verification**   |Confirming the paper's numbers match the code and data |Paper, code, results → Numerical and terminology mismatches|
+|Nature Paper Skills: Submission Audit|A late preflight across claims, figures, and references|A near-final manuscript → Preflight defect list            |
 
 **Review a paper, or answer your reviewers**
 
-|Skill                                                                                                                 |Best for                                                    |In → out                                         |
-|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------|
-|**[Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer)**|Refereeing a manuscript across several reviewer perspectives|A manuscript → A structured review               |
-|[Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response)           |Turning reviews into an evidence-based response             |Reviews and your paper → Triaged rebuttal package|
+|Skill                             |Best for                                                    |In → out                                         |
+|----------------------------------|------------------------------------------------------------|-------------------------------------------------|
+|**Academic Paper Reviewer**       |Refereeing a manuscript across several reviewer perspectives|A manuscript → A structured review               |
+|Paper Lifecycle: Rebuttal Response|Turning reviews into an evidence-based response             |Reviews and your paper → Triaged rebuttal package|
 
 ## Direction Scanning & Ideation
 
@@ -481,7 +475,7 @@ Each entry is chosen by reading its `SKILL.md` and verifying it against the live
 
 The structural checks behind every entry — is it substantive, is it template-farmed, does the repo verify — are discipline-independent, and they are what this list guarantees. Whether a clinical-trial, qualitative-coding, or econometrics skill is *methodologically correct for your field* is a judgment its curator cannot make across every discipline represented here. Treat domain entries as leads to evaluate, not as vetted by a subject expert.
 
-Entries not in English carry a language tag.
+Entries not in English carry a language tag. The same data is published as [`index.json`](index.json) and [`index.csv`](index.csv), generated from the same source as this page.
 
 ## Contributing
 
