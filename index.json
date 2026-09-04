@@ -4,7 +4,7 @@
  "entries": [
   {
    "id": "hf-vision-trainer",
-   "name": "HuggingFace Vision Trainer",
+   "name": "Hugging Face Vision Trainer",
    "category": "model_training_finetuning",
    "repo": "huggingface/skills",
    "path": "skills/huggingface-vision-trainer",
@@ -45,7 +45,7 @@
   },
   {
    "id": "hf-llm-trainer",
-   "name": "HuggingFace LLM Trainer",
+   "name": "Hugging Face LLM Trainer",
    "category": "model_training_finetuning",
    "repo": "huggingface/skills",
    "path": "skills/huggingface-llm-trainer",
@@ -168,7 +168,7 @@
   },
   {
    "id": "nvidia-tao-finetune-hf",
-   "name": "NVIDIA TAO Finetune HuggingFace Model",
+   "name": "NVIDIA TAO Finetune Hugging Face Model",
    "category": "model_training_finetuning",
    "repo": "NVIDIA/skills",
    "path": "skills/tao-finetune-huggingface-model",
@@ -2892,7 +2892,7 @@
    "repo": "OpenLAIR/dr-claw",
    "path": "skills/dataset-discovery",
    "url": "https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery",
-   "description": "Searches HuggingFace Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list.",
+   "description": "Searches Hugging Face Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list.",
    "form": "skill",
    "lang": "en",
    "required_capabilities": "net",

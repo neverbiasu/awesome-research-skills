@@ -6,7 +6,7 @@
 
 **Who it is for.** Researchers doing the work themselves. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
-**Why this list.** Every entry names one exact directory, and every claim beside it is machine-checked against the live repository — license and last-commit scoped to that subdirectory, capability flags for network, credentials, and hooks, and the date each was last checked. 14 entries have additionally been walked through by hand against the files they ship, which has removed entries that read well but could not work for anyone but their author.
+**Why this list.** Every entry names one exact directory, and every claim beside it is checked by script against the live repository — license and last-commit scoped to that subdirectory, capability flags for network, credentials, and hooks, and the date each was last checked. 14 entries have additionally been walked through by hand against the files they ship, which has removed entries that read well but could not work for anyone but their author.
 
 **What "checked" does not mean.** No entry is certified as correct for your field or run end to end on your problem. [How these entries are checked](#how-these-entries-are-checked) states the boundary exactly.
 
@@ -29,110 +29,111 @@ Machine-readable: [`index.json`](index.json) · [`index.csv`](index.csv).
 - [Paper-Grade Plotting & Visualization](#paper-grade-plotting--visualization)
 - [Writing & Submission](#writing--submission)
 - [Peer Review & Rebuttal](#peer-review--rebuttal)
+- [How these entries are checked](#how-these-entries-are-checked)
 
 ## Start here
 
-*One default and up to two alternatives per task. The full catalog below is for browsing; this table is for choosing. Picks are the curator's judgement, not a ranking by stars.*
+One default and up to two alternatives per task. The full catalog below is for browsing; this table is for choosing. Picks are the curator's judgement, not a ranking by stars.
 
 **Find what has already been published**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Nature Literature Pipeline](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-literature-pipeline)** | A broad sweep across sources when you do not yet know the shape of the field | A topic or question → Scored, deduplicated candidate papers |
-| [Surveying Literature](https://github.com/chgagne/claude-skills-research/tree/HEAD/surveying-literature) | A draft that may be missing prior art, graded by threat to your novelty claim | A paper draft with a bibliography → Missed-work list with novelty risk |
-| [SLR PRISMA](https://github.com/keemanxp/slr-prisma) | A formal systematic review that must satisfy PRISMA | A protocol and search strategy → PRISMA-compliant screening record |
+|Skill                                                                                                                    |Best for                                                                     |In → out                                                              |
+|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
+|**[Nature Literature Pipeline](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-literature-pipeline)**|A broad sweep across sources when you do not yet know the shape of the field |A topic or question → Scored, deduplicated candidate papers           |
+|[Surveying Literature](https://github.com/chgagne/claude-skills-research/tree/HEAD/surveying-literature)                 |A draft that may be missing prior art, graded by threat to your novelty claim|A paper draft with a bibliography → Missed-work list with novelty risk|
+|[SLR PRISMA](https://github.com/keemanxp/slr-prisma)                                                                     |A formal systematic review that must satisfy PRISMA                          |A protocol and search strategy → PRISMA-compliant screening record    |
 
 **Turn an interest into a research question**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder)** | Grounding a direction in gaps the literature actually leaves open | Literature notes and early ideas → Gaps with testable entry points |
-| [Archora: Hypothesis](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/hypothesis) | Forcing a vague idea into a falsifiable statement | Notes and context → Structured hypotheses |
+|Skill                                                                                              |Best for                                                         |In → out                                                          |
+|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|
+|**[Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder)** |Grounding a direction in gaps the literature actually leaves open|Literature notes and early ideas → Gaps with testable entry points|
+|[Archora: Hypothesis](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/hypothesis)|Forcing a vague idea into a falsifiable statement                |Notes and context → Structured hypotheses                         |
 
 **Design the study before collecting data**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design)** | General randomization, blocking, and factorial planning | Research question and constraints → A design specification |
-| [Power Analysis](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/power-analysis) | Deciding sample size and minimum detectable effect | Effect size assumptions → Power curves and required n |
-| [Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister) | Locking the plan publicly before outcome data exists | A finished design → OSF, AsPredicted, or AEA registry draft |
+|Skill                                                                                                                |Best for                                               |In → out                                                   |
+|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
+|**[Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design)**|General randomization, blocking, and factorial planning|Research question and constraints → A design specification |
+|[Power Analysis](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/power-analysis)       |Deciding sample size and minimum detectable effect     |Effect size assumptions → Power curves and required n      |
+|[Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister)             |Locking the plan publicly before outcome data exists   |A finished design → OSF, AsPredicted, or AEA registry draft|
 
 **Formalize the method or check the math**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify)** | A formula, estimator, or bound that later work will depend on | One atomic derived claim → Independent re-derivations and a convergence matrix |
-| [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) | Auditing a proof or appendix you already wrote | Theorem and proof text → Localized gaps, one per step |
-| [Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem) | Restating a claim in Lean 4 before proving anything | An informal statement → Type-checking Lean statement at `sorry` |
+|Skill                                                                                                  |Best for                                                     |In → out                                                                      |
+|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------|
+|**[Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify)**           |A formula, estimator, or bound that later work will depend on|One atomic derived claim → Independent re-derivations and a convergence matrix|
+|[Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs)       |Auditing a proof or appendix you already wrote               |Theorem and proof text → Localized gaps, one per step                         |
+|[Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem)|Restating a claim in Lean 4 before proving anything          |An informal statement → Type-checking Lean statement at `sorry`               |
 
 **Curate and audit the dataset**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[PhD Skills: Dataset Curation](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/dataset-curation)** | Checking bias, distribution, and fairness before training | A dataset → Bias and distribution report |
-| [FiftyOne Dataset Curation](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-dataset-curation) | Vision datasets, with schema, embeddings, and curated views | An image or video dataset → FiftyOne views and quality findings |
-| [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) | Spatial data, where CRS and datum mismatches silently corrupt results | Raster, vector, or point data → Quantified integrity defects |
+|Skill                                                                                                             |Best for                                                             |In → out                                                       |
+|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------|
+|**[PhD Skills: Dataset Curation](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/dataset-curation)**|Checking bias, distribution, and fairness before training            |A dataset → Bias and distribution report                       |
+|[FiftyOne Dataset Curation](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-dataset-curation)|Vision datasets, with schema, embeddings, and curated views          |An image or video dataset → FiftyOne views and quality findings|
+|[Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc)       |Spatial data, where CRS and datum mismatches silently corrupt results|Raster, vector, or point data → Quantified integrity defects   |
 
 **Run an ML experiment**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch)** | Getting a run started and tracked on your own machine or server | A training script and config → A launched, logged run |
-| [Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments) | A multi-job campaign on a shared Slurm cluster | An experiment matrix and allocation → Sized, staged job submissions |
-| [Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit) | Before you trust any number the run produced | Pipeline and split definitions → Leakage findings by severity |
+|Skill                                                                                                                 |Best for                                                       |In → out                                                           |
+|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------------|
+|**[PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch)**                        |Getting a run started and tracked on your own machine or server|A training script and config → A launched, logged run              |
+|[Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments)|A multi-job campaign on a shared Slurm cluster                 |An experiment matrix and allocation → Sized, staged job submissions|
+|[Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit)           |Before you trust any number the run produced                   |Pipeline and split definitions → Leakage findings by severity      |
 
 **Reproduce someone else's paper**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce)** | Working from an arXiv URL to a measurable replication run | A paper and its code, if any → A staged replication attempt |
-| [Paper2Code](https://github.com/PrathamLearnsToCode/paper2code/tree/HEAD/skills/paper2code) | A paper with no usable released implementation | The paper → Citation-anchored implementation |
+|Skill                                                                                               |Best for                                                 |In → out                                                   |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------------|
+|**[PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce)**|Working from an arXiv URL to a measurable replication run|A paper and its code, if any → A staged replication attempt|
+|[Paper2Code](https://github.com/PrathamLearnsToCode/paper2code/tree/HEAD/skills/paper2code)         |A paper with no usable released implementation           |The paper → Citation-anchored implementation               |
 
 **Do the statistics**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Guided Statistical Analysis](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/statistical-analysis)** | Choosing a test, checking its assumptions, and reporting effect sizes | A dataset and a question → Test choice, assumptions, effect sizes |
-| [AER Identification](https://github.com/brycewang-stanford/AER-Skills/tree/HEAD/skills/aer-identification) | Observational causal work — DiD, IV, RDD, synthetic control | A design and data structure → Identification strategy and diagnostics |
-| [Meta-Analysis & Systematic Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/meta-analysis) | Pooling published evidence | A protocol and extracted effects → Meta-analytic synthesis |
+|Skill                                                                                                                         |Best for                                                             |In → out                                                             |
+|------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+|**[Guided Statistical Analysis](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/statistical-analysis)**|Choosing a test, checking its assumptions, and reporting effect sizes|A dataset and a question → Test choice, assumptions, effect sizes    |
+|[AER Identification](https://github.com/brycewang-stanford/AER-Skills/tree/HEAD/skills/aer-identification)                    |Observational causal work — DiD, IV, RDD, synthetic control          |A design and data structure → Identification strategy and diagnostics|
+|[Meta-Analysis & Systematic Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/meta-analysis)                 |Pooling published evidence                                           |A protocol and extracted effects → Meta-analytic synthesis           |
 
 **Analyze interviews or open-ended text**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis)** | Braun and Clarke reflexive thematic analysis, done by the book | Transcripts → Themes with a quality checklist |
-| [Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual) | When the work must land in NVivo, ATLAS.ti, or MAXQDA | Transcripts and a codebook → Coded data and reliability report |
-| [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) | Keeping your developing interpretation as evidence-grounded memos | Coded units and reflections → An indexed memo bank |
+|Skill                                                                                                             |Best for                                                         |In → out                                                      |
+|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------|
+|**[Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis)**          |Braun and Clarke reflexive thematic analysis, done by the book   |Transcripts → Themes with a quality checklist                 |
+|[Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual)|When the work must land in NVivo, ATLAS.ti, or MAXQDA            |Transcripts and a codebook → Coded data and reliability report|
+|[Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write)                      |Keeping your developing interpretation as evidence-grounded memos|Coded units and reflections → An indexed memo bank            |
 
 **Make the figures**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making)** | Charts plotted from results | Result data → Publication-ready matplotlib figures |
-| [CCF-Figure](https://github.com/Deepshare-Official/CCF-Figure) | A concept or architecture diagram matched to your paper's mechanism | Method description → A diagram structure and draft |
-| [Nature Paper Skills: Figure Planner](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/figure-planner) | Deciding what belongs in which figure before drawing anything | Claims and results → One-claim-per-figure plan |
+|Skill                                                                                                                      |Best for                                                           |In → out                                          |
+|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------|
+|**[Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making)**                    |Charts plotted from results                                        |Result data → Publication-ready matplotlib figures|
+|[CCF-Figure](https://github.com/Deepshare-Official/CCF-Figure)                                                             |A concept or architecture diagram matched to your paper's mechanism|Method description → A diagram structure and draft|
+|[Nature Paper Skills: Figure Planner](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/figure-planner)|Deciding what belongs in which figure before drawing anything      |Claims and results → One-claim-per-figure plan    |
 
 **Write and revise the manuscript**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Research Paper Writing Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/tree/HEAD/research-paper-writing)** | Paragraph-level revision of an ML, CV, or NLP draft | A draft → Clarity and structure edits |
-| [Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill) | Retargeting a finished manuscript at a different venue | Draft and target journal → Convention-adapted text |
-| [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) | LaTeX that overflows the template days before a deadline | A LaTeX project → Fixed overfull boxes |
+|Skill                                                                                                                            |Best for                                                |In → out                                          |
+|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------|
+|**[Research Paper Writing Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills/tree/HEAD/research-paper-writing)**|Paragraph-level revision of an ML, CV, or NLP draft     |A draft → Clarity and structure edits             |
+|[Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill)                           |Retargeting a finished manuscript at a different venue  |Draft and target journal → Convention-adapted text|
+|[PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair)                             |LaTeX that overflows the template days before a deadline|A LaTeX project → Fixed overfull boxes            |
 
 **Check your own claims before submitting**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification)** | Confirming the paper's numbers match the code and data | Paper, code, results → Numerical and terminology mismatches |
-| [Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit) | A late preflight across claims, figures, and references | A near-final manuscript → Preflight defect list |
+|Skill                                                                                                                          |Best for                                               |In → out                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
+|**[PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification)**         |Confirming the paper's numbers match the code and data |Paper, code, results → Numerical and terminology mismatches|
+|[Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit)|A late preflight across claims, figures, and references|A near-final manuscript → Preflight defect list            |
 
 **Review a paper, or answer your reviewers**
 
-| Skill | Best for | In → out |
-|---|---|---|
-| **[Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer)** | Refereeing a manuscript across several reviewer perspectives | A manuscript → A structured review |
-| [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) | Turning reviews into an evidence-based response | Reviews and your paper → Triaged rebuttal package |
+|Skill                                                                                                                 |Best for                                                    |In → out                                         |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------|
+|**[Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer)**|Refereeing a manuscript across several reviewer perspectives|A manuscript → A structured review               |
+|[Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response)           |Turning reviews into an evidence-based response             |Reviews and your paper → Triaged rebuttal package|
 
 ## Direction Scanning & Ideation
 
@@ -242,7 +243,7 @@ Machine-readable: [`index.json`](index.json) · [`index.csv`](index.csv).
 
 - [Label Studio Setup](https://github.com/majiayu000/claude-skill-registry/tree/HEAD/skills/data/label-studio-setup) - Covers Label Studio installation, project setup, data import/export, labeling interface customization, quality control, and ML backend integration for image, text, audio, and video annotation. `skill` `creds` `external` · MIT · repo ★592 · updated 2026-04-20 · checked 2026-09-04 · static check.
 
-- [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Searches HuggingFace Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list. `skill` `net` · unverified · repo ★1057 · updated 2026-02-26 · checked 2026-09-04 · static check.
+- [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Searches Hugging Face Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list. `skill` `net` · unverified · repo ★1057 · updated 2026-02-26 · checked 2026-09-04 · static check.
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - Quality-checks raster, vector, point, and remote-sensing datasets for CRS, datum, grid alignment, resolution, nodata, geometry validity, and spatial-join cardinality before analysis. `skill` · MIT · repo ★2 · updated 2026-08-12 · checked 2026-09-04 · audited. ⓘ hands-on audit: works with caveats.
 
@@ -250,15 +251,15 @@ Machine-readable: [`index.json`](index.json) · [`index.csv`](index.csv).
 
 *Training and adapting models, from single-GPU fine-tuning to distributed runs.*
 
-- [HuggingFace Vision Trainer](https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-vision-trainer) - Trains and fine-tunes detection, classification, and SAM/SAM2 segmentation models on Hugging Face Jobs cloud GPUs. `skill` `creds` `net` · Apache-2.0 · repo ★11019 · updated 2026-03-23 · checked 2026-09-04 · static check.
+- [Hugging Face Vision Trainer](https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-vision-trainer) - Trains and fine-tunes detection, classification, and SAM/SAM2 segmentation models on Hugging Face Jobs cloud GPUs. `skill` `creds` `net` · Apache-2.0 · repo ★11019 · updated 2026-03-23 · checked 2026-09-04 · static check.
 
-- [HuggingFace LLM Trainer](https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-llm-trainer) - Fine-tunes language and vision-language models via TRL or Unsloth on Hugging Face Jobs, covering SFT, DPO, GRPO, and reward modeling. `skill` `creds` `external` `net` · Apache-2.0 · repo ★11019 · updated 2026-07-06 · checked 2026-09-04 · static check.
+- [Hugging Face LLM Trainer](https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-llm-trainer) - Fine-tunes language and vision-language models via TRL or Unsloth on Hugging Face Jobs, covering SFT, DPO, GRPO, and reward modeling. `skill` `creds` `external` `net` · Apache-2.0 · repo ★11019 · updated 2026-07-06 · checked 2026-09-04 · static check.
 
 - [TRL Training](https://github.com/huggingface/skills/tree/HEAD/skills/trl-training) - Fine-tunes transformer language models via the TRL command-line interface, covering SFT, DPO, GRPO, KTO, RLOO, and reward modeling. `skill` `creds` `net` · Apache-2.0 · repo ★11019 · updated 2026-08-03 · checked 2026-09-04 · static check.
 
 - [Train Sentence Transformers](https://github.com/huggingface/skills/tree/HEAD/skills/train-sentence-transformers) - Trains bi-encoder, cross-encoder, and SPLADE sparse embedding models with the sentence-transformers library. `skill` `creds` `net` · Apache-2.0 · repo ★11019 · updated 2026-08-18 · checked 2026-09-04 · static check.
 
-- [NVIDIA TAO Finetune HuggingFace Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `creds` `external` `net` · Apache-2.0 · repo ★3204 · updated 2026-09-01 · checked 2026-09-04 · static check.
+- [NVIDIA TAO Finetune Hugging Face Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `creds` `external` `net` · Apache-2.0 · repo ★3204 · updated 2026-09-01 · checked 2026-09-04 · static check.
 
 - [PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch) - Runs a pre-flight checklist for long-running ML training jobs to catch misconfigured configs, paths, and monitoring before launch. `skill` `creds` `external` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-04 · static check.
 
@@ -466,13 +467,17 @@ Machine-readable: [`index.json`](index.json) · [`index.csv`](index.csv).
 
 ## How these entries are checked
 
-Each entry is chosen by reading its `SKILL.md` and verifying it against the live repository. Batches are also audited hands-on — walking a skill's own instructions against the files it ships — which has removed entries that read well but could not work for anyone but their author. A description states what the skill does; it is not a report of it having been run end to end on your problem.
+Each entry is chosen by reading its `SKILL.md` and verifying it against the live repository. The checking is done by script from a source file; that pipeline is not currently published, so these results can be spot-checked entry by entry against GitHub but not re-run wholesale. Batches are also audited hands-on — walking a skill's own instructions against the files it ships — which has removed entries that read well but could not work for anyone but their author. A description states what the skill does; it is not a report of it having been run end to end on your problem.
 
-**Badge legend.** `skill`/`suite`/`plugin` is what the entry is. `net`, `creds`, `hooks`, `external`, `bypass` flag capabilities detected by pattern-matching the shipped files: it talks to the network, needs a key or account, installs agent hooks, shells out to another tool, or asks for permission checks to be skipped. Each flag is generated by matching the shipped files and then reading the matched line: only capabilities the file presents as **required** are shown here, while optional, merely-mentioned, and explicitly-forbidden matches are recorded in [`index.json`](index.json) with the rule, file, and line that produced them. An external audit found the previous boolean version wrong in both directions, so the classifier now ships regression cases for every miss it made. A language tag marks a non-English `SKILL.md`. The license is resolved for the skill, not the repo: a `license:` in the skill's own frontmatter wins over the repo LICENSE, and where the two disagree the entry shows ⚠ with the repo's answer beside it. `updated` is the last commit **to that subdirectory**, not to its repo. `checked` is when this list last verified the entry against GitHub.
+**Badge legend.** `skill`/`suite`/`plugin` is what the entry is. A language tag marks a non-English `SKILL.md`. `updated` is the last commit **to that subdirectory**, not to its repo, and `checked` is when this list last verified the entry against GitHub.
+
+**Capability flags.** `net`, `creds`, `hooks`, `external`, `bypass` mean the skill talks to the network, needs a key or account, installs agent hooks, shells out to another tool, or asks for permission checks to be skipped. They are found by matching the shipped files and then reading the line that matched, so only capabilities the file presents as *required* appear here; optional, merely mentioned, and explicitly discouraged matches are kept in the machine-readable index with the rule, file, and line behind each one.
+
+**Licenses are resolved for the skill, not the repo.** A `license:` in the skill's own frontmatter wins over the repo LICENSE; where the two disagree the entry shows ⚠ and the repo's answer beside it.
 
 **About `repo ★N`.** GitHub has no per-directory star metric, and 93% of these skills live inside someone's larger repo. The number is that repo's stars — an adoption signal for the project it lives in, and never a rating of the skill itself. A skill in a 20,000-star monorepo may have been committed once and never used.
 
-**Two levels of checking.** *static check* means the path, license, commit date, and capability flags were verified against the live repo and the `SKILL.md` was read. *audited* means someone additionally walked the skill's own instructions against the files it ships, per [`AUDIT_SPEC`](https://github.com/neverbiasu/awesome-research-skills/blob/main/scripts/AUDIT_SPEC.md); where that audit found a condition worth knowing, it is stated inline on the entry. No entry claims an executable end-to-end test, because none has been run.
+**Two levels of checking.** *static check* means the path, license, commit date, and capability flags were verified against the live repo and the `SKILL.md` was read. *audited* means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec; where that audit found a condition worth knowing, it is stated inline on the entry. No entry claims an executable end-to-end test, because none has been run.
 
 The structural checks behind every entry — is it substantive, is it template-farmed, does the repo verify — are discipline-independent, and they are what this list guarantees. Whether a clinical-trial, qualitative-coding, or econometrics skill is *methodologically correct for your field* is a judgment its curator cannot make across every discipline represented here. Treat domain entries as leads to evaluate, not as vetted by a subject expert.
 
