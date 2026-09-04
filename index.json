@@ -178,7 +178,7 @@
    "lang": "en",
    "required_capabilities": "creds|external|net",
    "license": "Apache-2.0",
-   "license_scope": "repo_fallback",
+   "license_scope": "declared_in_skill_frontmatter",
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [
@@ -207,7 +207,7 @@
      "evidence": "| `docker run` flags, NGC auth, mounts, env passthrough | [`tao-skill-bank:tao-run-on-docker`](../../platform/tao-run-on-docker/SKILL.md) |"
     }
    ],
-   "repo_stars": 3204,
+   "repo_stars": 3205,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-01",
    "stale": false,
@@ -240,7 +240,7 @@
      "evidence": "suite (needs `ROBOFLOW_API_KEY`). This is the \"does it fine-tune well, not"
     }
    ],
-   "repo_stars": 633,
+   "repo_stars": 634,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
@@ -345,7 +345,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 4439,
+   "repo_stars": 4455,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-24",
    "stale": false,
@@ -498,7 +498,7 @@
      "evidence": "**Enforcement (v3.9.2):** Phase Boundary blocks on Bucket A agents + advisory verifier (`scripts/check_pipeline_integrity.py`) + a deterministic PreToolUse writ"
     }
    ],
-   "repo_stars": 46277,
+   "repo_stars": 46281,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-20",
    "stale": false,
@@ -1492,7 +1492,7 @@
    "lang": "zh",
    "required_capabilities": "",
    "license": "MIT",
-   "license_scope": "repo_fallback",
+   "license_scope": "license_file_in_skill_dir",
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
@@ -1909,7 +1909,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 241423,
+   "repo_stars": 241456,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
@@ -1942,7 +1942,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -1975,7 +1975,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2008,7 +2008,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2041,7 +2041,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2082,7 +2082,7 @@
      "evidence": "- W&B credential: named environment variable `WANDB_API_KEY`."
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2269,7 +2269,7 @@
      "evidence": "Select the appropriate diagram type based on the use case. Use your built-in knowledge of Mermaid syntax, or fetch up-to-date docs via the context7 MCP server i"
     }
    ],
-   "repo_stars": 15726,
+   "repo_stars": 15727,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-13",
    "stale": false,
@@ -2374,7 +2374,7 @@
      "evidence": "- OPENROUTER_API_KEY (recommended)"
     }
    ],
-   "repo_stars": 7033,
+   "repo_stars": 7034,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-22",
    "stale": false,
@@ -2415,7 +2415,7 @@
      "evidence": "primaryEnv: OPENROUTER_API_KEY"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2448,7 +2448,7 @@
      "evidence": "- Allow user to retry after installing MCP server"
     }
    ],
-   "repo_stars": 409,
+   "repo_stars": 408,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-15",
    "stale": false,
@@ -3006,7 +3006,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 15726,
+   "repo_stars": 15727,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-13",
    "stale": false,
@@ -3176,7 +3176,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3266,7 +3266,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3299,7 +3299,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42609,
+   "repo_stars": 42622,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,

@@ -191,7 +191,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *Deciding what to measure and how, before any data is collected — protocols, ethics review, preregistration, sampling, instrument design.*
 
-- [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Generates clinical trial protocols for medical devices or drugs through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting. `skill` `external` · unverified · repo ★409 · updated 2026-06-15 · checked 2026-09-04 · static check.
+- [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Generates clinical trial protocols for medical devices or drugs through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting. `skill` `external` · unverified · repo ★408 · updated 2026-06-15 · checked 2026-09-04 · static check.
 
 - [Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister) - Drafts a structured preregistration document in OSF, AsPredicted, or AEA RCT Registry style, covering hypotheses, sampling plan, analysis plan, exclusions, and inference criteria, annotated with MUST/SHOULD/MAY clarity flags. `skill` `bypass` · MIT · repo ★1561 · updated 2026-08-21 · checked 2026-09-04 · static check.
 
@@ -207,7 +207,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Medical Study Design Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/design-study) - Reviews cohort logic, comparator choice, and validation strategy for medical studies to surface leakage and validity risks before analysis begins. `skill` · MIT · repo ★283 · updated 2026-07-25 · checked 2026-09-04 · static check.
 
-- [Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design) - Plans studies before data collection, covering randomization, blocking, factorial and crossover layouts, and cluster or adaptive designs. `skill` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [Experimental Design](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/experimental-design) - Plans studies before data collection, covering randomization, blocking, factorial and crossover layouts, and cluster or adaptive designs. `skill` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
 - [Research Question Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/research-question-audit) - Checks whether a plan, experiment, dataset, or claim still aligns with the frozen research question and protocol, and refuses to silently rewrite the governing artifact when drift is found. `skill` · MIT · repo ★2 · updated 2026-08-12 · checked 2026-09-04 · audited.
 
@@ -215,7 +215,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *Turning an idea into a stated method: formalizing claims, checking derivations, and writing and verifying proofs.*
 
-- [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` · MIT · repo ★15726 · updated 2026-07-13 · checked 2026-09-04 · static check.
+- [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions. `skill` · MIT · repo ★15727 · updated 2026-07-13 · checked 2026-09-04 · static check.
 
 - [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain. `skill` · MIT · repo ★4 · updated 2026-08-17 · checked 2026-09-04 · audited.
 
@@ -253,17 +253,17 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Train Sentence Transformers](https://github.com/huggingface/skills/tree/HEAD/skills/train-sentence-transformers) - Trains bi-encoder, cross-encoder, and SPLADE sparse embedding models with the sentence-transformers library. `skill` `creds` `net` · Apache-2.0 · repo ★11019 · updated 2026-08-18 · checked 2026-09-04 · static check.
 
-- [NVIDIA TAO Finetune Hugging Face Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `creds` `external` `net` · Apache-2.0 · repo ★3204 · updated 2026-09-01 · checked 2026-09-04 · static check.
+- [NVIDIA TAO Finetune Hugging Face Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `creds` `external` `net` · Apache-2.0 · repo ★3205 · updated 2026-09-01 · checked 2026-09-04 · static check.
 
 - [PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch) - Runs a pre-flight checklist for long-running ML training jobs to catch misconfigured configs, paths, and monitoring before launch. `skill` `creds` `external` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-04 · static check.
 
-- [K-Dense: Stable Baselines3](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/stable-baselines3) - Trains reinforcement learning agents with Stable Baselines3's production-ready PPO, SAC, DQN, TD3, DDPG, and A2C implementations on Gymnasium environments. `skill` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [K-Dense: Stable Baselines3](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/stable-baselines3) - Trains reinforcement learning agents with Stable Baselines3's production-ready PPO, SAC, DQN, TD3, DDPG, and A2C implementations on Gymnasium environments. `skill` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
-- [K-Dense: PyTorch Lightning](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pytorch-lightning) - Organizes PyTorch training code into LightningModules with configured Trainers for multi-GPU/TPU scaling, distributed training (DDP, FSDP, DeepSpeed), and logging integrations (W&B, TensorBoard, MLflow). `skill` · Apache-2.0⚠(repo says MIT) · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [K-Dense: PyTorch Lightning](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pytorch-lightning) - Organizes PyTorch training code into LightningModules with configured Trainers for multi-GPU/TPU scaling, distributed training (DDP, FSDP, DeepSpeed), and logging integrations (W&B, TensorBoard, MLflow). `skill` · Apache-2.0⚠(repo says MIT) · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
-- [PyTorch Geometric](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/torch-geometric) - Guides graph neural network development with PyTorch Geometric, covering node/link/graph classification, message-passing architectures (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, and neighbor sampling. `skill` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [PyTorch Geometric](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/torch-geometric) - Guides graph neural network development with PyTorch Geometric, covering node/link/graph classification, message-passing architectures (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, and neighbor sampling. `skill` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
-- [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, training, evaluation, and checkpoint review. `skill` `creds` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, training, evaluation, and checkpoint review. `skill` `creds` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
 ## Diagrams & Schematics
 
@@ -275,7 +275,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Draw.io Reconstruction](https://github.com/HKUSTDial/Supervisor-Skills/tree/HEAD/skills/drawio-reconstruction) - Reconstructs reference images of diagrams, figures, or architecture visuals into editable Draw.io files, prioritizing visual fidelity to the source over pure editability. `skill` · unverified · repo ★6533 · updated 2026-07-16 · checked 2026-09-04 · static check.
 
-- [Mermaid Diagram Generator](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/mermaid-diagram) - Generates and syntax-verifies Mermaid diagrams — flowcharts, sequence diagrams, class diagrams, ER diagrams, Gantt charts, and 18 other types — from a natural-language description. `skill` `external` · MIT · repo ★15726 · updated 2026-07-13 · checked 2026-09-04 · static check.
+- [Mermaid Diagram Generator](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/mermaid-diagram) - Generates and syntax-verifies Mermaid diagrams — flowcharts, sequence diagrams, class diagrams, ER diagrams, Gantt charts, and 18 other types — from a natural-language description. `skill` `external` · MIT · repo ★15727 · updated 2026-07-13 · checked 2026-09-04 · static check.
 
 - [Draw.io Diagrams](https://github.com/Agents365-ai/drawio-skill/tree/HEAD/skills/drawio-skill) - Generates .drawio XML diagrams and exports to PNG/SVG/PDF/JPG via the native draw.io desktop CLI, covering flowcharts, architecture diagrams, ER/UML diagrams, network topology, and ML/DL model figures (Transformer, CNN, LSTM). `skill` `external` · MIT · repo ★9038 · updated 2026-09-03 · checked 2026-09-04 · static check.
 
@@ -283,9 +283,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [OpenTikZ](https://github.com/opentikz/opentikz/tree/HEAD/skills/using-opentikz) - Finds, edits, and verifies TikZ figures from a library of copyable icons and editable templates for neural network architectures, encoder-decoder diagrams, training pipelines, and system block diagrams. `skill` · unverified · repo ★245 · updated 2026-07-04 · checked 2026-09-04 · static check.
 
-- [PaperBanana](https://github.com/dwzhu-pku/PaperBanana/tree/HEAD/skill) - Generates publication-quality academic diagrams and pipeline figures from a paper's methodology text and figure caption, orchestrating a multi-agent pipeline (Retriever, Planner, Stylist, Visualizer, Critic) targeting venues like NeurIPS, ICML, and ACL. `skill` `creds` `net` · MIT-0⚠(repo says Apache-2.0) · repo ★7033 · updated 2026-06-22 · checked 2026-09-04 · static check.
+- [PaperBanana](https://github.com/dwzhu-pku/PaperBanana/tree/HEAD/skill) - Generates publication-quality academic diagrams and pipeline figures from a paper's methodology text and figure caption, orchestrating a multi-agent pipeline (Retriever, Planner, Stylist, Visualizer, Critic) targeting venues like NeurIPS, ICML, and ACL. `skill` `creds` `net` · MIT-0⚠(repo says Apache-2.0) · repo ★7034 · updated 2026-06-22 · checked 2026-09-04 · static check.
 
-- [Scientific Schematics](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-schematics) - Creates publication-quality scientific diagrams using an AI image model with smart iterative refinement, re-generating only when a separate quality-review pass scores below threshold, specialized in neural network architectures, system diagrams, flowcharts, and biological pathways. `skill` `creds` `net` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [Scientific Schematics](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-schematics) - Creates publication-quality scientific diagrams using an AI image model with smart iterative refinement, re-generating only when a separate quality-review pass scores below threshold, specialized in neural network architectures, system diagrams, flowcharts, and biological pathways. `skill` `creds` `net` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
 - [Biomedical Mechanism Figures](https://github.com/yiyanli123/biorender-mechanism-figures-skill/tree/HEAD/biorender-mechanism-figures) - Plans biomedical mechanism figures, pathway maps, and graphical abstracts mechanism-first, then builds image-model prompts targeting vector or 300-600 DPI print output. `skill` · unverified · repo ★20 · updated 2026-05-06 · checked 2026-09-04 · audited.
 
@@ -293,7 +293,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *Running experiments, tracking what happened, and making the result reproducible by someone else.*
 
-- [LibreYOLO Verify Training](https://github.com/LibreYOLO/libreyolo/tree/HEAD/skills/libreyolo-verify-training) - Verifies a LibreYOLO training run's config, dataset, and metrics against project conventions before a checkpoint is trusted. `skill` `creds` · unverified · repo ★633 · updated 2026-08-08 · checked 2026-09-04 · static check.
+- [LibreYOLO Verify Training](https://github.com/LibreYOLO/libreyolo/tree/HEAD/skills/libreyolo-verify-training) - Verifies a LibreYOLO training run's config, dataset, and metrics against project conventions before a checkpoint is trusted. `skill` `creds` · unverified · repo ★634 · updated 2026-08-08 · checked 2026-09-04 · static check.
 
 - [Paper2Code](https://github.com/PrathamLearnsToCode/paper2code/tree/HEAD/skills/paper2code) - Turns an arXiv paper into a citation-anchored Python implementation, tagging each module to the paper section it implements and flagging rather than guessing at ambiguities. `skill` · MIT · repo ★1517 · updated 2026-04-03 · checked 2026-09-04 · static check.
 
@@ -347,9 +347,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Medical Statistical Analysis](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/analyze-stats) - Generates reproducible Python or R code for diagnostic accuracy, agreement, survival, propensity-score, and survey-weighted analyses, with a protected-health-information check before reading any data file. `skill` `creds` · MIT · repo ★283 · updated 2026-07-23 · checked 2026-09-04 · static check.
 
-- [Guided Statistical Analysis](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/statistical-analysis) - Selects statistical tests, checks their assumptions, computes effect sizes, and reports results in APA format across t-tests, ANOVA, regression, and Bayesian alternatives. `skill` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [Guided Statistical Analysis](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/statistical-analysis) - Selects statistical tests, checks their assumptions, computes effect sizes, and reports results in APA format across t-tests, ANOVA, regression, and Bayesian alternatives. `skill` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
-- [PyMC Bayesian Modeling](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pymc) - Builds, fits, and validates Bayesian hierarchical models with PyMC, covering MCMC sampling, variational inference, and posterior predictive checks. `skill` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [PyMC Bayesian Modeling](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pymc) - Builds, fits, and validates Bayesian hierarchical models with PyMC, covering MCMC sampling, variational inference, and posterior predictive checks. `skill` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
 - [Complex Survey Analysis (Python)](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/svy) - Analyzes complex-sample survey data in Python with strata, PSU, and weight handling, variance estimation, and survey-weighted GLM for datasets such as NHANES, CPS, and DHS. `skill` · LGPL-3.0 · repo ★235 · updated 2026-07-15 · checked 2026-09-04 · static check.
 
@@ -377,9 +377,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *Opening up a trained model to see what it computes, and explaining individual predictions.*
 
-- [SAELens: Sparse Autoencoders for Mechanistic Interpretability](https://github.com/NousResearch/hermes-agent/tree/HEAD/optional-skills/mlops/saelens) - Trains and analyzes sparse autoencoders to decompose polysemantic model activations into interpretable features, wrapping the SAELens and TransformerLens libraries. `skill` · MIT · repo ★241423 · updated 2026-08-08 · checked 2026-09-04 · static check.
+- [SAELens: Sparse Autoencoders for Mechanistic Interpretability](https://github.com/NousResearch/hermes-agent/tree/HEAD/optional-skills/mlops/saelens) - Trains and analyzes sparse autoencoders to decompose polysemantic model activations into interpretable features, wrapping the SAELens and TransformerLens libraries. `skill` · MIT · repo ★241456 · updated 2026-08-08 · checked 2026-09-04 · static check.
 
-- [SHAP](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/shap) - Explains and audits machine-learning predictions with SHAP, covering explainer/masker selection, feature-attribution computation and validation, multi-output explanations, and local/global visualizations. `skill` · MIT · repo ★42609 · updated 2026-09-02 · checked 2026-09-04 · static check.
+- [SHAP](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/shap) - Explains and audits machine-learning predictions with SHAP, covering explainer/masker selection, feature-attribution computation and validation, multi-output explanations, and local/global visualizations. `skill` · MIT · repo ★42622 · updated 2026-09-02 · checked 2026-09-04 · static check.
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - Inspects and manipulates the internals of any PyTorch model with nnsight, including remote execution against models too large for local GPUs via NDIF. `skill` `creds` `net` · MIT · repo ★12315 · updated 2025-12-17 · checked 2026-09-04 · static check.
 
@@ -391,7 +391,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *Charts plotted from results, to the standard a journal or conference expects.*
 
-- [Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making) - Produces publication-ready matplotlib figures — bar, trend, scatter, heatmap, and multi-panel layouts — in a fixed house style with print/vector export conventions for AI conference and journal submissions. `skill` · unverified · repo ★4439 · updated 2026-06-24 · checked 2026-09-04 · static check.
+- [Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making) - Produces publication-ready matplotlib figures — bar, trend, scatter, heatmap, and multi-panel layouts — in a fixed house style with print/vector export conventions for AI conference and journal submissions. `skill` · unverified · repo ★4455 · updated 2026-06-24 · checked 2026-09-04 · static check.
 
 - [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Creates, revises, and audits submission-grade scientific figures for high-impact venues in Python or R, with multi-panel support and journal-ready export. `skill` `net` · Apache-2.0 · repo ★39205 · updated 2026-08-27 · checked 2026-09-04 · static check.
 
@@ -447,7 +447,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *The other side of submission: refereeing someone else's manuscript, and answering the reviews of your own.*
 
-- [Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer) - Simulates a five-person international journal peer-review panel with field-specific reviewer personas, producing structured editorial decisions and revision roadmaps. `skill` `hooks` · unverified · repo ★46277 · updated 2026-08-20 · checked 2026-09-04 · static check.
+- [Academic Paper Reviewer](https://github.com/Imbad0202/academic-research-skills/tree/HEAD/academic-paper-reviewer) - Simulates a five-person international journal peer-review panel with field-specific reviewer personas, producing structured editorial decisions and revision roadmaps. `skill` `hooks` · unverified · repo ★46281 · updated 2026-08-20 · checked 2026-09-04 · static check.
 
 - [CCF Paper Reviewer](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-paper-reviewer) - Reviews a manuscript against CCF/target-venue criteria across novelty, soundness, evidence, writing quality, and format compliance, simulating a reviewer/AC panel. `skill` · MIT · repo ★2107 · updated 2026-08-12 · checked 2026-09-04 · static check.
 
