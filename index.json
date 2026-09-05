@@ -374,8 +374,8 @@
    "path_last_commit": "2026-08-27",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "nature-citation",
@@ -977,8 +977,8 @@
    "path_last_commit": "2026-04-30",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "phd-skills-launch",
@@ -1778,7 +1778,7 @@
    "repo": "openraiser/paperfit",
    "path": "skills/overflow-repair",
    "url": "https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair",
-   "description": "Fixes LaTeX overflow defects \u2014 overfull hboxes, long formulas, URL overflows \u2014 in academic paper source files through minimal, non-semantic edits.",
+   "description": "Fixes LaTeX overflow defects \u2014 overfull boxes, long formulas, and URL overflows \u2014 starting from layout-only edits and escalating to delegated rewording when layout alone cannot fit it.",
    "form": "skill",
    "lang": "en",
    "required_capabilities": "",
@@ -1792,8 +1792,8 @@
    "path_last_commit": "2026-05-08",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "paperfit-float-optimizer",
@@ -2087,8 +2087,8 @@
    "path_last_commit": "2026-09-02",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "label-studio-setup",
@@ -2128,8 +2128,8 @@
    "path_last_commit": "2026-04-20",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "research-claw-figure-drawing",
@@ -2591,8 +2591,8 @@
    "path_last_commit": "2026-05-11",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "anthro-qualitative-analysis",
@@ -3514,7 +3514,7 @@
    "stale": false,
    "checked_at": "2026-09-05",
    "audit_level": "hands_on",
-   "audit_verdict": "description_drift"
+   "audit_verdict": "works"
   },
   {
    "id": "surveying-literature",
@@ -3732,8 +3732,8 @@
    "path_last_commit": "2026-07-31",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "methodological-rules",
@@ -3756,8 +3756,8 @@
    "path_last_commit": "2026-02-01",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "formalize-problem",
@@ -3780,8 +3780,8 @@
    "path_last_commit": "2026-08-19",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "derivation-verify",
@@ -3804,8 +3804,8 @@
    "path_last_commit": "2026-09-05",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "kdense-gget",
@@ -3837,8 +3837,8 @@
    "path_last_commit": "2026-09-02",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "kdense-rdkit",
@@ -3870,8 +3870,8 @@
    "path_last_commit": "2026-09-02",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "kdense-bulk-rnaseq",
@@ -3903,8 +3903,8 @@
    "path_last_commit": "2026-09-02",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "materials-ontology-explorer",
@@ -3927,8 +3927,8 @@
    "path_last_commit": "2026-06-25",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "kdense-pptx-posters",
@@ -3960,8 +3960,8 @@
    "path_last_commit": "2026-09-02",
    "stale": false,
    "checked_at": "2026-09-05",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   }
  ]
 }

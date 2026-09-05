@@ -4,7 +4,7 @@
 
 For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
-Entries are curated by reading the skill and checking it against its repository: nothing template-farmed, nothing abandoned, nothing that turns out to live somewhere else. Alongside each one you get its own license, the last commit to its subdirectory, and flags for what it needs to run — network, credentials, hooks. 14 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
+Entries are curated by reading the skill and checking it against its repository: nothing template-farmed, nothing abandoned, nothing that turns out to live somewhere else. Alongside each one you get its own license, the last commit to its subdirectory, and flags for what it needs to run — network, credentials, hooks. 29 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
 
 ## Contents
 
@@ -219,9 +219,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain. `skill` · MIT · repo ★4 · updated 2026-08-17 · checked 2026-09-05 · audited.
 
-- [Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem) - Translates an informal mathematical problem into faithful, type-checking Lean 4 statements left at `sorry`, surfacing inequivalent readings and degenerate cases before any proof is attempted. `skill` · Apache-2.0 · repo ★8 · updated 2026-08-19 · checked 2026-09-05 · static check.
+- [Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem) - Translates an informal mathematical problem into faithful, type-checking Lean 4 statements left at `sorry`, surfacing inequivalent readings and degenerate cases before any proof is attempted. `skill` · Apache-2.0 · repo ★8 · updated 2026-08-19 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
-- [Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify) - Re-derives a formula, estimator, identity, or bound at least twice independently, clusters the results by mathematical equivalence, and emits a verification matrix recording agreement and outliers. `skill` · unverified · repo ★16 · updated 2026-09-05 · checked 2026-09-05 · static check.
+- [Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify) - Re-derives a formula, estimator, identity, or bound at least twice independently, clusters the results by mathematical equivalence, and emits a verification matrix recording agreement and outliers. `skill` · unverified · repo ★16 · updated 2026-09-05 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 ## Data & Annotation
 
@@ -235,15 +235,15 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [FiftyOne Dataset Export](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-dataset-export) - Exports FiftyOne datasets to standard annotation formats — COCO, YOLO, VOC, CVAT, CSV — for downstream model training and sharing. `skill` `net` · Apache-2.0 · repo ★39 · updated 2026-05-14 · checked 2026-09-05 · static check.
 
-- [Label Studio Setup](https://github.com/majiayu000/claude-skill-registry/tree/HEAD/skills/data/label-studio-setup) - Covers Label Studio installation, project setup, data import/export, labeling interface customization, quality control, and ML backend integration for image, text, audio, and video annotation. `skill` `creds` `external` · MIT · repo ★593 · updated 2026-04-20 · checked 2026-09-05 · static check.
+- [Label Studio Setup](https://github.com/majiayu000/claude-skill-registry/tree/HEAD/skills/data/label-studio-setup) - Covers Label Studio installation, project setup, data import/export, labeling interface customization, quality control, and ML backend integration for image, text, audio, and video annotation. `skill` `creds` `external` · MIT · repo ★593 · updated 2026-04-20 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Searches Hugging Face Hub, OpenML, GitHub, and paper cross-references for datasets matching a stated research task, returning a ranked and deduplicated list. `skill` · unverified · repo ★1058 · updated 2026-02-26 · checked 2026-09-05 · static check.
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - Quality-checks raster, vector, point, and remote-sensing datasets for CRS, datum, grid alignment, resolution, nodata, geometry validity, and spatial-join cardinality before analysis. `skill` · MIT · repo ★2 · updated 2026-08-12 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
-- [gget](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/gget) - Queries genomic and biomedical databases for gene records, sequences, alignments, AlphaFold structures, expression, and disease associations through one interface, pinning the tool version so a lookup can be repeated. `skill` · BSD-2-Clause⚠(repo says MIT) · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · static check.
+- [gget](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/gget) - Queries genomic and biomedical databases for gene records, sequences, alignments, AlphaFold structures, expression, and disease associations through one interface, pinning the tool version so a lookup can be repeated. `skill` · BSD-2-Clause⚠(repo says MIT) · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
-- [RDKit Cheminformatics](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/rdkit) - Parses and sanitizes molecular structures, then computes descriptors, fingerprints, substructure matches, reactions, and 2D or 3D coordinates for cheminformatics work. `skill` · BSD-3-Clause⚠(repo says MIT) · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · static check.
+- [RDKit Cheminformatics](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/rdkit) - Parses and sanitizes molecular structures, then computes descriptors, fingerprints, substructure matches, reactions, and 2D or 3D coordinates for cheminformatics work. `skill` · BSD-3-Clause⚠(repo says MIT) · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · audited.
 
 ## Model Training & Fine-Tuning
 
@@ -267,7 +267,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [PyTorch Geometric](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/torch-geometric) - Guides graph neural network development with PyTorch Geometric, covering node/link/graph classification, message-passing architectures (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, and neighbor sampling. `skill` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · static check.
 
-- [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, training, evaluation, and checkpoint review. `skill` `creds` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · static check.
+- [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, training, evaluation, and checkpoint review. `skill` `creds` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · audited.
 
 ## Diagrams & Schematics
 
@@ -309,7 +309,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [PaperOrchestra: Agent Research Aggregator](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/agent-research-aggregator) - Scans AI coding-agent cache directories and extracts numeric experiment results into a structured format. `skill` · unverified · repo ★650 · updated 2026-04-17 · checked 2026-09-05 · static check.
 
-- [PhD Skills: Debug](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/debug) - Diagnoses a failing ML experiment with a five-step evidence-before-action protocol covering process state, GPU, disk, logs, and checkpoints. `skill` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-05 · static check.
+- [PhD Skills: Debug](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/debug) - Diagnoses a failing ML experiment with a five-step evidence-before-action protocol covering process state, GPU, disk, logs, and checkpoints. `skill` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 - [PhD Skills: Compare](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/compare) - Enforces same-epoch alignment when comparing ML training runs and separates proxy metrics from downstream targets. `skill` `creds` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-05 · static check.
 
@@ -333,9 +333,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit) - Audits an ML pipeline for train-test contamination, temporal and spatial leakage, target and proxy leakage, preprocessing leakage, and evaluation contamination, classifying each finding by severity. `skill` · MIT · repo ★2 · updated 2026-08-12 · checked 2026-09-05 · audited.
 
-- [Bulk RNA-seq Pipeline](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/bulk-rnaseq) - Takes bulk RNA-seq reads through quality control, trimming, alignment, and quantification to a gene-level count matrix, gating on experimental design and strandedness before differential expression. `skill` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · static check.
+- [Bulk RNA-seq Pipeline](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/bulk-rnaseq) - Takes bulk RNA-seq reads through quality control, trimming, alignment, and quantification to a gene-level count matrix, gating on experimental design and strandedness before differential expression. `skill` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
-- [Materials Ontology Explorer](https://github.com/HeshamFS/materials-simulation-skills/tree/HEAD/skills/ontology/ontology-explorer) - Resolves canonical CMSO and ASMO ontology terms for computational materials data, checking class hierarchies and property domain and range before a relationship is asserted. `skill` · Apache-2.0 · repo ★66 · updated 2026-06-25 · checked 2026-09-05 · static check.
+- [Materials Ontology Explorer](https://github.com/HeshamFS/materials-simulation-skills/tree/HEAD/skills/ontology/ontology-explorer) - Resolves canonical CMSO and ASMO ontology terms for computational materials data, checking class hierarchies and property domain and range before a relationship is asserted. `skill` · Apache-2.0 · repo ★66 · updated 2026-06-25 · checked 2026-09-05 · audited.
 
 ## Statistical Analysis
 
@@ -369,7 +369,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 *Interviews, fieldwork, and coded text — thematic analysis, grounded theory, ethnography, intercoder reliability.*
 
-- [Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis) - Conducts thematic analysis of interviews, focus groups, or open-ended responses following Braun and Clarke's six-phase framework, covering the four upfront analytic decisions and a 15-point quality checklist. `skill` `external` · MIT · repo ★15 · updated 2026-05-11 · checked 2026-09-05 · static check.
+- [Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis) - Conducts thematic analysis of interviews, focus groups, or open-ended responses following Braun and Clarke's six-phase framework, covering the four upfront analytic decisions and a 15-point quality checklist. `skill` `external` · MIT · repo ★15 · updated 2026-05-11 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - Codes qualitative data and builds codebooks with deductive, inductive, and hybrid coding, code frequencies, co-occurrence analysis, and intercoder reliability. `skill` · unverified · repo ★24 · updated 2026-08-28 · checked 2026-09-05 · static check.
 
@@ -377,9 +377,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [AlterLab Qualitative Methods](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills/tree/HEAD/skills/research-tools/alterlab-qualitative-methods) - Covers qualitative design and analysis across five traditions — thematic analysis, grounded theory, interpretative phenomenological analysis, ethnography, and case study — with trustworthiness criteria. `skill` · MIT · repo ★64 · updated 2026-07-02 · checked 2026-09-05 · static check.
 
-- [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - Scaffolds and indexes reflexive, comparative, integrative, and decision memos grounded in coded units, keeping the researcher's interpretation separate from the machine audit log. `skill` · MIT · repo ★1 · updated 2026-07-31 · checked 2026-09-05 · static check.
+- [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - Scaffolds and indexes reflexive, comparative, integrative, and decision memos grounded in coded units, keeping the researcher's interpretation separate from the machine audit log. `skill` · MIT · repo ★1 · updated 2026-07-31 · checked 2026-09-05 · audited.
 
-- [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - Tracks multi-dimensional theoretical saturation, generates phase-sensitive methodological isolation rules, and logs rule changes and overrides to a reflexivity journal. `skill` · unverified · repo ★17 · updated 2026-02-01 · checked 2026-09-05 · static check.
+- [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - Tracks multi-dimensional theoretical saturation, generates phase-sensitive methodological isolation rules, and logs rule changes and overrides to a reflexivity journal. `skill` · unverified · repo ★17 · updated 2026-02-01 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 ## Interpretability
 
@@ -401,7 +401,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making) - Produces publication-ready matplotlib figures — bar, trend, scatter, heatmap, and multi-panel layouts — in a fixed house style with print/vector export conventions for AI conference and journal submissions. `skill` · unverified · repo ★4626 · updated 2026-06-24 · checked 2026-09-05 · static check.
 
-- [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Creates, revises, and audits submission-grade scientific figures for high-impact venues in Python or R, with multi-panel support and journal-ready export. `skill` · Apache-2.0 · repo ★39371 · updated 2026-08-27 · checked 2026-09-05 · static check.
+- [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Creates, revises, and audits submission-grade scientific figures for high-impact venues in Python or R, with multi-panel support and journal-ready export. `skill` · Apache-2.0 · repo ★39371 · updated 2026-08-27 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 - [PaperOrchestra: Plotting Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/plotting-agent) - Generates publication-quality figures and conceptual diagrams for academic papers from experimental data and an outline, with optional VLM-based critique refinement. `skill` · unverified · repo ★650 · updated 2026-04-10 · checked 2026-09-05 · static check.
 
@@ -445,13 +445,13 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Skill Deslop](https://github.com/stephenturner/skill-deslop) - Removes common AI-writing patterns from academic and research prose to restore a more natural voice. `skill` · MIT · repo ★381 · updated 2026-03-18 · checked 2026-09-05 · static check.
 
-- [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) - Fixes LaTeX overflow defects — overfull hboxes, long formulas, URL overflows — in academic paper source files through minimal, non-semantic edits. `skill` · MIT · repo ★331 · updated 2026-05-08 · checked 2026-09-05 · static check.
+- [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) - Fixes LaTeX overflow defects — overfull boxes, long formulas, and URL overflows — starting from layout-only edits and escalating to delegated rewording when layout alone cannot fit it. `skill` · MIT · repo ★331 · updated 2026-05-08 · checked 2026-09-05 · audited.
 
 - [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) - Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code. `skill` · MIT · repo ★331 · updated 2026-05-08 · checked 2026-09-05 · static check.
 
 - [Academic Presentations & Demo Video](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/making-academic-presentations) - Turns a paper into a slide deck and optionally a narrated demo video, covering script drafting, slide generation, text-to-speech narration, and video assembly. `skill` `creds` · unverified · repo ★1058 · updated 2026-03-04 · checked 2026-09-05 · static check.
 
-- [Conference Poster Builder](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pptx-posters) - Builds an editable conference poster from author-approved local content, checking physical dimensions, printer constraints, accessibility, asset provenance, and export readiness. `skill` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · static check.
+- [Conference Poster Builder](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pptx-posters) - Builds an editable conference poster from author-approved local content, checking physical dimensions, printer constraints, accessibility, asset provenance, and export readiness. `skill` · MIT · repo ★42856 · updated 2026-09-02 · checked 2026-09-05 · audited. ⓘ hands-on audit: works with caveats.
 
 ## Peer Review & Rebuttal
 
