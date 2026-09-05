@@ -1,5 +1,5 @@
 {
- "count": 137,
+ "count": 142,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -207,7 +207,7 @@
      "evidence": "| `docker run` flags, NGC auth, mounts, env passthrough | [`tao-skill-bank:tao-run-on-docker`](../../platform/tao-run-on-docker/SKILL.md) |"
     }
    ],
-   "repo_stars": 3209,
+   "repo_stars": 3210,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-01",
    "stale": false,
@@ -345,7 +345,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 4612,
+   "repo_stars": 4626,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-24",
    "stale": false,
@@ -369,7 +369,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 39350,
+   "repo_stars": 39371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-27",
    "stale": false,
@@ -393,7 +393,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 39350,
+   "repo_stars": 39371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -417,7 +417,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 39350,
+   "repo_stars": 39371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -441,7 +441,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": true,
    "capabilities": [],
-   "repo_stars": 39350,
+   "repo_stars": 39371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -465,7 +465,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": true,
    "capabilities": [],
-   "repo_stars": 39350,
+   "repo_stars": 39371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -498,7 +498,7 @@
      "evidence": "**Enforcement (v3.9.2):** Phase Boundary blocks on Bucket A agents + advisory verifier (`scripts/check_pipeline_integrity.py`) + a deterministic PreToolUse writ"
     }
    ],
-   "repo_stars": 46389,
+   "repo_stars": 46406,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-20",
    "stale": false,
@@ -522,7 +522,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 6557,
+   "repo_stars": 6560,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-20",
    "stale": false,
@@ -546,7 +546,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 7753,
+   "repo_stars": 7754,
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2025-11-21",
    "stale": false,
@@ -570,7 +570,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 2123,
+   "repo_stars": 2124,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-05",
    "stale": false,
@@ -594,7 +594,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 2123,
+   "repo_stars": 2124,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-05",
    "stale": false,
@@ -618,7 +618,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 2123,
+   "repo_stars": 2124,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-05",
    "stale": false,
@@ -642,7 +642,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 2123,
+   "repo_stars": 2124,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-05",
    "stale": false,
@@ -924,7 +924,7 @@
      "evidence": "1. \u5df2\u8bbe\u7f6e `QINYAN_API_KEY` \u73af\u5883\u53d8\u91cf\uff08\u524d\u5f80 https://platform.qinyanai.com/ \u7533\u8bf7\uff09"
     }
    ],
-   "repo_stars": 868,
+   "repo_stars": 869,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-13",
    "stale": false,
@@ -1310,7 +1310,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 441,
+   "repo_stars": 442,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-29",
    "stale": false,
@@ -1334,7 +1334,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 441,
+   "repo_stars": 442,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-30",
    "stale": false,
@@ -1885,7 +1885,7 @@
      "evidence": "Through the Zotero MCP server, the research-ideation workflow automates literature management:"
     }
    ],
-   "repo_stars": 5330,
+   "repo_stars": 5332,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-13",
    "stale": false,
@@ -1909,7 +1909,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 241774,
+   "repo_stars": 241825,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
@@ -1942,7 +1942,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -1975,7 +1975,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2008,7 +2008,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2041,7 +2041,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2082,7 +2082,7 @@
      "evidence": "- W&B credential: named environment variable `WANDB_API_KEY`."
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2195,7 +2195,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 6571,
+   "repo_stars": 6576,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-16",
    "stale": false,
@@ -2269,7 +2269,7 @@
      "evidence": "Select the appropriate diagram type based on the use case. Use your built-in knowledge of Mermaid syntax, or fetch up-to-date docs via the context7 MCP server i"
     }
    ],
-   "repo_stars": 15746,
+   "repo_stars": 15751,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-13",
    "stale": false,
@@ -2374,7 +2374,7 @@
      "evidence": "- OPENROUTER_API_KEY (recommended)"
     }
    ],
-   "repo_stars": 7036,
+   "repo_stars": 7039,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-22",
    "stale": false,
@@ -2415,7 +2415,7 @@
      "evidence": "primaryEnv: OPENROUTER_API_KEY"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2772,7 +2772,7 @@
      "evidence": "os.environ[\"NDIF_API_KEY\"] = \"your_key\""
     }
    ],
-   "repo_stars": 12329,
+   "repo_stars": 12334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
@@ -2796,7 +2796,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 12329,
+   "repo_stars": 12334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
@@ -2829,7 +2829,7 @@
      "evidence": "os.environ[\"HF_TOKEN\"] = \"your_token\""
     }
    ],
-   "repo_stars": 12329,
+   "repo_stars": 12334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
@@ -2853,7 +2853,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 12329,
+   "repo_stars": 12334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
@@ -2877,7 +2877,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 12329,
+   "repo_stars": 12334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
@@ -3006,7 +3006,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 15746,
+   "repo_stars": 15751,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-13",
    "stale": false,
@@ -3097,7 +3097,7 @@
    "capabilities": [],
    "repo_stars": 54,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-09-02",
+   "path_last_commit": "2026-09-05",
    "stale": false,
    "checked_at": "2026-09-05",
    "audit_level": "static",
@@ -3121,7 +3121,7 @@
    "capabilities": [],
    "repo_stars": 54,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-09-02",
+   "path_last_commit": "2026-09-05",
    "stale": false,
    "checked_at": "2026-09-05",
    "audit_level": "static",
@@ -3143,7 +3143,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 283,
+   "repo_stars": 282,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-25",
    "stale": false,
@@ -3176,7 +3176,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3200,7 +3200,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 283,
+   "repo_stars": 282,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-19",
    "stale": false,
@@ -3233,7 +3233,7 @@
      "evidence": "style_path = os.path.join(os.environ.get('CLAUDE_SKILL_DIR', '.'), 'references/style/figure_style.mplstyle')"
     }
    ],
-   "repo_stars": 283,
+   "repo_stars": 282,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-23",
    "stale": false,
@@ -3266,7 +3266,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3299,7 +3299,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 42827,
+   "repo_stars": 42856,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3802,6 +3802,162 @@
    "repo_stars": 16,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-05",
+   "stale": false,
+   "checked_at": "2026-09-05",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "kdense-gget",
+   "name": "gget",
+   "category": "cv_data_annotation",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "path": "skills/gget",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/gget",
+   "description": "Queries genomic and biomedical databases for gene records, sequences, alignments, AlphaFold structures, expression, and disease associations through one interface, pinning the tool version so a lookup can be repeated.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "BSD-2-Clause",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": true,
+   "capabilities": [
+    {
+     "flag": "net",
+     "polarity": "mentioned",
+     "rule_id": "net.api",
+     "evidence_file": "SKILL.md",
+     "evidence_line": 168,
+     "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
+    }
+   ],
+   "repo_stars": 42856,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-09-02",
+   "stale": false,
+   "checked_at": "2026-09-05",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "kdense-rdkit",
+   "name": "RDKit Cheminformatics",
+   "category": "cv_data_annotation",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "path": "skills/rdkit",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/rdkit",
+   "description": "Parses and sanitizes molecular structures, then computes descriptors, fingerprints, substructure matches, reactions, and 2D or 3D coordinates for cheminformatics work.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "BSD-3-Clause",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": true,
+   "capabilities": [
+    {
+     "flag": "net",
+     "polarity": "mentioned",
+     "rule_id": "net.api",
+     "evidence_file": "SKILL.md",
+     "evidence_line": 109,
+     "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
+    }
+   ],
+   "repo_stars": 42856,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-09-02",
+   "stale": false,
+   "checked_at": "2026-09-05",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "kdense-bulk-rnaseq",
+   "name": "Bulk RNA-seq Pipeline",
+   "category": "experiment_repro",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "path": "skills/bulk-rnaseq",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/bulk-rnaseq",
+   "description": "Takes bulk RNA-seq reads through quality control, trimming, alignment, and quantification to a gene-level count matrix, gating on experimental design and strandedness before differential expression.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [
+    {
+     "flag": "net",
+     "polarity": "mentioned",
+     "rule_id": "net.api",
+     "evidence_file": "SKILL.md",
+     "evidence_line": 213,
+     "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
+    }
+   ],
+   "repo_stars": 42856,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-09-02",
+   "stale": false,
+   "checked_at": "2026-09-05",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "materials-ontology-explorer",
+   "name": "Materials Ontology Explorer",
+   "category": "experiment_repro",
+   "repo": "HeshamFS/materials-simulation-skills",
+   "path": "skills/ontology/ontology-explorer",
+   "url": "https://github.com/HeshamFS/materials-simulation-skills/tree/HEAD/skills/ontology/ontology-explorer",
+   "description": "Resolves canonical CMSO and ASMO ontology terms for computational materials data, checking class hierarchies and property domain and range before a relationship is asserted.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "Apache-2.0",
+   "license_scope": "repo_fallback",
+   "repo_license": "Apache-2.0",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 66,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-06-25",
+   "stale": false,
+   "checked_at": "2026-09-05",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "kdense-pptx-posters",
+   "name": "Conference Poster Builder",
+   "category": "writing_submission",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "path": "skills/pptx-posters",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pptx-posters",
+   "description": "Builds an editable conference poster from author-approved local content, checking physical dimensions, printer constraints, accessibility, asset provenance, and export readiness.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [
+    {
+     "flag": "net",
+     "polarity": "mentioned",
+     "rule_id": "net.api",
+     "evidence_file": "SKILL.md",
+     "evidence_line": 273,
+     "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
+    }
+   ],
+   "repo_stars": 42856,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-09-02",
    "stale": false,
    "checked_at": "2026-09-05",
    "audit_level": "static",
