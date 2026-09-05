@@ -1,10 +1,10 @@
 # Awesome Research Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> 137 Agent Skills for researchers — every entry links to one exact `SKILL.md` directory, checked against the live repo.
+> 137 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
 For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
-Each entry carries its own license, the last commit to its subdirectory, when this list last checked it, and flags for capabilities it requires — network, credentials, hooks. 14 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
+Entries are curated by reading the skill and checking it against its repository: nothing template-farmed, nothing abandoned, nothing that turns out to live somewhere else. Alongside each one you get its own license, the last commit to its subdirectory, and flags for what it needs to run — network, credentials, hooks. 14 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
 
 ## Contents
 
@@ -461,7 +461,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 ## How these entries are checked
 
-Each entry is chosen by reading its `SKILL.md` and verifying it against the live repository. The checking is done by script from a source file; that pipeline is not currently published, so these results can be spot-checked entry by entry against GitHub but not re-run wholesale. Batches are also audited hands-on — walking a skill's own instructions against the files it ships — which has removed entries that read well but could not work for anyone but their author. A description states what the skill does; it is not a report of it having been run end to end on your problem.
+This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`, and the metadata beside it is refreshed by script against GitHub. That script and its source file are not published, so what you see can be spot-checked entry by entry — every row links to the directory it describes — but not re-run wholesale. Treat it as a maintained record, not as an independently reproducible audit. Batches are also audited hands-on — walking a skill's own instructions against the files it ships — which has removed entries that read well but could not work for anyone but their author. A description states what the skill does; it is not a report of it having been run end to end on your problem.
 
 **Badge legend.** `skill`/`suite`/`plugin` is what the entry is. A language tag marks a non-English `SKILL.md`. `updated` is the last commit **to that subdirectory**, not to its repo, and `checked` is when this list last verified the entry against GitHub.
 
