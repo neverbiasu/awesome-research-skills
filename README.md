@@ -2,9 +2,11 @@
 
 > 146 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
+`146 skills` · `individually curated` · `37 hands-on audited` · `one exact SKILL.md path per entry`
+
 For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
-Entries are curated by reading the skill and checking it against its repository: nothing template-farmed, nothing abandoned, nothing that turns out to live somewhere else. Alongside each one you get its own license, the last commit to its subdirectory, and flags for what it needs to run — network, credentials, hooks. 37 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
+Entries are curated by reading the skill and checking it against its repository, not template-farmed or abandoned or moved elsewhere. Each one carries its own license, its subdirectory's last commit, and flags for what it needs to run — network, credentials, hooks. 37 have also been walked through by hand against the files they ship; what that does and does not guarantee is set out at the end of this page.
 
 ## Contents
 
