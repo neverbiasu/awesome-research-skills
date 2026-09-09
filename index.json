@@ -1018,8 +1018,8 @@
    "path_last_commit": "2026-04-30",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "phd-skills-compare",
@@ -1147,8 +1147,8 @@
    "path_last_commit": "2026-03-12",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "nature-paper-figure-planner",
@@ -2486,8 +2486,8 @@
    "path_last_commit": "2026-08-21",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "pedrohcgs-power-analysis",
@@ -2744,8 +2744,8 @@
    "path_last_commit": "2026-08-21",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "orchestra-nnsight",
@@ -3984,8 +3984,8 @@
    "path_last_commit": "2026-06-21",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "verify-results",
@@ -4008,8 +4008,8 @@
    "path_last_commit": "2026-06-21",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "research-disseminator",
@@ -4032,8 +4032,8 @@
    "path_last_commit": "2026-07-16",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "post-publication-corrector",
@@ -4056,8 +4056,8 @@
    "path_last_commit": "2026-07-16",
    "stale": false,
    "checked_at": "2026-09-06",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   }
  ]
 }

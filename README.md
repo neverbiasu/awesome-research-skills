@@ -4,7 +4,7 @@
 
 For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
-Entries are curated by reading the skill and checking it against its repository: nothing template-farmed, nothing abandoned, nothing that turns out to live somewhere else. Alongside each one you get its own license, the last commit to its subdirectory, and flags for what it needs to run — network, credentials, hooks. 29 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
+Entries are curated by reading the skill and checking it against its repository: nothing template-farmed, nothing abandoned, nothing that turns out to live somewhere else. Alongside each one you get its own license, the last commit to its subdirectory, and flags for what it needs to run — network, credentials, hooks. 37 have also been walked through by hand against the files they ship. What that does and does not guarantee is set out at the end of this page.
 
 ## Contents
 
@@ -193,7 +193,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Generates clinical trial protocols for medical devices or drugs through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting. `skill` `external` · unverified · repo ★408 · updated 2026-06-15 · checked 2026-09-06 · static check.
 
-- [Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister) - Drafts a structured preregistration document in OSF, AsPredicted, or AEA RCT Registry style, covering hypotheses, sampling plan, analysis plan, exclusions, and inference criteria, annotated with MUST/SHOULD/MAY clarity flags. `skill` · MIT · repo ★1564 · updated 2026-08-21 · checked 2026-09-06 · static check.
+- [Preregister](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/preregister) - Drafts a structured preregistration document in OSF, AsPredicted, or AEA RCT Registry style, covering hypotheses, sampling plan, analysis plan, exclusions, and inference criteria, annotated with MUST/SHOULD/MAY clarity flags. `skill` · MIT · repo ★1564 · updated 2026-08-21 · checked 2026-09-06 · audited. ⓘ hands-on audit: works with caveats.
 
 - [Power Analysis](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/power-analysis) - Computes statistical power, required sample size, and minimum detectable effect for two-arm RCTs with clustering, multi-arm designs, or simulation-based power for non-standard designs, producing a registry-ready power section. `skill` · MIT · repo ★1564 · updated 2026-08-23 · checked 2026-09-06 · static check.
 
@@ -259,7 +259,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [NVIDIA TAO Finetune Hugging Face Model](https://github.com/NVIDIA/skills/tree/HEAD/skills/tao-finetune-huggingface-model) - Fine-tunes a Hugging Face model using the NVIDIA TAO Toolkit's optimized training and export path. `skill` `creds` `external` `net` · Apache-2.0 · repo ★3213 · updated 2026-09-01 · checked 2026-09-06 · static check.
 
-- [PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch) - Runs a pre-flight checklist for long-running ML training jobs to catch misconfigured configs, paths, and monitoring before launch. `skill` `creds` `external` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-06 · static check.
+- [PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch) - Runs a pre-flight checklist for long-running ML training jobs to catch misconfigured configs, paths, and monitoring before launch. `skill` `creds` `external` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-06 · audited. ⓘ hands-on audit: works with caveats.
 
 - [K-Dense: Stable Baselines3](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/stable-baselines3) - Trains reinforcement learning agents with Stable Baselines3's production-ready PPO, SAC, DQN, TD3, DDPG, and A2C implementations on Gymnasium environments. `skill` · MIT · repo ★43175 · updated 2026-09-02 · checked 2026-09-06 · static check.
 
@@ -315,7 +315,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce) - Walks through seven stages from an arXiv URL to a measurable replication run, handling missing code, hyperparameters, and private datasets via public-substitute strategies. `skill` · MIT · repo ★385 · updated 2026-04-30 · checked 2026-09-06 · static check.
 
-- [PhD Skills: Research Publishing](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/research-publishing) - Prepares research code for public release alongside a paper submission, covering repository cleanup, dependency auditing, and a reproducibility checklist. `skill` · MIT · repo ★385 · updated 2026-03-12 · checked 2026-09-06 · static check.
+- [PhD Skills: Research Publishing](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/research-publishing) - Prepares research code for public release alongside a paper submission, covering repository cleanup, dependency auditing, and a reproducibility checklist. `skill` · MIT · repo ★385 · updated 2026-03-12 · checked 2026-09-06 · audited.
 
 - [Nature Paper Skills: Results Analysis](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/research/results-analysis) - Runs a systematic pipeline for analyzing ML experimental results, running statistical tests, and generating paper-ready figures and text. `skill` · MIT · repo ★483 · updated 2026-04-29 · checked 2026-09-06 · static check.
 
@@ -323,7 +323,7 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [FiftyOne Model Evaluation](https://github.com/voxel51/fiftyone-skills/tree/HEAD/skills/fiftyone-model-evaluation) - Evaluates CV model predictions against ground truth using standard protocols like COCO and Open Images. `skill` · Apache-2.0 · repo ★39 · updated 2026-05-14 · checked 2026-09-06 · static check.
 
-- [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles a submission-ready replication package to the AEA Data and Code Availability Standard, including a replication README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan. `skill` · MIT · repo ★1564 · updated 2026-08-21 · checked 2026-09-06 · static check.
+- [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles a submission-ready replication package to the AEA Data and Code Availability Standard, including a replication README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan. `skill` · MIT · repo ★1564 · updated 2026-08-21 · checked 2026-09-06 · audited. ⓘ hands-on audit: works with caveats.
 
 - [FEM/CAE Governance](https://github.com/test1card/femis-skill) - Governs finite-element and CAE analysis claims across Ansys, Abaqus, Nastran, OpenFOAM, and COMSOL, enforcing idealization review, mesh-independence via GCI, verification and validation, and human sign-off gates. `skill` · Apache-2.0 · repo ★4 · updated 2026-06-29 · checked 2026-09-06 · audited. ⓘ hands-on audit: works with caveats.
 
@@ -337,9 +337,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Materials Ontology Explorer](https://github.com/HeshamFS/materials-simulation-skills/tree/HEAD/skills/ontology/ontology-explorer) - Resolves canonical CMSO and ASMO ontology terms for computational materials data, checking class hierarchies and property domain and range before a relationship is asserted. `skill` · Apache-2.0 · repo ★66 · updated 2026-06-25 · checked 2026-09-06 · audited.
 
-- [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - Packages research code and data for artifact-evaluation submission — README and appendix, anonymization for double-blind review, ACM badge taxonomy, and archival-DOI guidance for Zenodo or Software Heritage — checked against live venue rules. `skill` · Apache-2.0 · repo ★41 · updated 2026-06-21 · checked 2026-09-06 · static check.
+- [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - Packages research code and data for artifact-evaluation submission — README and appendix, anonymization for double-blind review, ACM badge taxonomy, and archival-DOI guidance for Zenodo or Software Heritage — checked against live venue rules. `skill` · Apache-2.0 · repo ★41 · updated 2026-06-21 · checked 2026-09-06 · audited.
 
-- [Verify Results](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/verify-results) - Audits whether metrics produced by an author's own local code still match the tables and claims reported in their paper, within stated tolerances, and reports mismatches separately from reproduction failures. `skill` · Apache-2.0 · repo ★41 · updated 2026-06-21 · checked 2026-09-06 · static check.
+- [Verify Results](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/verify-results) - Audits whether metrics produced by an author's own local code still match the tables and claims reported in their paper, within stated tolerances, and reports mismatches separately from reproduction failures. `skill` · Apache-2.0 · repo ★41 · updated 2026-06-21 · checked 2026-09-06 · audited.
 
 ## Statistical Analysis
 
@@ -457,9 +457,9 @@ One default and up to two alternatives per task, chosen by fit rather than by st
 
 - [Conference Poster Builder](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pptx-posters) - Builds an editable conference poster from author-approved local content, checking physical dimensions, printer constraints, accessibility, asset provenance, and export readiness. `skill` · MIT · repo ★43177 · updated 2026-09-02 · checked 2026-09-06 · audited. ⓘ hands-on audit: works with caveats.
 
-- [Research Disseminator](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/research-disseminator/skills/research-disseminator) - Converts a published paper into a plain-language summary, graphical-abstract concept, and platform-tailored social copy, holding every version to what the paper's findings actually support. `skill` · Apache-2.0 · repo ★1 · updated 2026-07-16 · checked 2026-09-06 · static check.
+- [Research Disseminator](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/research-disseminator/skills/research-disseminator) - Converts a published paper into a plain-language summary, graphical-abstract concept, and platform-tailored social copy, holding every version to what the paper's findings actually support. `skill` · Apache-2.0 · repo ★1 · updated 2026-07-16 · checked 2026-09-06 · audited.
 
-- [Post-Publication Corrector](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/post-publication-corrector/skills/post-publication-corrector) - Classifies a confirmed error in an already-published paper as a corrigendum, erratum, expression of concern, or retraction, then drafts the co-author notification, editor request, and public notice. `skill` · Apache-2.0 · repo ★1 · updated 2026-07-16 · checked 2026-09-06 · static check.
+- [Post-Publication Corrector](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/post-publication-corrector/skills/post-publication-corrector) - Classifies a confirmed error in an already-published paper as a corrigendum, erratum, expression of concern, or retraction, then drafts the co-author notification, editor request, and public notice. `skill` · Apache-2.0 · repo ★1 · updated 2026-07-16 · checked 2026-09-06 · audited.
 
 ## Peer Review & Rebuttal
 
