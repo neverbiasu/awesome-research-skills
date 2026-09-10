@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-146-blue?style=flat-square)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat-square)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 > 146 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
