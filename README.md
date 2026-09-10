@@ -1,8 +1,6 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-146-blue?style=flat-square)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat-square)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-146-blue?style=flat)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 > 146 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
-
-`146 skills` · `individually curated` · `37 hands-on audited` · `one exact SKILL.md path per entry`
 
 For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
 
