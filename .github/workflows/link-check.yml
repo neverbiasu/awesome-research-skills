@@ -5,13 +5,10 @@ name: link-check
 
 on:
   schedule:
-    # Weekly. Entries rot silently between manual verification passes; this is the tripwire.
+    # Weekly only — was also firing on every README-touching push, which meant one run (and
+    # potentially one new issue) per commit instead of per week.
     - cron: "0 6 * * 1"
   workflow_dispatch:
-  push:
-    paths:
-      - "README.md"
-      - ".github/workflows/link-check.yml"
 
 permissions:
   contents: read
