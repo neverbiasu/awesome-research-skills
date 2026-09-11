@@ -2,11 +2,9 @@
 
 > 146 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
-For the steps you do yourself: finding prior work, designing the study, formalizing the method, curating data, running and auditing experiments, statistics, qualitative analysis, figures, writing, and peer review. Skills that automate the whole research loop are out of scope, as are MLOps and deployment tooling.
+For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Entries are curated by reading the skill and checking it against its repository, not template-farmed or abandoned or moved elsewhere. Each one carries its own license, its subdirectory's last commit, and flags for what it needs to run — network, credentials, hooks. 37 have also been walked through by hand against the files they ship; what that does and does not guarantee is set out at the end of this page.
-
-All entries checked against GitHub as of 2026-09-06. Each entry below is marked either `static check` (path, license, commit date, and capability flags verified) or `audited: <verdict>` (additionally walked through by hand against a written spec) — full definitions in [How these entries are checked](#how-these-entries-are-checked).
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 37 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-09-06; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
 
 ## Contents
 
