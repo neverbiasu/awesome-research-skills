@@ -1,6 +1,6 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-145-blue?style=flat)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-149-blue?style=flat)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
-> 145 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
+> 149 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
@@ -112,7 +112,15 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify) - Re-derives a formula, estimator, identity, or bound at least twice independently, clusters the results by mathematical equivalence, and emits a verification matrix recording agreement and outliers.
 
+- [Formula Derivation](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/formula-derivation) - Turns scattered equations and theory notes into one coherent derivation with stated assumptions, or a blocker report explaining why the notes cannot yet support one.
+
+- [Lean 4 Theorem Proving](https://github.com/cameronfreer/lean4-skills/tree/HEAD/plugins/lean4/skills/lean4) - Formalizes and proves mathematical statements in Lean 4 and mathlib, searching mathlib for existing lemmas, filling `sorry`s, checking axioms, and searching for counterexamples that refute a statement.
+
+- [Numerical Check](https://github.com/flonat/flonat-research/tree/HEAD/skills/numerical-check) - Hunts for counterexamples to a monotonicity, threshold, inequality, or limit claim by random sweeps over its parameter space, reporting a clean sweep as evidence rather than proof.
+
 - [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions.
+
+- [Symbolic Check](https://github.com/flonat/flonat-research/tree/HEAD/skills/symbolic-check) - Proves or refutes a self-authored identity, derivative, limit, comparative-static sign, or closed form with SymPy, requiring explicit domain assumptions on every symbol.
 
 - [Verifying Proofs](https://github.com/chgagne/claude-skills-research/tree/HEAD/verifying-proofs) - Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain.
 
@@ -374,7 +382,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`. A description states what the skill does; it is not a report of it having been run end to end on your problem. No entry claims an executable end-to-end test, because none has been run. Entries whose `SKILL.md` is not in English carry a language tag next to the name.
 
-**Two levels of checking.** `static check` (109 of 145) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (36 of 145) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
+**Two levels of checking.** `static check` (113 of 149) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (36 of 149) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
 **License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from the same source as this page. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 94% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 

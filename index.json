@@ -1,5 +1,5 @@
 {
- "count": 145,
+ "count": 149,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -345,7 +345,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 7669,
+   "repo_stars": 7672,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-24",
    "stale": false,
@@ -369,7 +369,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 44976,
+   "repo_stars": 44980,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-14",
    "stale": false,
@@ -393,7 +393,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 44976,
+   "repo_stars": 44980,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-23",
    "stale": false,
@@ -417,7 +417,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 44976,
+   "repo_stars": 44980,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-14",
    "stale": false,
@@ -441,7 +441,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": true,
    "capabilities": [],
-   "repo_stars": 44976,
+   "repo_stars": 44980,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -465,7 +465,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": true,
    "capabilities": [],
-   "repo_stars": 44976,
+   "repo_stars": 44980,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -498,7 +498,7 @@
      "evidence": "**Enforcement (v3.9.2):** Phase Boundary blocks on Bucket A agents + advisory verifier (`scripts/check_pipeline_integrity.py`) + a deterministic PreToolUse writ"
     }
    ],
-   "repo_stars": 49756,
+   "repo_stars": 49758,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-24",
    "stale": false,
@@ -1909,7 +1909,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 249704,
+   "repo_stars": 249707,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
@@ -1942,7 +1942,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -1975,7 +1975,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2008,7 +2008,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2041,7 +2041,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2082,7 +2082,7 @@
      "evidence": "- W&B credential: named environment variable `WANDB_API_KEY`."
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -2269,7 +2269,7 @@
      "evidence": "Select the appropriate diagram type based on the use case. Use your built-in knowledge of Mermaid syntax, or fetch up-to-date docs via the context7 MCP server i"
     }
    ],
-   "repo_stars": 16758,
+   "repo_stars": 16760,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-13",
    "stale": false,
@@ -2415,7 +2415,7 @@
      "evidence": "primaryEnv: OPENROUTER_API_KEY"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3006,7 +3006,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 16758,
+   "repo_stars": 16760,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-13",
    "stale": false,
@@ -3176,7 +3176,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3266,7 +3266,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3299,7 +3299,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3808,7 +3808,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3841,7 +3841,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-10",
    "stale": false,
@@ -3874,7 +3874,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -3931,7 +3931,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 46953,
+   "repo_stars": 46954,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-02",
    "stale": false,
@@ -4034,6 +4034,102 @@
    "checked_at": "2026-09-28",
    "audit_level": "hands_on",
    "audit_verdict": "works"
+  },
+  {
+   "id": "lean4",
+   "name": "Lean 4 Theorem Proving",
+   "category": "method_theory",
+   "repo": "cameronfreer/lean4-skills",
+   "path": "plugins/lean4/skills/lean4",
+   "url": "https://github.com/cameronfreer/lean4-skills/tree/HEAD/plugins/lean4/skills/lean4",
+   "description": "Formalizes and proves mathematical statements in Lean 4 and mathlib, searching mathlib for existing lemmas, filling `sorry`s, checking axioms, and searching for counterexamples that refute a statement.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 452,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-09-28",
+   "stale": false,
+   "checked_at": "2026-09-28",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "flonat-symbolic-check",
+   "name": "Symbolic Check",
+   "category": "method_theory",
+   "repo": "flonat/flonat-research",
+   "path": "skills/symbolic-check",
+   "url": "https://github.com/flonat/flonat-research/tree/HEAD/skills/symbolic-check",
+   "description": "Proves or refutes a self-authored identity, derivative, limit, comparative-static sign, or closed form with SymPy, requiring explicit domain assumptions on every symbol.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 144,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-08-08",
+   "stale": false,
+   "checked_at": "2026-09-28",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "flonat-numerical-check",
+   "name": "Numerical Check",
+   "category": "method_theory",
+   "repo": "flonat/flonat-research",
+   "path": "skills/numerical-check",
+   "url": "https://github.com/flonat/flonat-research/tree/HEAD/skills/numerical-check",
+   "description": "Hunts for counterexamples to a monotonicity, threshold, inequality, or limit claim by random sweeps over its parameter space, reporting a clean sweep as evidence rather than proof.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 144,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-08-08",
+   "stale": false,
+   "checked_at": "2026-09-28",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "aris-formula-derivation",
+   "name": "Formula Derivation",
+   "category": "method_theory",
+   "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+   "path": "skills/formula-derivation",
+   "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/formula-derivation",
+   "description": "Turns scattered equations and theory notes into one coherent derivation with stated assumptions, or a blocker report explaining why the notes cannot yet support one.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 16760,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-07-13",
+   "stale": false,
+   "checked_at": "2026-09-28",
+   "audit_level": "static",
+   "audit_verdict": null
   }
  ]
 }
