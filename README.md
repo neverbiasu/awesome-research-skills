@@ -1,10 +1,10 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-146-blue?style=flat)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-145-blue?style=flat)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
-> 146 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
+> 145 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 37 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-09-06; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 36 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-09-28; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
 
 ## Contents
 
@@ -54,7 +54,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Daily Papers](https://github.com/huangkiki/dailypaper-skills/tree/HEAD/skills/daily-papers) - Automates a daily paper-recommendation pipeline — fetch, review, and note-taking — for keeping up with recent AI research.
 
-- [Gemini Deep Research](https://github.com/sanjay3290/ai-skills/tree/HEAD/skills/deep-research) - Executes multi-step literature and technical research using the Google Gemini Deep Research Agent to produce a detailed cited report.
+- [Gemini Deep Research](https://github.com/sanjay3290/ai-skills/tree/HEAD/skills/deep-research) - Executes multi-step literature and technical research through Google's Gemini research agent API to produce a detailed cited report.
 
 - [Google Scholar Skills](https://github.com/cookjohn/gs-skills/tree/HEAD/skills/gs-search) - Searches Google Scholar via browser automation, returning structured results with citation counts and full-text links.
 
@@ -86,7 +86,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 *Deciding what to measure and how, before any data is collected — protocols, ethics review, preregistration, sampling, instrument design.*
 
-- [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Generates clinical trial protocols for medical devices or drugs through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting.
+- [Clinical Trial Protocol](https://github.com/anthropics/healthcare/tree/HEAD/plugins/healthcare/skills/clinical-trial-protocol) - Drafts study protocols for medical-device or drug trials through a waypoint-based workflow, with a research-only mode for surveying similar registered trials before drafting.
 
 - [Conjoint Experiment Designer](https://github.com/scdenney/open-science-skills/tree/HEAD/plugin/skills/conjoint-design) - Plans conjoint survey experiments, covering attribute architecture, randomization and orthogonality, power calculation, and AMCE/AMIE estimation.
 
@@ -111,8 +111,6 @@ Every entry is read and checked against its repository — license, last commit,
 *Turning an idea into a stated method: formalizing claims, checking derivations, and writing and verifying proofs.*
 
 - [Derivation Verify](https://github.com/fkguo/nullius/tree/HEAD/skills/derivation-verify) - Re-derives a formula, estimator, identity, or bound at least twice independently, clusters the results by mathematical equivalence, and emits a verification matrix recording agreement and outliers.
-
-- [Formalize Problem](https://github.com/MerLeanProver/MerLean/tree/HEAD/.claude/skills/formalizeproblem) - Translates an informal mathematical problem into faithful, type-checking Lean 4 statements left at `sorry`, surfacing inequivalent readings and degenerate cases before any proof is attempted.
 
 - [Proof Writer](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/proof-writer) - Drafts and completes rigorous mathematical proofs of theorems, lemmas, and propositions from a stated result and its assumptions.
 
@@ -156,9 +154,9 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [PhD Skills: Launch](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/launch) - Runs a pre-flight checklist for long-running ML training jobs to catch misconfigured configs, paths, and monitoring before launch.
 
-- [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, training, evaluation, and checkpoint review.
+- [PufferLib](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pufferlib) - Provides version-aware guidance for a high-throughput reinforcement-learning library's environments, vectorization, policies, training, evaluation, and checkpoint review.
 
-- [PyTorch Geometric](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/torch-geometric) - Guides graph neural network development with PyTorch Geometric, covering node/link/graph classification, message-passing architectures (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, and neighbor sampling.
+- [PyTorch Geometric](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/torch-geometric) - Guides graph neural network development in PyG, covering node/link/graph classification, message-passing architectures (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, and neighbor sampling.
 
 - [Train Sentence Transformers](https://github.com/huggingface/skills/tree/HEAD/skills/train-sentence-transformers) - Trains bi-encoder, cross-encoder, and SPLADE sparse embedding models with the sentence-transformers library.
 
@@ -170,7 +168,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Academic Figure Drawing (TikZ)](https://github.com/nanoAgentTeam/research-claw/tree/HEAD/config/.skills/figure-drawing) - Enforces a standalone-TikZ-to-PDF pipeline for academic paper figures, forbidding inline TikZ in paper source and requiring every figure to compile and be visually verified before insertion.
 
-- [Biomedical Mechanism Figures](https://github.com/yiyanli123/biorender-mechanism-figures-skill/tree/HEAD/biorender-mechanism-figures) - Plans biomedical mechanism figures, pathway maps, and graphical abstracts mechanism-first, then builds image-model prompts targeting vector or 300-600 DPI print output.
+- [Biomedical Mechanism Figures](https://github.com/yiyanli123/biorender-mechanism-figures-skill/tree/HEAD/biorender-mechanism-figures) - Plans pathway maps, signaling diagrams, and graphical abstracts mechanism-first, then builds image-model prompts targeting vector or 300-600 DPI print output.
 
 - [CCF-Figure](https://github.com/Deepshare-Official/CCF-Figure) - Classifies a paper's research type and mechanism to select an appropriate diagram structure — pipeline, architecture, comparison matrix, ablation matrix, or taxonomy tree — rather than mechanically applying one fixed template.
 
@@ -230,7 +228,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - Packages research code and data for artifact-evaluation submission — README and appendix, anonymization for double-blind review, ACM badge taxonomy, and archival-DOI guidance for Zenodo or Software Heritage — checked against live venue rules.
 
-- [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles a submission-ready replication package to the AEA Data and Code Availability Standard, including a replication README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan.
+- [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles submission-ready reproducibility materials to the AEA Data and Code Availability Standard, including a README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan.
 
 - [Running Cluster Experiments](https://github.com/chgagne/claude-skills-research/tree/HEAD/running-cluster-experiments) - Covers the methodology of multi-job experiment campaigns on Slurm clusters — walltime sizing, job and array shaping, submission order, and diagnosing runs that produced nothing or silently used the wrong configuration.
 
@@ -278,21 +276,21 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Scholar Qualitative Toolkit](https://github.com/joshzyj/open-scholar-skill/tree/HEAD/.claude/skills/scholar-qual) - Runs grounded theory, reflexive thematic analysis, and content analysis with codebook development and inter-coder reliability checks, exporting to NVivo, ATLAS.ti, Dedoose, and MAXQDA formats.
 
-- [Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis) - Conducts thematic analysis of interviews, focus groups, or open-ended responses following Braun and Clarke's six-phase framework, covering the four upfront analytic decisions and a 15-point quality checklist.
+- [Thematic Analysis](https://github.com/keemanxp/thematic-analysis-skill/tree/HEAD/thematic-analysis) - Codes interviews, focus groups, or open-ended responses into themes following Braun and Clarke's six-phase framework, covering the four upfront analytic decisions and a 15-point quality checklist.
 
 ## Interpretability
 
 *Opening up a trained model to see what it computes, and explaining individual predictions.*
 
-- [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - Inspects and manipulates the internals of any PyTorch model with nnsight, including remote execution against models too large for local GPUs via NDIF.
+- [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - Inspects and manipulates the internals of any PyTorch model, including remote execution against models too large for local GPUs via NDIF.
 
-- [pyvene](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/pyvene) - Performs causal tracing, activation patching, and interchange intervention training on PyTorch models through pyvene's declarative, dict-based intervention framework.
+- [pyvene](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/pyvene) - Performs causal tracing, activation patching, and interchange intervention training on PyTorch models through a declarative, dict-based intervention framework.
 
 - [SAELens: Sparse Autoencoders for Mechanistic Interpretability](https://github.com/NousResearch/hermes-agent/tree/HEAD/optional-skills/mlops/saelens) - Trains and analyzes sparse autoencoders to decompose polysemantic model activations into interpretable features, wrapping the SAELens and TransformerLens libraries.
 
-- [SHAP](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/shap) - Explains and audits machine-learning predictions with SHAP, covering explainer/masker selection, feature-attribution computation and validation, multi-output explanations, and local/global visualizations.
+- [SHAP](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/shap) - Explains and audits machine-learning predictions with game-theoretic feature attributions, covering explainer/masker selection, attribution computation and validation, multi-output explanations, and local/global visualizations.
 
-- [TransformerLens](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/transformer-lens) - Reverse-engineers transformer algorithms by inspecting attention patterns and running activation-patching experiments through TransformerLens HookPoints.
+- [TransformerLens](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/transformer-lens) - Reverse-engineers transformer algorithms by inspecting attention patterns and running activation-patching experiments through hook points on every model activation.
 
 ## Paper-Grade Plotting & Visualization
 
@@ -376,7 +374,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`. A description states what the skill does; it is not a report of it having been run end to end on your problem. No entry claims an executable end-to-end test, because none has been run. Entries whose `SKILL.md` is not in English carry a language tag next to the name.
 
-**Two levels of checking.** `static check` (109 of 146) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (37 of 146) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
+**Two levels of checking.** `static check` (109 of 145) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (36 of 145) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
 **License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from the same source as this page. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 94% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 
