@@ -4,7 +4,7 @@
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 40 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-09-28; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 47 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-09-28; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
 
 ## Contents
 
@@ -382,7 +382,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`. A description states what the skill does; it is not a report of it having been run end to end on your problem. No entry claims an executable end-to-end test, because none has been run. Entries whose `SKILL.md` is not in English carry a language tag next to the name.
 
-**Two levels of checking.** `static check` (109 of 149) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (40 of 149) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
+**Two levels of checking.** `static check` (102 of 149) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (47 of 149) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
 **License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from the same source as this page. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 94% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 
