@@ -1,10 +1,10 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-143-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-142-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
-> 143 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
+> 142 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 47 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-10-05; each entry is marked `static check` or `audited: <verdict>` — full definitions in *How these entries are checked* below.
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 46 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-10-05; whether an entry is `static check` or `audited: <verdict>` is recorded per entry in `index.json` — full definitions in *How these entries are checked* below.
 
 ## Contents
 
@@ -36,7 +36,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - Applies cognitive-science creativity techniques — combinatorial creativity, analogical reasoning, and constraint manipulation — to generating research directions.
 
-- [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) - Analyzes literature and early ideas to identify grounded research gaps and testable entry points without forcing novelty claims.
+- [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - Analyzes literature and early ideas to identify grounded research gaps and testable entry points without forcing novelty claims.
 
 ## Literature Review
 
@@ -46,13 +46,13 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [CCF Literature Monitor](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-literature-monitor) - Monitors arXiv, OpenReview, and conference feeds for papers overlapping with a given research idea, producing actionable relax/research/follow-up signals.
 
-- [CNKI Skills](https://github.com/cookjohn/cnki-skills/tree/HEAD/skills/cnki-search) `zh` - Searches and extracts metadata from CNKI, China's primary academic database, via Chrome DevTools browser automation.
+- [CNKI Skills](https://github.com/cookjohn/cnki-skills/tree/HEAD/skills/cnki-search) - Searches and extracts metadata from CNKI, China's primary academic database, via Chrome DevTools browser automation.
 
 - [Critical Integrative Review](https://github.com/ozzyzhou99/critical-integrative-review-skill/tree/HEAD/write-critical-literature-review) - Builds a theory-developing literature review around a guiding question using a claim-source ledger and synthesis matrix, and blocks article-by-article summary and unsupported gap claims.
 
-- [Daily Paper Reader](https://github.com/huangkiki/dailypaper-skills/tree/HEAD/skills/paper-reader) - Reads and analyzes academic papers from PDF, arXiv, or Zotero, generating structured notes with figures, formulas, and concept links.
+- [Daily Paper Reader](https://github.com/huangkiki/dailypaper-skills/tree/HEAD/skills/paper-reader) `zh` - Reads and analyzes academic papers from PDF, arXiv, or Zotero, generating structured notes with figures, formulas, and concept links.
 
-- [Daily Papers](https://github.com/huangkiki/dailypaper-skills/tree/HEAD/skills/daily-papers) - Automates a daily paper-recommendation pipeline — fetch, review, and note-taking — for keeping up with recent AI research.
+- [Daily Papers](https://github.com/huangkiki/dailypaper-skills/tree/HEAD/skills/daily-papers) `zh` - Automates a daily paper-recommendation pipeline — fetch, review, and note-taking — for keeping up with recent AI research.
 
 - [Gemini Deep Research](https://github.com/sanjay3290/ai-skills/tree/HEAD/skills/deep-research) - Executes multi-step literature and technical research through Google's Gemini research agent API to produce a detailed cited report.
 
@@ -68,7 +68,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [NotebookLM Skill](https://github.com/pleaseprompto/notebooklm-skill) - Queries Google NotebookLM notebooks from Claude Code for citation-backed, source-grounded answers via browser automation.
 
-- [Paper Analyzer](https://github.com/zsyggg/paper-craft-skills/tree/HEAD/skills/paper-analyzer) - Converts an academic paper into a detailed HTML article via a six-round workflow with code search, formula rendering, and diagrams.
+- [Paper Analyzer](https://github.com/zsyggg/paper-craft-skills/tree/HEAD/skills/paper-analyzer) `zh` - Converts an academic paper into a detailed HTML article via a six-round workflow with code search, formula rendering, and diagrams.
 
 - [Patent Research](https://github.com/borghei/Claude-Skills/tree/HEAD/research/patent) - Conducts patent prior-art searches, IP landscape mapping, and patentability assessment for technology research.
 
@@ -131,8 +131,6 @@ Every entry is read and checked against its repository — license, last commit,
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - Quality-checks raster, vector, point, and remote-sensing datasets for CRS, datum, grid alignment, resolution, nodata, geometry validity, and spatial-join cardinality before analysis.
 
 - [gget](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/gget) - Queries genomic and biomedical databases for gene records, sequences, alignments, AlphaFold structures, expression, and disease associations through one interface, pinning the tool version so a lookup can be repeated.
-
-- [Label Studio Setup](https://github.com/majiayu000/claude-skill-registry/tree/HEAD/skills/data/label-studio-setup) - Covers Label Studio installation, project setup, data import/export, labeling interface customization, quality control, and ML backend integration for image, text, audio, and video annotation.
 
 - [PhD Skills: Dataset Curation](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/dataset-curation) - Analyzes dataset bias, distribution, and fairness before model training.
 
@@ -208,7 +206,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Materials Ontology Explorer](https://github.com/HeshamFS/materials-simulation-skills/tree/HEAD/skills/ontology/ontology-explorer) - Resolves canonical CMSO and ASMO ontology terms for computational materials data, checking class hierarchies and property domain and range before a relationship is asserted.
 
-- [Nature Experiment Log](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-experiment-log) - Standardizes lab experiment logging from photos, voice, or text into YAML-frontmattered Markdown written to a plain local folder, with optional Obsidian vault and Feishu integrations.
+- [Nature Experiment Log](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-experiment-log) `zh` - Standardizes lab experiment logging from photos, voice, or text into YAML-frontmattered Markdown written to a plain local folder, with optional Obsidian vault and Feishu integrations.
 
 - [Paper2Code](https://github.com/PrathamLearnsToCode/paper2code/tree/HEAD/skills/paper2code) - Turns an arXiv paper into a citation-anchored Python implementation, tagging each module to the paper section it implements and flagging rather than guessing at ambiguities.
 
@@ -316,7 +314,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Conference Poster Builder](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pptx-posters) - Builds an editable conference poster from author-approved local content, checking physical dimensions, printer constraints, accessibility, asset provenance, and export readiness.
 
-- [DOCX Skill for Chinese Papers](https://github.com/gostyan/docx-skill-4-cn-paper/tree/HEAD/docx-editor-cn) `zh` - Creates and edits .docx files with Chinese academic formatting conventions such as three-line tables and block formulas.
+- [DOCX Skill for Chinese Papers](https://github.com/gostyan/docx-skill-4-cn-paper/tree/HEAD/docx-editor-cn) - Creates and edits .docx files with Chinese academic formatting conventions such as three-line tables and block formulas.
 
 - [Econ Writing Skill](https://github.com/hanlulong/econ-writing-skill/tree/HEAD/skills/econ-write) - Synthesizes economics-writing guidance from 50+ style guides into executable rules for drafting and revising economics papers.
 
@@ -330,9 +328,9 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit) - Runs a late-stage manuscript preflight audit that cross-checks claims, figures, legends, methods, and supplement against venue expectations before submission or resubmission.
 
-- [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) - Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code.
+- [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) `zh` - Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code.
 
-- [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) - Fixes LaTeX overflow defects — overfull boxes, long formulas, and URL overflows — starting from layout-only edits and escalating to delegated rewording when layout alone cannot fit it.
+- [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) `zh` - Fixes LaTeX overflow defects — overfull boxes, long formulas, and URL overflows — starting from layout-only edits and escalating to delegated rewording when layout alone cannot fit it.
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - Converts raw research materials into a structured outline with a plotting plan, literature-search plan, and section plan for academic paper writing.
 
@@ -346,7 +344,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Skill Deslop](https://github.com/stephenturner/skill-deslop) - Removes common AI-writing patterns from academic and research prose to restore a more natural voice.
 
-- [Survey Writer](https://github.com/chtc66/academic-skills/tree/HEAD/survey-writer) - Writes a survey draft around a research topic by organizing multiple papers into problem-driven, method-evolution narratives rather than paper-by-paper summaries.
+- [Survey Writer](https://github.com/chtc66/academic-skills/tree/HEAD/survey-writer) `zh` - Writes a survey draft around a research topic by organizing multiple papers into problem-driven, method-evolution narratives rather than paper-by-paper summaries.
 
 - [Typst Paper](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/typst-paper) - Assists with existing Typst manuscripts covering compilation, venue formatting, grammar, bibliography, and submission readiness.
 
@@ -370,7 +368,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`. A description states what the skill does; it is not a report of it having been run end to end on your problem. No entry claims an executable end-to-end test, because none has been run. Entries whose `SKILL.md` is not in English carry a language tag next to the name.
 
-**Two levels of checking.** `static check` (96 of 143) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (47 of 143) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
+**Two levels of checking.** `static check` (96 of 142) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (46 of 142) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
 **License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from the same source as this page. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 94% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 
