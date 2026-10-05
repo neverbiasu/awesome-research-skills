@@ -4,7 +4,7 @@
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 47 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-09-28; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 47 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-10-05; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
 
 ## Contents
 
