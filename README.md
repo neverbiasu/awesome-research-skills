@@ -1,5 +1,7 @@
 # Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-142-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
+English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+
 > 142 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
