@@ -1,10 +1,10 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Skills](https://img.shields.io/badge/skills-143-blue?style=flat)](index.json) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-143-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 > 143 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
 
 For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 47 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-10-05; each entry is marked `static check` or `audited: <verdict>` — full definitions in [How these entries are checked](#how-these-entries-are-checked).
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 47 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-10-05; each entry is marked `static check` or `audited: <verdict>` — full definitions in *How these entries are checked* below.
 
 ## Contents
 
@@ -46,7 +46,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [CCF Literature Monitor](https://github.com/mikubaka88/CCFA-Skills/tree/HEAD/ccf-literature-monitor) - Monitors arXiv, OpenReview, and conference feeds for papers overlapping with a given research idea, producing actionable relax/research/follow-up signals.
 
-- [CNKI Skills](https://github.com/cookjohn/cnki-skills/tree/HEAD/skills/cnki-search) - Searches and extracts metadata from CNKI, China's primary academic database, via Chrome DevTools browser automation. `zh`
+- [CNKI Skills](https://github.com/cookjohn/cnki-skills/tree/HEAD/skills/cnki-search) `zh` - Searches and extracts metadata from CNKI, China's primary academic database, via Chrome DevTools browser automation.
 
 - [Critical Integrative Review](https://github.com/ozzyzhou99/critical-integrative-review-skill/tree/HEAD/write-critical-literature-review) - Builds a theory-developing literature review around a guiding question using a claim-source ledger and synthesis matrix, and blocks article-by-article summary and unsupported gap claims.
 
@@ -72,7 +72,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Patent Research](https://github.com/borghei/Claude-Skills/tree/HEAD/research/patent) - Conducts patent prior-art searches, IP landscape mapping, and patentability assessment for technology research.
 
-- [Qinyan Citation](https://github.com/LeonChaoX/qinyan-academic-skills/tree/HEAD/skills/沁言学术skills/qinyan-citation) - Generates formatted academic citations in GB/T 7714, IEEE, APA, MLA, Chicago, Harvard, and Vancouver styles by searching literature through the Qinyan Academic OpenAPI. `zh`
+- [Qinyan Citation](https://github.com/LeonChaoX/qinyan-academic-skills/tree/HEAD/skills/沁言学术skills/qinyan-citation) `zh` - Generates formatted academic citations in GB/T 7714, IEEE, APA, MLA, Chicago, Harvard, and Vancouver styles by searching literature through the Qinyan Academic OpenAPI.
 
 - [SLR PRISMA](https://github.com/keemanxp/slr-prisma) - Guides a systematic literature review through the full 27-item PRISMA 2020 checklist, producing a journal-format Word manuscript, an annotated PRISMA flow diagram, and APA 7th referencing, explicitly excluding meta-analysis and statistical pooling.
 
@@ -200,7 +200,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Data Leakage Audit](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/data-leakage-audit) - Audits an ML pipeline for train-test contamination, temporal and spatial leakage, target and proxy leakage, preprocessing leakage, and evaluation contamination, classifying each finding by severity.
 
-- [Experiment Log Summarizer](https://github.com/chtc66/academic-skills/tree/HEAD/experiment-log-summarizer) - Summarizes ML experiment logs into structured Chinese output with evidence/speculation separated and a weekly-update abstract. `zh`
+- [Experiment Log Summarizer](https://github.com/chtc66/academic-skills/tree/HEAD/experiment-log-summarizer) `zh` - Summarizes ML experiment logs into structured Chinese output with evidence/speculation separated and a weekly-update abstract.
 
 - [FEM/CAE Governance](https://github.com/test1card/femis-skill) - Governs finite-element and CAE analysis claims across Ansys, Abaqus, Nastran, OpenFOAM, and COMSOL, enforcing idealization review, mesh-independence via GCI, verification and validation, and human sign-off gates.
 
@@ -252,7 +252,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [ML Experiment Results Analysis](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/inno-experiment-analysis) - Analyzes experiment result files, runs significance tests and model comparisons, and drafts a Results section with accompanying figures.
 
-- [Network Meta-Analysis Pipeline](https://github.com/xinglongMedical/nma-research-skill) - Runs a network meta-analysis from PICO to manuscript skeleton — search execution, dual-model screening, extraction, risk-of-bias, frequentist and Bayesian synthesis in R, GRADE rating, and PRISMA-NMA reporting — with five mandatory human decision gates and an audit log. `zh`
+- [Network Meta-Analysis Pipeline](https://github.com/xinglongMedical/nma-research-skill) `zh` - Runs a network meta-analysis from PICO to manuscript skeleton — search execution, dual-model screening, extraction, risk-of-bias, frequentist and Bayesian synthesis in R, GRADE rating, and PRISMA-NMA reporting — with five mandatory human decision gates and an audit log.
 
 - [PyMC Bayesian Modeling](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pymc) - Builds, fits, and validates Bayesian hierarchical models with PyMC, covering MCMC sampling, variational inference, and posterior predictive checks.
 
@@ -292,9 +292,9 @@ Every entry is read and checked against its repository — license, last commit,
 
 *Charts plotted from results, to the standard a journal or conference expects.*
 
-- [Archora: Figure](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/figure) - Generates runnable matplotlib/seaborn/mermaid code for research figures with a decision guide between quantitative and conceptual diagrams.
+- [Archora: Figure](https://github.com/richard-kim-79/archora-skills/tree/HEAD/skills/figure) - Generates runnable Matplotlib/Seaborn/mermaid code for research figures with a decision guide between quantitative and conceptual diagrams.
 
-- [Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making) - Produces publication-ready matplotlib figures — bar, trend, scatter, heatmap, and multi-panel layouts — in a fixed house style with print/vector export conventions for AI conference and journal submissions.
+- [Figures4Papers](https://github.com/ChenLiu-1996/figures4papers/tree/HEAD/scientific-figure-making) - Produces publication-ready Matplotlib figures — bar, trend, scatter, heatmap, and multi-panel layouts — in a fixed house style with print/vector export conventions for AI conference and journal submissions.
 
 - [Map Research Sites](https://github.com/Revonia-gh/evidence-first-research-skills/tree/HEAD/.agents/skills/map-research-sites) - Validates tabular longitude and latitude data and renders reproducible SVG site maps, applying a per-row public, generalized, or restricted visibility policy with coordinate rounding.
 
@@ -316,7 +316,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Conference Poster Builder](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/pptx-posters) - Builds an editable conference poster from author-approved local content, checking physical dimensions, printer constraints, accessibility, asset provenance, and export readiness.
 
-- [DOCX Skill for Chinese Papers](https://github.com/gostyan/docx-skill-4-cn-paper/tree/HEAD/docx-editor-cn) - Creates and edits .docx files with Chinese academic formatting conventions such as three-line tables and block formulas. `zh`
+- [DOCX Skill for Chinese Papers](https://github.com/gostyan/docx-skill-4-cn-paper/tree/HEAD/docx-editor-cn) `zh` - Creates and edits .docx files with Chinese academic formatting conventions such as three-line tables and block formulas.
 
 - [Econ Writing Skill](https://github.com/hanlulong/econ-writing-skill/tree/HEAD/skills/econ-write) - Synthesizes economics-writing guidance from 50+ style guides into executable rules for drafting and revising economics papers.
 
@@ -326,7 +326,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - Handles LaTeX document creation, compilation, format conversion, and document analysis for academic writing.
 
-- [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) - Assists graduate students with Chinese LaTeX thesis projects, covering compilation diagnosis, GB/T 7714 bibliography formatting, structure review, and blind-review anonymization. `zh`
+- [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) `zh` - Assists graduate students with Chinese LaTeX thesis projects, covering compilation diagnosis, GB/T 7714 bibliography formatting, structure review, and blind-review anonymization.
 
 - [Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit) - Runs a late-stage manuscript preflight audit that cross-checks claims, figures, legends, methods, and supplement against venue expectations before submission or resubmission.
 
