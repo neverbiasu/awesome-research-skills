@@ -4042,7 +4042,7 @@
    "repo": "cameronfreer/lean4-skills",
    "path": "plugins/lean4/skills/lean4",
    "url": "https://github.com/cameronfreer/lean4-skills/tree/HEAD/plugins/lean4/skills/lean4",
-   "description": "Formalizes and proves mathematical statements in Lean 4 and mathlib, searching mathlib for existing lemmas, filling `sorry`s, checking axioms, and searching for counterexamples that refute a statement.",
+   "description": "Formalizes and proves mathematical statements in Lean 4 and mathlib, searching mathlib for existing lemmas, filling `sorry`s, checking axioms, and hunting counterexamples, with helper scripts and session and Bash hooks supplied by the enclosing plugin rather than the skill directory.",
    "form": "skill",
    "lang": "en",
    "required_capabilities": "",
@@ -4056,8 +4056,8 @@
    "path_last_commit": "2026-09-28",
    "stale": false,
    "checked_at": "2026-09-28",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "flonat-symbolic-check",
@@ -4080,8 +4080,8 @@
    "path_last_commit": "2026-08-08",
    "stale": false,
    "checked_at": "2026-09-28",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "flonat-numerical-check",
@@ -4104,8 +4104,8 @@
    "path_last_commit": "2026-08-08",
    "stale": false,
    "checked_at": "2026-09-28",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "aris-formula-derivation",
@@ -4128,8 +4128,8 @@
    "path_last_commit": "2026-07-13",
    "stale": false,
    "checked_at": "2026-09-28",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   }
  ]
 }
