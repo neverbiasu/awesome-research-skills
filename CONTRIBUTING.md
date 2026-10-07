@@ -8,7 +8,7 @@ Open an issue or PR with:
 - One objective sentence describing what it does — not marketing copy, doesn't restate the entry's own name
 - Why it belongs here: aimed at people doing their own research, not a full autoresearch/autonomous-pipeline product
 
-**Never edit `README.md` directly in a PR** — it's maintained by the repo owner from an internal source of truth and will be regenerated; hand-edits will be overwritten.
+`README.md` is maintained by hand and is the source of truth for what is listed, so a PR that edits it directly is fine: add one line, `- [Name](link to the skill directory) - Description.`, in the section where it belongs, keeping the section alphabetical. Leave `README.zh-CN.md`, `README.ja.md`, `README.ko.md`, `index.json` and `index.csv` alone — those are generated from `README.md`.
 
 ## What belongs on this list
 

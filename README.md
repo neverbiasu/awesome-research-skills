@@ -2,11 +2,13 @@
 
 English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-> 142 Agent Skills for researchers, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful.
+> Agent Skills that help with each stage of academic research, from literature review to peer review.
 
-For the steps you do yourself — finding prior work, designing the study, formalizing the method, curating data, running experiments, statistics, qualitative analysis, figures, writing, peer review. Full autoresearch loops and MLOps/deployment tooling are out of scope.
+Ideation → Literature → Study design → Method and theory → Data → Training → Diagrams → Experiments → Statistics → Qualitative methods → Interpretability → Plotting → Writing → Peer review
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 46 have also been walked through by hand against a written spec. Checked against GitHub as of 2026-10-05; whether an entry is `static check` or `audited: <verdict>` is recorded per entry in `index.json` — full definitions in *How these entries are checked* below.
+142 skills, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful. They cover the steps you do yourself; full autoresearch loops and MLOps/deployment tooling are out of scope.
+
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 46 have also been walked through by hand against a written spec. Whether an entry is `static check` or `audited: <verdict>` is recorded per entry in `index.json`, along with the date it was last checked — full definitions in *How these entries are checked* below.
 
 ## Contents
 
@@ -372,10 +374,10 @@ This is a curated list, not a certification. Each entry is chosen by a person re
 
 **Two levels of checking.** `static check` (96 of 142) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (46 of 142) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
-**License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from the same source as this page. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 94% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
+**License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from this page plus the verification data. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 94% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 
 The structural checks behind every entry — is it substantive, is it template-farmed, does the repo verify — are discipline-independent, and they are what this list guarantees. Whether a clinical-trial, qualitative-coding, or econometrics skill is *methodologically correct for your field* is a judgment its curator cannot make across every discipline represented here. Treat domain entries as leads to evaluate, not as vetted by a subject expert.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) — this list is data-driven, don't edit README.md by hand.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
