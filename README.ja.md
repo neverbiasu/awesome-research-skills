@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-142-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
@@ -6,9 +6,9 @@
 
 アイデア出し → 文献 → 研究デザイン → 手法と理論 → データ → 学習 → 図解 → 実験 → 統計 → 質的研究 → 解釈可能性 → 作図 → 執筆 → 査読
 
-142 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
+150 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
 
-すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 46 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-10-26 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
+すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 54 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-10-26 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
 
 項目名とリンクは英語版と同じです。説明文は翻訳で、内容に違いがある場合は[英語版](README.md)が正となります。
 
@@ -41,6 +41,8 @@
 - [Claude Scholar: Research Ideation](https://github.com/Galaxy-Dawn/claude-scholar/tree/HEAD/skills/research-ideation) - 5W1H のブレインストーミング、体系的な文献レビュー、多面的なギャップ分析、SMART な研究課題の定式化によって、研究プロジェクトの立ち上げを構造化します。
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 組み合わせによる創造、類推的推論、制約の操作といった認知科学の創造性の技法を、研究の方向性の発想に応用します。
+
+- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - Scans a body of literature for recurring weak arguments, unsupported assumptions, and contradicted findings to locate contribution gaps, relying on an optional external search CLI for the contradiction step.
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 文献と初期のアイデアを分析し、根拠のある研究ギャップと検証可能な着手点を特定します。新規性の主張を無理に作ることはしません。
 
@@ -132,7 +134,11 @@
 
 *研究に使うデータの入手、ラベル付け、整備、監査を扱います。*
 
+- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - Profiles every variable of a tabular dataset into a Markdown and JSON codebook, listing coded values of unknown meaning for dictionary lookup instead of guessing their labels.
+
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Hugging Face Hub、OpenML、GitHub、論文の相互参照から、指定した研究タスクに合うデータセットを検索し、順位付けして重複を除いた一覧を返します。
+
+- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - Builds a deterministic content-hash manifest of a dataset and verifies later copies against it, reporting the exact changed file and column on drift.
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - 分析の前に、ラスター、ベクター、ポイント、リモートセンシングのデータセットを品質チェックします。座標参照系、測地系、グリッドの整合、解像度、nodata、ジオメトリの妥当性、空間結合の多重度を確認します。
 
@@ -270,7 +276,11 @@
 
 - [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - コーディング済みの単位に基づいて、省察、比較、統合、意思決定のメモを組み立てて索引化します。研究者の解釈は機械の監査ログと分けて保持します。
 
+- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.
+
 - [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - 多面的な理論的飽和を追跡し、研究段階に応じた方法論上の分離ルールを生成して、ルールの変更と上書きを省察ジャーナルに記録します。
+
+- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - Designs a survey and an interview guide aligned through a validated research-question-to-item mapping matrix.
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - 質的データをコーディングしてコードブックを作成します。演繹的・帰納的・混合コーディング、コード頻度、共起分析、コーダー間信頼性に対応します。
 
@@ -281,6 +291,8 @@
 ## 解釈可能性
 
 *学習済みモデルの中を見て何を計算しているかを調べ、個々の予測を説明します。*
+
+- [Interp CLI](https://github.com/azrabano23/interp) - Runs logit lens, direct logit attribution, activation patching, induction-head checks, SAE feature lookup, and steering on GPT-2-class models through a bundled CLI whose tests pin published circuit results.
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 任意の PyTorch モデルの内部を調べて操作します。ローカルの GPU には大きすぎるモデルに対して、NDIF 経由でリモート実行することもできます。
 
@@ -366,17 +378,21 @@
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - 経済学論文に対して査読者水準のレポートを作成します。識別戦略、統計的推論、表、数式、参考文献を確認し、指摘事項の台帳と優先順位付きの改訂計画を出力します。
 
+- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - Drafts a structured referee report on another author's manuscript in a journal's format, with scripted gates that keep recommendations out of the author-facing comments.
+
 - [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - トリアージ、戦略、起草、トーン修正の各モードを通じて、査読コメントをエビデンスに基づく反論資料一式に変換します。
 
 - [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - 学術原稿のための構造化されたレビューと改訂のワークフローです。作業量に応じた6つの動作モードがあります。
+
+- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - Triages reviewer comments, plans rebuttal experiments by priority, and prepares response material with placeholders for missing evidence, after checking the venue's generative-AI policy.
 
 ## 各項目の確認方法
 
 これはキュレーションしたリストであり、認証ではありません。各項目は、人が `SKILL.md` を読んだうえで選んでいます。説明文はそのスキルが何をするかを述べたもので、あなたの課題に対して最初から最後まで実行した結果の報告ではありません。実行可能なエンドツーエンドのテストを行ったと主張する項目は1つもありません。実際に行っていないからです。`SKILL.md` が英語以外で書かれている項目には、名前の横に言語タグを付けています。
 
-**確認は2段階です。** `static check`（142 件中 96 件）は、パス、ライセンス、コミット日、必要な権限や環境を実際のリポジトリで確認し、`SKILL.md` を読んだことを意味します。`audited`（142 件中 46 件）は、それに加えて、文書化した監査仕様に沿ってスキル自身の指示を同梱ファイルと照らしながら手順どおりにたどり、次のいずれかの判定を得たことを意味します。`works`、`works with caveats`（目的は果たせるが、事前に知っておくべき条件がある）、`unverifiable`（認証情報、有料アクセス、ハードウェアがないと評価できない）。監査の結果、読むかぎりは良さそうでも作者本人以外には動かせない項目を削除してきました。
+**確認は2段階です。** `static check`（150 件中 96 件）は、パス、ライセンス、コミット日、必要な権限や環境を実際のリポジトリで確認し、`SKILL.md` を読んだことを意味します。`audited`（150 件中 54 件）は、それに加えて、文書化した監査仕様に沿ってスキル自身の指示を同梱ファイルと照らしながら手順どおりにたどり、次のいずれかの判定を得たことを意味します。`works`、`works with caveats`（目的は果たせるが、事前に知っておくべき条件がある）、`unverifiable`（認証情報、有料アクセス、ハードウェアがないと評価できない）。監査の結果、読むかぎりは良さそうでも作者本人以外には動かせない項目を削除してきました。
 
-**ライセンス、スター数、権限や環境のフラグ、項目ごとの確認状況は、このページの各行ではなく、機械可読のインデックスにあります。** [`index.json`](index.json) と [`index.csv`](index.csv) で、このページと同じデータから生成しています。スキルのライセンス、ネットワーク・認証情報・フックが必要かどうか、正確な監査判定が気になる場合は、開く前にそこで調べてください。要点だけ述べると、スキル自身のフロントマターにある `license:` とリポジトリの LICENSE が食い違う場合は前者を優先します。`repo ★N` はその*リポジトリ*のスター数であり、スキル自体の評価ではありません。これらのスキルの 94% は他者のより大きなリポジトリの中にあるため、スター2万のモノレポにあるスキルでも、一度コミットされたきり誰にも使われていないことがあります。
+**ライセンス、スター数、権限や環境のフラグ、項目ごとの確認状況は、このページの各行ではなく、機械可読のインデックスにあります。** [`index.json`](index.json) と [`index.csv`](index.csv) で、このページと同じデータから生成しています。スキルのライセンス、ネットワーク・認証情報・フックが必要かどうか、正確な監査判定が気になる場合は、開く前にそこで調べてください。要点だけ述べると、スキル自身のフロントマターにある `license:` とリポジトリの LICENSE が食い違う場合は前者を優先します。`repo ★N` はその*リポジトリ*のスター数であり、スキル自体の評価ではありません。これらのスキルの 91% は他者のより大きなリポジトリの中にあるため、スター2万のモノレポにあるスキルでも、一度コミットされたきり誰にも使われていないことがあります。
 
 すべての項目に対して行っている構造面の確認（中身があるか、テンプレートの量産品でないか、リポジトリを確認できるか）は分野によらず、このリストが保証するのはその部分です。臨床試験、質的コーディング、計量経済学などのスキルが*あなたの分野で方法論的に正しいか*は、ここに含まれるすべての分野についてキュレーターが判断できることではありません。各分野の項目は、専門家の審査を経たものではなく、自分で評価するための手がかりとして扱ってください。
 

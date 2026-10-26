@@ -1,5 +1,5 @@
 {
- "count": 142,
+ "count": 150,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -42,7 +42,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 13961,
+   "repo_stars": 13972,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
@@ -75,7 +75,7 @@
      "evidence": "Through the Zotero MCP server, the research-ideation workflow automates literature management:"
     }
    ],
-   "repo_stars": 5907,
+   "repo_stars": 5909,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-13",
    "stale": false,
@@ -99,13 +99,37 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 13961,
+   "repo_stars": 13972,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
    "checked_at": "2026-10-26",
    "audit_level": "static",
    "audit_verdict": null
+  },
+  {
+   "id": "literature-weakness-scanner",
+   "name": "Literature Weakness Scanner",
+   "category": "ideation",
+   "repo": "flonat/flonat-research",
+   "path": "skills/weakness-scanner",
+   "url": "https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner",
+   "description": "Scans a body of literature for recurring weak arguments, unsupported assumptions, and contradicted findings to locate contribution gaps, relying on an optional external search CLI for the contradiction step.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 147,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-08-08",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "research-gap-finder",
@@ -171,7 +195,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3267,
+   "repo_stars": 3270,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-19",
    "stale": false,
@@ -204,7 +228,7 @@
      "evidence": "Use `mcp__chrome-devtools__navigate_page` \u2192 `https://kns.cnki.net/kns8s/search`"
     }
    ],
-   "repo_stars": 1018,
+   "repo_stars": 1019,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-28",
    "stale": false,
@@ -252,7 +276,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1317,
+   "repo_stars": 1318,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-12",
    "stale": false,
@@ -276,7 +300,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1317,
+   "repo_stars": 1318,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-12",
    "stale": false,
@@ -342,7 +366,7 @@
      "evidence": "Use `mcp__chrome-devtools__navigate_page`:"
     }
    ],
-   "repo_stars": 535,
+   "repo_stars": 537,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-04",
    "stale": false,
@@ -440,7 +464,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 50707,
+   "repo_stars": 50752,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
@@ -464,7 +488,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 50707,
+   "repo_stars": 50752,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
@@ -512,7 +536,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1398,
+   "repo_stars": 1397,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-21",
    "stale": false,
@@ -536,7 +560,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 980,
+   "repo_stars": 981,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-23",
    "stale": false,
@@ -749,7 +773,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54679,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -974,7 +998,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 18093,
+   "repo_stars": 18109,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-06",
    "stale": false,
@@ -1046,7 +1070,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 18093,
+   "repo_stars": 18109,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-06",
    "stale": false,
@@ -1103,6 +1127,30 @@
    "audit_verdict": "works"
   },
   {
+   "id": "dataset-codebook-generator",
+   "name": "Dataset Codebook Generator",
+   "category": "cv_data_annotation",
+   "repo": "Aperivue/medsci-skills",
+   "path": "skills/generate-codebook",
+   "url": "https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook",
+   "description": "Profiles every variable of a tabular dataset into a Markdown and JSON codebook, listing coded values of unknown meaning for dictionary lookup instead of guessing their labels.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 350,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-10-02",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
+  },
+  {
    "id": "drclaw-dataset-discovery",
    "name": "Dataset Discovery",
    "category": "cv_data_annotation",
@@ -1125,6 +1173,30 @@
    "checked_at": "2026-10-26",
    "audit_level": "static",
    "audit_verdict": null
+  },
+  {
+   "id": "dataset-version-manifest",
+   "name": "Dataset Version Manifest",
+   "category": "cv_data_annotation",
+   "repo": "Aperivue/medsci-skills",
+   "path": "skills/version-dataset",
+   "url": "https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset",
+   "description": "Builds a deterministic content-hash manifest of a dataset and verifies later copies against it, reporting the exact changed file and column on drift.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 350,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-10-02",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "geospatial-data-qc",
@@ -1175,7 +1247,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1232,7 +1304,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1281,7 +1353,7 @@
      "evidence": "3. Verify auth: `mcp__huggingface__hf_whoami()`"
     }
    ],
-   "repo_stars": 11213,
+   "repo_stars": 11216,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-06",
    "stale": false,
@@ -1322,7 +1394,7 @@
      "evidence": "hf_jobs(\"uv\", {\"script\": training_script_content, \"flavor\": \"a10g-large\", \"timeout\": \"4h\", \"secrets\": {\"HF_TOKEN\": \"$HF_TOKEN\"}})"
     }
    ],
-   "repo_stars": 11213,
+   "repo_stars": 11216,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-23",
    "stale": false,
@@ -1355,7 +1427,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1388,7 +1460,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1437,7 +1509,7 @@
      "evidence": "| `docker run` flags, NGC auth, mounts, env passthrough, local/remote Docker job preflight (daemon, GPU smoke) | [`tao-skill-bank:tao-run-on-docker`](../../plat"
     }
    ],
-   "repo_stars": 3735,
+   "repo_stars": 3737,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
@@ -1519,7 +1591,7 @@
      "evidence": "- W&B credential: named environment variable `WANDB_API_KEY`."
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1552,7 +1624,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1593,7 +1665,7 @@
      "evidence": "hf auth login                                          # or set HF_TOKEN with write scope (for Hub push)"
     }
    ],
-   "repo_stars": 11213,
+   "repo_stars": 11216,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-18",
    "stale": false,
@@ -1617,7 +1689,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 11213,
+   "repo_stars": 11216,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1689,7 +1761,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 241,
+   "repo_stars": 242,
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-06-15",
    "stale": false,
@@ -1713,7 +1785,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 10365,
+   "repo_stars": 10369,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-11",
    "stale": false,
@@ -1737,7 +1809,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 10668,
+   "repo_stars": 10692,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-16",
    "stale": false,
@@ -1770,7 +1842,7 @@
      "evidence": "Select the appropriate diagram type based on the use case. Use your built-in knowledge of Mermaid syntax, or fetch up-to-date docs via the context7 MCP server i"
     }
    ],
-   "repo_stars": 18093,
+   "repo_stars": 18109,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-07",
    "stale": false,
@@ -1892,7 +1964,7 @@
      "evidence": "primaryEnv: OPENROUTER_API_KEY"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1949,7 +2021,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -1973,7 +2045,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3267,
+   "repo_stars": 3270,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-20",
    "stale": false,
@@ -2102,7 +2174,7 @@
      "evidence": "suite (needs `ROBOFLOW_API_KEY`). This is the \"does it fine-tune well, not"
     }
    ],
-   "repo_stars": 921,
+   "repo_stars": 923,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-27",
    "stale": false,
@@ -2150,7 +2222,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": true,
    "capabilities": [],
-   "repo_stars": 50707,
+   "repo_stars": 50754,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
@@ -2570,7 +2642,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -2725,7 +2797,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -2806,6 +2878,30 @@
    "audit_verdict": "works"
   },
   {
+   "id": "grounded-theory",
+   "name": "Grounded Theory",
+   "category": "qualitative_methods",
+   "repo": "joyzhzh/grounded-theory",
+   "path": "",
+   "url": "https://github.com/joyzhzh/grounded-theory",
+   "description": "Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "license_file_in_skill_dir",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 0,
+   "stars_scope": "whole_repo_is_skill",
+   "path_last_commit": "2026-09-07",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
+  },
+  {
    "id": "methodological-rules",
    "name": "Methodological Rules & Saturation",
    "category": "qualitative_methods",
@@ -2828,6 +2924,30 @@
    "checked_at": "2026-10-26",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
+  },
+  {
+   "id": "mixed-methods-instrument-design",
+   "name": "Mixed Methods Instrument Design",
+   "category": "qualitative_methods",
+   "repo": "Lambenthan/mixed-methods-instrument-design",
+   "path": "",
+   "url": "https://github.com/Lambenthan/mixed-methods-instrument-design",
+   "description": "Designs a survey and an interview guide aligned through a validated research-question-to-item mapping matrix.",
+   "form": "skill",
+   "lang": "zh",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "license_file_in_skill_dir",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 6,
+   "stars_scope": "whole_repo_is_skill",
+   "path_last_commit": "2026-08-13",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "anthro-qualitative-analysis",
@@ -2928,6 +3048,30 @@
    "audit_verdict": "works_with_caveats"
   },
   {
+   "id": "interp-cli",
+   "name": "Interp CLI",
+   "category": "interpretability",
+   "repo": "azrabano23/interp",
+   "path": "",
+   "url": "https://github.com/azrabano23/interp",
+   "description": "Runs logit lens, direct logit attribution, activation patching, induction-head checks, SAE feature lookup, and steering on GPT-2-class models through a bundled CLI whose tests pin published circuit results.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "license_file_in_skill_dir",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 0,
+   "stars_scope": "whole_repo_is_skill",
+   "path_last_commit": "2026-08-24",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
+  },
+  {
    "id": "orchestra-nnsight",
    "name": "nnsight",
    "category": "interpretability",
@@ -2952,7 +3096,7 @@
      "evidence": "os.environ[\"NDIF_API_KEY\"] = \"your_key\""
     }
    ],
-   "repo_stars": 13961,
+   "repo_stars": 13972,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
@@ -2976,7 +3120,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 13961,
+   "repo_stars": 13972,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
@@ -3000,7 +3144,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 257206,
+   "repo_stars": 257278,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
@@ -3033,7 +3177,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -3066,7 +3210,7 @@
      "evidence": "os.environ[\"HF_TOKEN\"] = \"your_token\""
     }
    ],
-   "repo_stars": 13961,
+   "repo_stars": 13972,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
@@ -3114,7 +3258,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 8968,
+   "repo_stars": 8982,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-24",
    "stale": false,
@@ -3162,7 +3306,7 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 50707,
+   "repo_stars": 50754,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-21",
    "stale": false,
@@ -3186,7 +3330,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 630,
+   "repo_stars": 632,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-30",
    "stale": false,
@@ -3291,7 +3435,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3267,
+   "repo_stars": 3270,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-19",
    "stale": false,
@@ -3324,7 +3468,7 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 54680,
+   "repo_stars": 54719,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
@@ -3396,7 +3540,7 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 980,
+   "repo_stars": 981,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-23",
    "stale": false,
@@ -3492,7 +3636,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 630,
+   "repo_stars": 632,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-10",
    "stale": false,
@@ -3660,7 +3804,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 7806,
+   "repo_stars": 7818,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-20",
    "stale": false,
@@ -3765,7 +3909,7 @@
      "evidence": "**Enforcement (v3.9.2):** Phase Boundary blocks on Bucket A agents + advisory verifier (`scripts/check_pipeline_integrity.py`) + a PreToolUse write-scope guard "
     }
    ],
-   "repo_stars": 53954,
+   "repo_stars": 53989,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-25",
    "stale": false,
@@ -3830,7 +3974,7 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3267,
+   "repo_stars": 3270,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-19",
    "stale": false,
@@ -3857,6 +4001,30 @@
    "repo_stars": 32,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-15",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
+  },
+  {
+   "id": "medical-manuscript-peer-review",
+   "name": "Medical Manuscript Peer Review",
+   "category": "peer_review_rebuttal",
+   "repo": "Aperivue/medsci-skills",
+   "path": "skills/peer-review",
+   "url": "https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review",
+   "description": "Drafts a structured referee report on another author's manuscript in a journal's format, with scripted gates that keep recommendations out of the author-facing comments.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 350,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-10-16",
    "stale": false,
    "checked_at": "2026-10-26",
    "audit_level": "hands_on",
@@ -3909,6 +4077,30 @@
    "checked_at": "2026-10-26",
    "audit_level": "static",
    "audit_verdict": null
+  },
+  {
+   "id": "rebuttal-skill",
+   "name": "Rebuttal Skill",
+   "category": "peer_review_rebuttal",
+   "repo": "TobiasLee/Rebuttal-Skill",
+   "path": "",
+   "url": "https://github.com/TobiasLee/Rebuttal-Skill",
+   "description": "Triages reviewer comments, plans rebuttal experiments by priority, and prepares response material with placeholders for missing evidence, after checking the venue's generative-AI policy.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "unverified",
+   "license_scope": "repo_fallback",
+   "repo_license": "unverified",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 493,
+   "stars_scope": "whole_repo_is_skill",
+   "path_last_commit": "2026-08-20",
+   "stale": false,
+   "checked_at": "2026-10-26",
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   }
  ]
 }

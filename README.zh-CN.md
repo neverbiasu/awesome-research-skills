@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-142-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
@@ -6,9 +6,9 @@
 
 选题 → 文献 → 研究设计 → 方法与理论 → 数据 → 训练 → 示意图 → 实验 → 统计 → 定性 → 可解释性 → 绘图 → 写作 → 同行评审
 
-共 142 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
+共 150 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
 
-每一条都对照其仓库读过并核对过（许可证、最近提交、运行所需的网络/凭据/hook），不收模板批量生成或已无人维护的条目。其中 46 条还按一份书面规范逐步动手走过一遍。数据核对至 2026-10-26；每条属于 `static check` 还是 `audited: <结论>`，记录在 `index.json` 中，定义见下文“这些条目是怎么检查的”。
+每一条都对照其仓库读过并核对过（许可证、最近提交、运行所需的网络/凭据/hook），不收模板批量生成或已无人维护的条目。其中 54 条还按一份书面规范逐步动手走过一遍。数据核对至 2026-10-26；每条属于 `static check` 还是 `audited: <结论>`，记录在 `index.json` 中，定义见下文“这些条目是怎么检查的”。
 
 条目名称和链接与英文版一致；描述为译文，如有出入以[英文版](README.md)为准。
 
@@ -41,6 +41,8 @@
 - [Claude Scholar: Research Ideation](https://github.com/Galaxy-Dawn/claude-scholar/tree/HEAD/skills/research-ideation) - 通过 5W1H 头脑风暴、系统文献综述、多维度缺口分析和 SMART 研究问题表述，为研究项目的启动提供结构。
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 把认知科学中的创造力技巧（组合创造、类比推理和约束操纵）用于生成研究方向。
+
+- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - Scans a body of literature for recurring weak arguments, unsupported assumptions, and contradicted findings to locate contribution gaps, relying on an optional external search CLI for the contradiction step.
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 分析文献和早期想法，找出有依据的研究缺口和可检验的切入点，不强行声称新颖性。
 
@@ -132,7 +134,11 @@
 
 *获取、标注、整理和审计研究所用的数据。*
 
+- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - Profiles every variable of a tabular dataset into a Markdown and JSON codebook, listing coded values of unknown meaning for dictionary lookup instead of guessing their labels.
+
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - 在 Hugging Face Hub、OpenML、GitHub 和论文交叉引用中检索符合研究任务的数据集，返回排序并去重的列表。
+
+- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - Builds a deterministic content-hash manifest of a dataset and verifies later copies against it, reporting the exact changed file and column on drift.
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - 在分析前对栅格、矢量、点和遥感数据集做质量检查，涵盖坐标参考系、基准面、网格对齐、分辨率、无数据值、几何有效性和空间连接基数。
 
@@ -270,7 +276,11 @@
 
 - [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - 以已编码单元为依据，搭建并索引反思、比较、整合和决策备忘录，并把研究者的解释与机器审计日志分开保存。
 
+- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.
+
 - [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - 跟踪多维度的理论饱和，生成随研究阶段变化的方法论隔离规则，并把规则变更和人为覆盖记入反思日志。
+
+- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - Designs a survey and an interview guide aligned through a validated research-question-to-item mapping matrix.
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - 对定性数据编码并建立编码本，支持演绎、归纳和混合编码、编码频次、共现分析和编码者间信度。
 
@@ -281,6 +291,8 @@
 ## 可解释性
 
 *打开训练好的模型看它在计算什么，并解释单个预测。*
+
+- [Interp CLI](https://github.com/azrabano23/interp) - Runs logit lens, direct logit attribution, activation patching, induction-head checks, SAE feature lookup, and steering on GPT-2-class models through a bundled CLI whose tests pin published circuit results.
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 检查并操纵任意 PyTorch 模型的内部状态，包括通过 NDIF 对本地 GPU 放不下的大模型远程执行。
 
@@ -366,17 +378,21 @@
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - 为经济学论文生成审稿人水准的报告，检查识别策略、统计推断、表格、公式和参考文献，并输出问题台账和按优先级排列的修改计划。
 
+- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - Drafts a structured referee report on another author's manuscript in a journal's format, with scripted gates that keep recommendations out of the author-facing comments.
+
 - [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - 通过分诊、策略、起草和语气修复几种模式，把同行评审意见转化为以证据为依据的答辩材料。
 
 - [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - 面向学术稿件的结构化审阅与修改工作流，提供六种按投入程度分级的运行模式。
+
+- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - Triages reviewer comments, plans rebuttal experiments by priority, and prepares response material with placeholders for missing evidence, after checking the venue's generative-AI policy.
 
 ## 这些条目是怎么检查的
 
 这是一份策展列表，不是认证。每一条都是有人读过它的 `SKILL.md` 之后选入的。描述说明的是这个 skill 做什么，并不代表它已在你的问题上端到端运行过。没有任何条目声称做过可执行的端到端测试，因为确实没有做过。`SKILL.md` 不是英文的条目，名称旁带有语言标记。
 
-**两级检查。** `static check`（96/142）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（46/142）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
+**两级检查。** `static check`（96/150）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（54/150）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
 
-**许可证、star 数、能力标记和每条的检查状态都在机器可读的索引里，不在本页行内**：[`index.json`](index.json) 和 [`index.csv`](index.csv)，与本页由同一份数据生成。如果你在意某个 skill 的许可证、是否需要网络/凭据/hook，或它确切的审计结论，打开之前先在那里查。简单说：skill 自己 frontmatter 里的 `license:` 与仓库 LICENSE 不一致时，以前者为准；`repo ★N` 是那个*仓库*的 star 数，绝不是对该 skill 的评分。这些 skill 中有 94% 位于别人更大的仓库里，一个 2 万 star 的大仓库里的 skill 可能只提交过一次、从没人用过。
+**许可证、star 数、能力标记和每条的检查状态都在机器可读的索引里，不在本页行内**：[`index.json`](index.json) 和 [`index.csv`](index.csv)，与本页由同一份数据生成。如果你在意某个 skill 的许可证、是否需要网络/凭据/hook，或它确切的审计结论，打开之前先在那里查。简单说：skill 自己 frontmatter 里的 `license:` 与仓库 LICENSE 不一致时，以前者为准；`repo ★N` 是那个*仓库*的 star 数，绝不是对该 skill 的评分。这些 skill 中有 91% 位于别人更大的仓库里，一个 2 万 star 的大仓库里的 skill 可能只提交过一次、从没人用过。
 
 每一条背后的结构性检查（内容是否充实、是否模板批量生成、仓库是否核实得上）与学科无关，这也是本列表所保证的。至于某个临床试验、定性编码或计量经济学的 skill *在你的领域里方法上是否正确*，策展人无法对这里涉及的每个学科都做出判断。请把各学科的条目当作有待评估的线索，而不是经过领域专家把关的结论。
 

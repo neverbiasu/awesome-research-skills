@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-142-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
@@ -6,9 +6,9 @@
 
 아이디어 구상 → 문헌 → 연구 설계 → 방법과 이론 → 데이터 → 학습 → 다이어그램 → 실험 → 통계 → 질적 연구 → 해석 가능성 → 시각화 → 글쓰기 → 동료 심사
 
-스킬 142개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
+스킬 150개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
 
-모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 46개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-10-26 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
+모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 54개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-10-26 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
 
 항목 이름과 링크는 영문판과 같습니다. 설명은 번역이며, 내용이 다를 경우 [영문판](README.md)을 기준으로 합니다.
 
@@ -41,6 +41,8 @@
 - [Claude Scholar: Research Ideation](https://github.com/Galaxy-Dawn/claude-scholar/tree/HEAD/skills/research-ideation) - 5W1H 브레인스토밍, 체계적 문헌 검토, 다차원 공백 분석, SMART 연구 질문 정식화를 통해 연구 프로젝트의 시작 단계를 구조화합니다.
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 조합적 창의성, 유추적 추론, 제약 조작 같은 인지과학의 창의성 기법을 연구 방향을 떠올리는 데 적용합니다.
+
+- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - Scans a body of literature for recurring weak arguments, unsupported assumptions, and contradicted findings to locate contribution gaps, relying on an optional external search CLI for the contradiction step.
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 문헌과 초기 아이디어를 분석하여 근거 있는 연구 공백과 검증 가능한 진입점을 찾습니다. 참신성 주장을 억지로 만들지 않습니다.
 
@@ -132,7 +134,11 @@
 
 *연구에 쓰이는 데이터를 확보하고, 레이블을 붙이고, 정리하고, 점검합니다.*
 
+- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - Profiles every variable of a tabular dataset into a Markdown and JSON codebook, listing coded values of unknown meaning for dictionary lookup instead of guessing their labels.
+
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Hugging Face Hub, OpenML, GitHub, 논문 상호 참조에서 주어진 연구 과제에 맞는 데이터셋을 검색하여, 순위를 매기고 중복을 제거한 목록을 반환합니다.
+
+- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - Builds a deterministic content-hash manifest of a dataset and verifies later copies against it, reporting the exact changed file and column on drift.
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - 분석 전에 래스터, 벡터, 포인트, 원격탐사 데이터셋의 품질을 점검합니다. 좌표계, 측지 기준, 격자 정렬, 해상도, nodata, 도형 유효성, 공간 조인의 대응 수를 확인합니다.
 
@@ -270,7 +276,11 @@
 
 - [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - 코딩된 단위에 근거하여 성찰, 비교, 통합, 의사결정 메모를 구성하고 색인화합니다. 연구자의 해석은 기계 감사 로그와 분리하여 보관합니다.
 
+- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.
+
 - [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - 다차원 이론적 포화를 추적하고, 연구 단계에 따라 달라지는 방법론적 분리 규칙을 생성하며, 규칙 변경과 예외 적용을 성찰 일지에 기록합니다.
+
+- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - Designs a survey and an interview guide aligned through a validated research-question-to-item mapping matrix.
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - 질적 자료를 코딩하고 코드북을 만듭니다. 연역적·귀납적·혼합 코딩, 코드 빈도, 동시출현 분석, 코더 간 신뢰도를 지원합니다.
 
@@ -281,6 +291,8 @@
 ## 해석 가능성
 
 *학습된 모델을 열어 무엇을 계산하는지 살펴보고, 개별 예측을 설명합니다.*
+
+- [Interp CLI](https://github.com/azrabano23/interp) - Runs logit lens, direct logit attribution, activation patching, induction-head checks, SAE feature lookup, and steering on GPT-2-class models through a bundled CLI whose tests pin published circuit results.
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 임의의 PyTorch 모델의 내부를 들여다보고 조작합니다. 로컬 GPU에 올리기에는 너무 큰 모델에 대해 NDIF를 통한 원격 실행도 가능합니다.
 
@@ -366,17 +378,21 @@
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - 경제학 논문에 대해 심사자 수준의 보고서를 작성합니다. 식별 전략, 통계적 추론, 표, 수식, 참고문헌을 점검하고, 지적 사항 대장과 우선순위가 매겨진 수정 계획을 출력합니다.
 
+- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - Drafts a structured referee report on another author's manuscript in a journal's format, with scripted gates that keep recommendations out of the author-facing comments.
+
 - [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - 분류, 전략, 초안 작성, 어조 수정 모드를 통해 동료 심사 의견을 근거에 기반한 반박 자료 묶음으로 변환합니다.
 
 - [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - 학술 원고를 위한 구조화된 검토 및 수정 워크플로입니다. 투입 노력 수준에 맞춘 여섯 가지 작동 모드가 있습니다.
+
+- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - Triages reviewer comments, plans rebuttal experiments by priority, and prepares response material with placeholders for missing evidence, after checking the venue's generative-AI policy.
 
 ## 항목을 확인하는 방법
 
 이것은 선별한 목록이지 인증이 아닙니다. 각 항목은 사람이 `SKILL.md`를 읽고 골랐습니다. 설명은 그 스킬이 무엇을 하는지를 말할 뿐, 여러분의 문제에 대해 처음부터 끝까지 실행해 본 결과를 보고하는 것이 아닙니다. 실행 가능한 엔드투엔드 테스트를 했다고 주장하는 항목은 하나도 없습니다. 실제로 하지 않았기 때문입니다. `SKILL.md`가 영어가 아닌 항목에는 이름 옆에 언어 태그를 붙였습니다.
 
-**확인은 두 단계입니다.** `static check`(142개 중 96개)는 경로, 라이선스, 커밋 날짜, 필요한 권한과 환경을 실제 저장소에서 확인하고 `SKILL.md`를 읽었다는 뜻입니다. `audited`(142개 중 46개)는 여기에 더해, 문서화된 감사 명세에 따라 스킬 자체의 지시를 함께 제공되는 파일과 대조하며 단계별로 따라가 본 뒤 다음 중 하나의 판정을 받았다는 뜻입니다. `works`, `works with caveats`(목적은 달성하지만 미리 알아야 할 조건이 있음), `unverifiable`(자격 증명, 유료 접근 권한, 하드웨어 없이는 평가할 수 없음). 감사를 통해, 읽기에는 좋아 보이지만 작성자 본인 말고는 아무도 쓸 수 없는 항목을 삭제해 왔습니다.
+**확인은 두 단계입니다.** `static check`(150개 중 96개)는 경로, 라이선스, 커밋 날짜, 필요한 권한과 환경을 실제 저장소에서 확인하고 `SKILL.md`를 읽었다는 뜻입니다. `audited`(150개 중 54개)는 여기에 더해, 문서화된 감사 명세에 따라 스킬 자체의 지시를 함께 제공되는 파일과 대조하며 단계별로 따라가 본 뒤 다음 중 하나의 판정을 받았다는 뜻입니다. `works`, `works with caveats`(목적은 달성하지만 미리 알아야 할 조건이 있음), `unverifiable`(자격 증명, 유료 접근 권한, 하드웨어 없이는 평가할 수 없음). 감사를 통해, 읽기에는 좋아 보이지만 작성자 본인 말고는 아무도 쓸 수 없는 항목을 삭제해 왔습니다.
 
-**라이선스, 스타 수, 권한 및 환경 표시, 항목별 확인 상태는 이 페이지의 각 줄이 아니라 기계가 읽을 수 있는 색인에 있습니다.** [`index.json`](index.json)과 [`index.csv`](index.csv)이며, 이 페이지와 같은 데이터에서 생성됩니다. 스킬의 라이선스, 네트워크·자격 증명·훅이 필요한지 여부, 정확한 감사 판정이 중요하다면 열어 보기 전에 거기서 찾아보세요. 요약하면, 스킬 자체의 프런트매터에 있는 `license:`와 저장소의 LICENSE가 다를 때는 전자를 따릅니다. `repo ★N`은 그 *저장소*의 스타 수이며, 스킬 자체에 대한 평가가 결코 아닙니다. 이 스킬들의 94%는 다른 사람의 더 큰 저장소 안에 있으므로, 스타 2만 개짜리 모노레포에 있는 스킬이라도 한 번 커밋된 뒤 아무도 쓰지 않았을 수 있습니다.
+**라이선스, 스타 수, 권한 및 환경 표시, 항목별 확인 상태는 이 페이지의 각 줄이 아니라 기계가 읽을 수 있는 색인에 있습니다.** [`index.json`](index.json)과 [`index.csv`](index.csv)이며, 이 페이지와 같은 데이터에서 생성됩니다. 스킬의 라이선스, 네트워크·자격 증명·훅이 필요한지 여부, 정확한 감사 판정이 중요하다면 열어 보기 전에 거기서 찾아보세요. 요약하면, 스킬 자체의 프런트매터에 있는 `license:`와 저장소의 LICENSE가 다를 때는 전자를 따릅니다. `repo ★N`은 그 *저장소*의 스타 수이며, 스킬 자체에 대한 평가가 결코 아닙니다. 이 스킬들의 91%는 다른 사람의 더 큰 저장소 안에 있으므로, 스타 2만 개짜리 모노레포에 있는 스킬이라도 한 번 커밋된 뒤 아무도 쓰지 않았을 수 있습니다.
 
 모든 항목에 적용하는 구조적 확인(내용이 충실한지, 템플릿으로 찍어낸 것이 아닌지, 저장소가 확인되는지)은 분야와 무관하며, 이 목록이 보장하는 것은 바로 그 부분입니다. 임상시험, 질적 코딩, 계량경제학 스킬이 *여러분의 분야에서 방법론적으로 올바른지*는 여기에 포함된 모든 분야에 대해 큐레이터가 판단할 수 있는 일이 아닙니다. 각 분야의 항목은 전문가의 검증을 거친 것이 아니라, 직접 평가해 볼 단서로 다루어 주세요.
 
