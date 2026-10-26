@@ -42,7 +42,7 @@
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 把认知科学中的创造力技巧（组合创造、类比推理和约束操纵）用于生成研究方向。
 
-- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - Scans a body of literature for recurring weak arguments, unsupported assumptions, and contradicted findings to locate contribution gaps, relying on an optional external search CLI for the contradiction step.
+- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - 扫描文献语料中反复出现的薄弱论点、未支撑的假设和被反驳的发现以定位贡献缺口，矛盾检查步骤依赖可选的外部搜索 CLI。
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 分析文献和早期想法，找出有依据的研究缺口和可检验的切入点，不强行声称新颖性。
 
@@ -134,11 +134,11 @@
 
 *获取、标注、整理和审计研究所用的数据。*
 
-- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - Profiles every variable of a tabular dataset into a Markdown and JSON codebook, listing coded values of unknown meaning for dictionary lookup instead of guessing their labels.
+- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - 将表格数据集的每个变量整理成 Markdown 和 JSON 格式的编码手册（codebook），列出含义未知的编码值供字典查找，而非猜测其标签。
 
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - 在 Hugging Face Hub、OpenML、GitHub 和论文交叉引用中检索符合研究任务的数据集，返回排序并去重的列表。
 
-- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - Builds a deterministic content-hash manifest of a dataset and verifies later copies against it, reporting the exact changed file and column on drift.
+- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - 构建数据集的确定性内容哈希清单，并在后续副本中对照该清单进行验证，报告发生漂移时的确切文件与列。
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - 在分析前对栅格、矢量、点和遥感数据集做质量检查，涵盖坐标参考系、基准面、网格对齐、分辨率、无数据值、几何有效性和空间连接基数。
 
@@ -276,11 +276,11 @@
 
 - [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - 以已编码单元为依据，搭建并索引反思、比较、整合和决策备忘录，并把研究者的解释与机器审计日志分开保存。
 
-- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.
+- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - 执行贴近源文的编码、持续比较、带版本的备忘录和反例追踪，并借助校验器，将理论饱和度的确认留给人工审查而非自行认证。
 
 - [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - 跟踪多维度的理论饱和，生成随研究阶段变化的方法论隔离规则，并把规则变更和人为覆盖记入反思日志。
 
-- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - Designs a survey and an interview guide aligned through a validated research-question-to-item mapping matrix.
+- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - 设计调查问卷和访谈提纲，并通过经验证的“研究问题至题项”映射矩阵实现两者的对齐。
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - 对定性数据编码并建立编码本，支持演绎、归纳和混合编码、编码频次、共现分析和编码者间信度。
 
@@ -292,7 +292,7 @@
 
 *打开训练好的模型看它在计算什么，并解释单个预测。*
 
-- [Interp CLI](https://github.com/azrabano23/interp) - Runs logit lens, direct logit attribution, activation patching, induction-head checks, SAE feature lookup, and steering on GPT-2-class models through a bundled CLI whose tests pin published circuit results.
+- [Interp CLI](https://github.com/azrabano23/interp) - 通过捆绑的 CLI 在 GPT-2 级别模型上运行 logit lens、直接 logit 归因、激活补丁、归纳头检查、SAE 特征查找和 steering，其测试固定了已发布的电路结果。
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 检查并操纵任意 PyTorch 模型的内部状态，包括通过 NDIF 对本地 GPU 放不下的大模型远程执行。
 
@@ -378,13 +378,13 @@
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - 为经济学论文生成审稿人水准的报告，检查识别策略、统计推断、表格、公式和参考文献，并输出问题台账和按优先级排列的修改计划。
 
-- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - Drafts a structured referee report on another author's manuscript in a journal's format, with scripted gates that keep recommendations out of the author-facing comments.
+- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - 按期刊格式为他人稿件起草结构化的审稿报告，通过脚本化门禁将建议与面向作者的评注隔离。
 
 - [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - 通过分诊、策略、起草和语气修复几种模式，把同行评审意见转化为以证据为依据的答辩材料。
 
 - [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - 面向学术稿件的结构化审阅与修改工作流，提供六种按投入程度分级的运行模式。
 
-- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - Triages reviewer comments, plans rebuttal experiments by priority, and prepares response material with placeholders for missing evidence, after checking the venue's generative-AI policy.
+- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - 在核查会议/期刊的生成式 AI 政策后，分类梳理审稿意见、按优先级规划反驳实验，并准备回复材料，对缺失证据保留占位符。
 
 ## 这些条目是怎么检查的
 

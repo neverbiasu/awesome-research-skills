@@ -42,7 +42,7 @@
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 組み合わせによる創造、類推的推論、制約の操作といった認知科学の創造性の技法を、研究の方向性の発想に応用します。
 
-- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - Scans a body of literature for recurring weak arguments, unsupported assumptions, and contradicted findings to locate contribution gaps, relying on an optional external search CLI for the contradiction step.
+- [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - 文献群をスキャンし、繰り返される弱い主張、根拠のない仮定、反証された知見を特定して貢献ギャップを把握します。矛盾のステップでは、任意の外部検索 CLI に依存します。
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 文献と初期のアイデアを分析し、根拠のある研究ギャップと検証可能な着手点を特定します。新規性の主張を無理に作ることはしません。
 
@@ -134,11 +134,11 @@
 
 *研究に使うデータの入手、ラベル付け、整備、監査を扱います。*
 
-- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - Profiles every variable of a tabular dataset into a Markdown and JSON codebook, listing coded values of unknown meaning for dictionary lookup instead of guessing their labels.
+- [Dataset Codebook Generator](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/generate-codebook) - テーブル形式のデータセットの全変数をプロファイル化し、Markdown と JSON でコードブックを生成します。意味不明なコード値は推測せず、辞書照会用の一覧として列挙します。
 
 - [Dataset Discovery](https://github.com/OpenLAIR/dr-claw/tree/HEAD/skills/dataset-discovery) - Hugging Face Hub、OpenML、GitHub、論文の相互参照から、指定した研究タスクに合うデータセットを検索し、順位付けして重複を除いた一覧を返します。
 
-- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - Builds a deterministic content-hash manifest of a dataset and verifies later copies against it, reporting the exact changed file and column on drift.
+- [Dataset Version Manifest](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/version-dataset) - データセットの決定論的なコンテンツハッシュマニフェストを構築し、後日のコピーに対する検証を行います。不一致がある場合、変更された正確なファイルと列を報告します。
 
 - [Geospatial Data QC](https://github.com/isshikiayane/research-workflow-skills/tree/HEAD/geospatial-data-qc) - 分析の前に、ラスター、ベクター、ポイント、リモートセンシングのデータセットを品質チェックします。座標参照系、測地系、グリッドの整合、解像度、nodata、ジオメトリの妥当性、空間結合の多重度を確認します。
 
@@ -276,11 +276,11 @@
 
 - [Analytic Memo Writing](https://github.com/smirik/psy-qm-skills/tree/HEAD/skills/memo-write) - コーディング済みの単位に基づいて、省察、比較、統合、意思決定のメモを組み立てて索引化します。研究者の解釈は機械の監査ログと分けて保持します。
 
-- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.
+- [Grounded Theory](https://github.com/joyzhzh/grounded-theory) - ソースに近いコーディング、定常比較、バージョン管理されたメモ、ネガティブケース追跡を実行します。バリデータを用いながら、理論的飽和度の認証ではなく人間によるレビューに委ねます。
 
 - [Methodological Rules & Saturation](https://github.com/linxule/interpretive-orchestration/tree/HEAD/plugin/skills/methodological-rules) - 多面的な理論的飽和を追跡し、研究段階に応じた方法論上の分離ルールを生成して、ルールの変更と上書きを省察ジャーナルに記録します。
 
-- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - Designs a survey and an interview guide aligned through a validated research-question-to-item mapping matrix.
+- [Mixed Methods Instrument Design](https://github.com/Lambenthan/mixed-methods-instrument-design) `zh` - 検証済みの研究質問から質問項目への対応マトリックスを通じて整合性を確保し、調査票とインタビューガイドを設計します。
 
 - [Qualitative Analysis](https://github.com/MattArtzAnthro/AI-Anthropology-Toolkit/tree/HEAD/skills/qualitative-analysis) - 質的データをコーディングしてコードブックを作成します。演繹的・帰納的・混合コーディング、コード頻度、共起分析、コーダー間信頼性に対応します。
 
@@ -292,7 +292,7 @@
 
 *学習済みモデルの中を見て何を計算しているかを調べ、個々の予測を説明します。*
 
-- [Interp CLI](https://github.com/azrabano23/interp) - Runs logit lens, direct logit attribution, activation patching, induction-head checks, SAE feature lookup, and steering on GPT-2-class models through a bundled CLI whose tests pin published circuit results.
+- [Interp CLI](https://github.com/azrabano23/interp) - バンドルされた CLI を通じて GPT-2 クラスのモデルで、logit lens、直接 logit 帰属解析、アクティベーションパッチング、induction-head チェック、SAE 特徴量検索、steering を実行します。この CLI のテストは、公開されている回路結果を固定（pin）しています。
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 任意の PyTorch モデルの内部を調べて操作します。ローカルの GPU には大きすぎるモデルに対して、NDIF 経由でリモート実行することもできます。
 
@@ -378,13 +378,13 @@
 
 - [Econ Paper Review](https://github.com/hanlulong/econ-paper-review-skill/tree/HEAD/econ-review) - 経済学論文に対して査読者水準のレポートを作成します。識別戦略、統計的推論、表、数式、参考文献を確認し、指摘事項の台帳と優先順位付きの改訂計画を出力します。
 
-- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - Drafts a structured referee report on another author's manuscript in a journal's format, with scripted gates that keep recommendations out of the author-facing comments.
+- [Medical Manuscript Peer Review](https://github.com/Aperivue/medsci-skills/tree/HEAD/skills/peer-review) - ジャーナルの形式に従い、他の著者の原稿に対する構造化された審読報告書を作成します。スクリプトによるゲートが、推薦を著者向けコメントに含めないよう保ちます。
 
 - [Paper Lifecycle: Rebuttal Response](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/rebuttal-response) - トリアージ、戦略、起草、トーン修正の各モードを通じて、査読コメントをエビデンスに基づく反論資料一式に変換します。
 
 - [Paper Lifecycle: Review & Revision](https://github.com/M1n-n9/paper-lifecycle/tree/HEAD/review-revision) - 学術原稿のための構造化されたレビューと改訂のワークフローです。作業量に応じた6つの動作モードがあります。
 
-- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - Triages reviewer comments, plans rebuttal experiments by priority, and prepares response material with placeholders for missing evidence, after checking the venue's generative-AI policy.
+- [Rebuttal Skill](https://github.com/TobiasLee/Rebuttal-Skill) - レビュアーのコメントを分類し、優先度に応じて反論実験を計画します。場（ジャーナル）の生成 AI ポリシーを確認した後、欠落した証拠のためのプレースホルダーを含む回答資料を準備します。
 
 ## 各項目の確認方法
 
