@@ -312,7 +312,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Map Research Sites](https://github.com/Revonia-gh/evidence-first-research-skills/tree/HEAD/.agents/skills/map-research-sites) - Validates tabular longitude and latitude data and renders reproducible SVG site maps, applying a per-row public, generalized, or restricted visibility policy with coordinate rounding.
 
-- [mpltweak](https://github.com/shdbl/mpltweak/tree/HEAD/skills/mpltweak) - Adjusts matplotlib subplot layout by dragging (slides-style), then writes the exact numbers back into the script.
+- [mpltweak](https://github.com/shdbl/mpltweak/tree/HEAD/skills/mpltweak) - Adjusts matplotlib subplot layout by dragging (slides-style, as in PowerPoint), and writes the exact numbers back into the user's script only after the user confirms.
 
 - [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Creates, revises, and audits submission-grade scientific figures for high-impact venues in Python or R, with multi-panel support and journal-ready export.
 
