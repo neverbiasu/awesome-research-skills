@@ -338,6 +338,8 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill) - Adapts an academic manuscript to a target journal's writing conventions by analyzing a reference corpus and revising the manuscript section by section.
 
+- [JP Essay Scientific](https://github.com/lucasbabur/jp-essay/tree/HEAD/scientific) - Researches, drafts, and revises cited academic essays in Claude Code, preserving source-linked claims through revisions and producing in-text citations and a reference list.
+
 - [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - Handles LaTeX document creation, compilation, format conversion, and document analysis for academic writing.
 
 - [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) `zh` - Assists graduate students with Chinese LaTeX thesis projects, covering compilation diagnosis, GB/T 7714 bibliography formatting, structure review, and blind-review anonymization.
