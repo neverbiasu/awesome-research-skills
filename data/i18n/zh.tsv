@@ -151,4 +151,3 @@ verify-results	审计作者自己本地代码产出的指标是否仍在给定�
 verifying-proofs	逐步检查论文中的定理证明、代数推导和界，报告缺失的假设和缺少的归纳基础；当论文从未说明某个符号的定义域时，把该步骤标为未验证而不是判为错误。
 wentorai-scientific-illustration	指导制作图形摘要、示意图、工作流可视化和架构图，同时涵盖编程绘图和设计工具两种做法。
 wenxian	通过查询 CrossRef、PubMed、arXiv、Semantic Scholar 和 ChemRxiv，根据 DOI、PMID、arXiv ID 或论文标题生成 BibTeX 条目。
-zz-workflow-test	执行一次合并后的工作流，然后移除。

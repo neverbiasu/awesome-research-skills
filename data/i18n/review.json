@@ -10,8 +10,7 @@
   "mixed-methods-instrument-design",
   "mpltweak",
   "phd-skills-paper-check",
-  "rebuttal-skill",
-  "zz-workflow-test"
+  "rebuttal-skill"
  ],
  "ko": [
   "dataset-codebook-generator",
@@ -24,8 +23,7 @@
   "mixed-methods-instrument-design",
   "mpltweak",
   "phd-skills-paper-check",
-  "rebuttal-skill",
-  "zz-workflow-test"
+  "rebuttal-skill"
  ],
  "zh": [
   "dataset-codebook-generator",
@@ -38,7 +36,6 @@
   "mixed-methods-instrument-design",
   "mpltweak",
   "phd-skills-paper-check",
-  "rebuttal-skill",
-  "zz-workflow-test"
+  "rebuttal-skill"
  ]
 }

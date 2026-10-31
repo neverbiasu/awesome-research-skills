@@ -151,6 +151,5 @@
  "verify-results": "Audits whether metrics produced by an author's own local code still match the tables and claims reported in their paper, within stated tolerances, and reports mismatches separately from reproduction failures.",
  "verifying-proofs": "Checks a paper's theorem proofs, algebraic derivations, and bounds step by step, reporting missing hypotheses and absent base cases, and flagging a step as unverified rather than refuted when the paper never states a symbol's domain.",
  "wentorai-scientific-illustration": "Guides creation of graphical abstracts, schematic diagrams, workflow visualizations, and architecture diagrams, covering both programmatic and design-tool approaches.",
- "wenxian": "Generates a BibTeX entry from a DOI, PMID, arXiv ID, or paper title by querying CrossRef, PubMed, arXiv, Semantic Scholar, and ChemRxiv.",
- "zz-workflow-test": "Exercises the post-merge workflow once and is then removed."
+ "wenxian": "Generates a BibTeX entry from a DOI, PMID, arXiv ID, or paper title by querying CrossRef, PubMed, arXiv, Semantic Scholar, and ChemRxiv."
 }

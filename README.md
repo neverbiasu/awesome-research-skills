@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-152-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-151-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
@@ -6,7 +6,7 @@ English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한�
 
 Ideation → Literature → Study design → Method and theory → Data → Training → Diagrams → Experiments → Statistics → Qualitative methods → Interpretability → Plotting → Writing → Peer review
 
-152 skills, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful. They cover the steps you do yourself; full autoresearch loops and MLOps/deployment tooling are out of scope.
+151 skills, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful. They cover the steps you do yourself; full autoresearch loops and MLOps/deployment tooling are out of scope.
 
 Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 53 have also been walked through by hand against a written spec. Whether an entry is `static check` or `audited: <verdict>` is recorded per entry in `index.json`, along with the date it was last checked — full definitions in *How these entries are checked* below.
 
@@ -366,8 +366,6 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Typst Paper](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/typst-paper) - Assists with existing Typst manuscripts covering compilation, venue formatting, grammar, bibliography, and submission readiness.
 
-- [Zz Workflow Test](https://github.com/neverbiasu/awesome-research-skills/tree/HEAD/scripts) - Exercises the post-merge workflow once and is then removed.
-
 ## Peer Review & Rebuttal
 
 *The other side of submission: refereeing someone else's manuscript, and answering the reviews of your own.*
@@ -392,7 +390,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`. A description states what the skill does; it is not a report of it having been run end to end on your problem. No entry claims an executable end-to-end test, because none has been run. Entries whose `SKILL.md` is not in English carry a language tag next to the name.
 
-**Two levels of checking.** `static check` (99 of 152) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (53 of 152) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
+**Two levels of checking.** `static check` (98 of 151) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (53 of 151) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
 **License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from this page plus the verification data. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 91% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 
