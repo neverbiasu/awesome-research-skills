@@ -1,5 +1,5 @@
 {
- "count": 151,
+ "count": 152,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -3922,6 +3922,30 @@
    "path_last_commit": "2026-09-07",
    "stale": false,
    "checked_at": "2026-10-31",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "zz-workflow-test",
+   "name": "Zz Workflow Test",
+   "category": "writing_submission",
+   "repo": "neverbiasu/awesome-research-skills",
+   "path": "scripts",
+   "url": "https://github.com/neverbiasu/awesome-research-skills/tree/HEAD/scripts",
+   "description": "Exercises the post-merge workflow once and is then removed.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": null,
+   "license_scope": null,
+   "repo_license": null,
+   "license_conflict": null,
+   "capabilities": [],
+   "repo_stars": null,
+   "stars_scope": null,
+   "path_last_commit": null,
+   "stale": null,
+   "checked_at": null,
    "audit_level": "static",
    "audit_verdict": null
   },

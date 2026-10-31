@@ -151,3 +151,4 @@ verify-results	著者自身のローカルのコードが出力する指標が�
 verifying-proofs	論文の定理の証明、代数的な導出、上下界を一歩ずつ確認し、欠けている仮定や基底ケースの欠落を報告します。論文が記号の定義域を述べていない場合は、その手順を誤りとはせず、未検証として示します。
 wentorai-scientific-illustration	グラフィカルアブストラクト、模式図、ワークフローの可視化、アーキテクチャ図の作成を導きます。プログラムによる作図とデザインツールによる作図の両方を扱います。
 wenxian	CrossRef、PubMed、arXiv、Semantic Scholar、ChemRxiv に問い合わせ、DOI、PMID、arXiv ID、論文タイトルから BibTeX エントリを生成します。
+zz-workflow-test	マージ後ワークフローを一度実行し、その後削除します。
