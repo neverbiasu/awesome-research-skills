@@ -1,0 +1,41 @@
+{
+ "ja": [
+  "dataset-codebook-generator",
+  "dataset-version-manifest",
+  "grounded-theory",
+  "interp-cli",
+  "jp-essay-scientific",
+  "literature-weakness-scanner",
+  "medical-manuscript-peer-review",
+  "mixed-methods-instrument-design",
+  "mpltweak",
+  "phd-skills-paper-check",
+  "rebuttal-skill"
+ ],
+ "ko": [
+  "dataset-codebook-generator",
+  "dataset-version-manifest",
+  "grounded-theory",
+  "interp-cli",
+  "jp-essay-scientific",
+  "literature-weakness-scanner",
+  "medical-manuscript-peer-review",
+  "mixed-methods-instrument-design",
+  "mpltweak",
+  "phd-skills-paper-check",
+  "rebuttal-skill"
+ ],
+ "zh": [
+  "dataset-codebook-generator",
+  "dataset-version-manifest",
+  "grounded-theory",
+  "interp-cli",
+  "jp-essay-scientific",
+  "literature-weakness-scanner",
+  "medical-manuscript-peer-review",
+  "mixed-methods-instrument-design",
+  "mpltweak",
+  "phd-skills-paper-check",
+  "rebuttal-skill"
+ ]
+}

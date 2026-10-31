@@ -8,7 +8,9 @@ Open an issue or PR with:
 - One objective sentence describing what it does — not marketing copy, doesn't restate the entry's own name
 - Why it belongs here: aimed at people doing their own research, not a full autoresearch/autonomous-pipeline product
 
-`README.md` is maintained by hand and is the source of truth for what is listed, so a PR that edits it directly is fine: add one line, `- [Name](link to the skill directory) - Description.`, in the section where it belongs, keeping the section alphabetical. Leave `README.zh-CN.md`, `README.ja.md`, `README.ko.md`, `index.json` and `index.csv` alone — those are generated from `README.md`.
+`README.md` is maintained by hand and is the source of truth for what is listed, so a PR that edits it directly is fine: add one line, `- [Name](link to the skill directory) - Description.`, in the section where it belongs, keeping the section alphabetical. Leave `README.zh-CN.md`, `README.ja.md`, `README.ko.md`, `index.json` and `index.csv` alone — those are generated from `README.md`. Leave the skill counts alone too: after merging, a workflow updates the counts, the index and the translations.
+
+Optional: if you can translate the description yourself, add a row `id<TAB>translation` to `data/i18n/zh.tsv`, `ja.tsv` or `ko.tsv`, where `id` is the entry name in lowercase with each run of other characters replaced by `-`. Languages you skip are machine-translated.
 
 ## What belongs on this list
 

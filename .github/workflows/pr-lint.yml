@@ -1,0 +1,15 @@
+name: pr-lint
+
+on:
+  pull_request:
+    paths: [README.md]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/lint_readme.py

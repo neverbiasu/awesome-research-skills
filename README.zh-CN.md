@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-151-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
@@ -6,9 +6,9 @@
 
 选题 → 文献 → 研究设计 → 方法与理论 → 数据 → 训练 → 示意图 → 实验 → 统计 → 定性 → 可解释性 → 绘图 → 写作 → 同行评审
 
-共 150 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
+共 151 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
 
-每一条都对照其仓库读过并核对过（许可证、最近提交、运行所需的网络/凭据/hook），不收模板批量生成或已无人维护的条目。其中 54 条还按一份书面规范逐步动手走过一遍。数据核对至 2026-10-26；每条属于 `static check` 还是 `audited: <结论>`，记录在 `index.json` 中，定义见下文“这些条目是怎么检查的”。
+每一条都对照其仓库读过并核对过（许可证、最近提交、运行所需的网络/凭据/hook），不收模板批量生成或已无人维护的条目。其中 53 条还按一份书面规范逐步动手走过一遍。数据核对至 2026-10-31；每条属于 `static check` 还是 `audited: <结论>`，记录在 `index.json` 中，定义见下文“这些条目是怎么检查的”。
 
 条目名称和链接与英文版一致；描述为译文，如有出入以[英文版](README.md)为准。
 
@@ -230,8 +230,6 @@
 
 - [PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce) - 分七个阶段从一个 arXiv 链接走到可度量的复现运行，用公开替代方案处理缺失的代码、超参数和私有数据集。
 
-- [PhD Skills: Research Publishing](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/research-publishing) - 为随论文投稿公开研究代码做准备，涵盖仓库清理、依赖审计和可复现性清单。
-
 - [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - 为 artifact evaluation 投稿打包研究代码和数据：README 与附录、双盲评审匿名化、ACM 徽章体系，以及 Zenodo 或 Software Heritage 的归档 DOI 指引，并对照会议当前规则检查。
 
 - [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - 按 AEA 数据与代码可得性标准组装可直接提交的可复现材料，包括 README、数据集清单、计算环境要求、图表到脚本的对应表和保密数据存放计划。
@@ -314,6 +312,8 @@
 
 - [Map Research Sites](https://github.com/Revonia-gh/evidence-first-research-skills/tree/HEAD/.agents/skills/map-research-sites) - 校验表格中的经纬度数据并渲染可复现的 SVG 研究地点图，逐行应用公开、模糊化或受限的可见性策略并对坐标取整。
 
+- [mpltweak](https://github.com/shdbl/mpltweak/tree/HEAD/skills/mpltweak) - 通过拖拽（类似 PowerPoint 幻灯片风格）调整 matplotlib 子图布局，并在用户确认后仅将具体数值写回用户的脚本。
+
 - [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - 用 Python 或 R 为高影响力期刊创建、修改和审查投稿级科研图，支持多面板和符合期刊要求的导出。
 
 - [Nature Paper Skills: Figure Planner](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/figure-planner) - 规划并审查稿件的图组织，强制每张图只支撑一个论断、为各面板分配角色，并在撰写图注和结果正文前决定放正文还是补充材料。
@@ -340,6 +340,8 @@
 
 - [Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill) - 通过分析参考语料并逐节修改，使学术稿件适配目标期刊的写作惯例。
 
+- [JP Essay Scientific](https://github.com/lucasbabur/jp-essay/tree/HEAD/scientific) - 在 Claude Code 中研究、起草和修改带引用的学术论文，在修改过程中保留来源链接的论断，并生成文内引用和参考文献列表。
+
 - [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - 处理学术写作中 LaTeX 文档的创建、编译、格式转换和文档分析。
 
 - [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) `zh` - 协助研究生完成中文 LaTeX 学位论文，涵盖编译诊断、GB/T 7714 参考文献格式、结构审查和盲审匿名化。
@@ -352,7 +354,7 @@
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - 把原始研究材料转成结构化大纲，包含绘图计划、文献检索计划和章节计划，用于学术论文写作。
 
-- [PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification) - 通过数值准确性、术语一致性和公式-代码对应检查，对照代码和数据核实论文中的论断。
+- [PhD Skills: Paper Check](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-check) - 在提交前对照代码、结果和引用检查论文，涵盖数值、术语、公式与代码一致性以及 BibTeX，并为代码开源发布做准备。
 
 - [Post-Publication Corrector](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/post-publication-corrector/skills/post-publication-corrector) - 把已发表论文中确认的错误归类为更正（corrigendum）、勘误（erratum）、关注声明或撤稿，然后起草给合作者的通知、给编辑的请求和公开声明。
 
@@ -390,7 +392,7 @@
 
 这是一份策展列表，不是认证。每一条都是有人读过它的 `SKILL.md` 之后选入的。描述说明的是这个 skill 做什么，并不代表它已在你的问题上端到端运行过。没有任何条目声称做过可执行的端到端测试，因为确实没有做过。`SKILL.md` 不是英文的条目，名称旁带有语言标记。
 
-**两级检查。** `static check`（96/150）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（54/150）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
+**两级检查。** `static check`（98/151）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（53/151）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
 
 **许可证、star 数、能力标记和每条的检查状态都在机器可读的索引里，不在本页行内**：[`index.json`](index.json) 和 [`index.csv`](index.csv)，与本页由同一份数据生成。如果你在意某个 skill 的许可证、是否需要网络/凭据/hook，或它确切的审计结论，打开之前先在那里查。简单说：skill 自己 frontmatter 里的 `license:` 与仓库 LICENSE 不一致时，以前者为准；`repo ★N` 是那个*仓库*的 star 数，绝不是对该 skill 的评分。这些 skill 中有 91% 位于别人更大的仓库里，一个 2 万 star 的大仓库里的 skill 可能只提交过一次、从没人用过。
 
@@ -398,4 +400,4 @@
 
 ## 参与贡献
 
-见 [CONTRIBUTING.md](CONTRIBUTING.md)。本列表由数据生成，请不要手工编辑任何 README。
+见 [CONTRIBUTING.md](CONTRIBUTING.md)。翻译版 README 由英文版生成，请不要手工编辑。

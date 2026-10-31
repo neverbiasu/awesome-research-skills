@@ -1,0 +1,63 @@
+# Runs after merge rather than after approval: fork PRs get no secrets, and pushing to a fork's
+# branch needs a personal token. A push made with GITHUB_TOKEN does not re-trigger this workflow.
+
+name: post-merge
+
+on:
+  push:
+    branches: [main]
+    paths: [README.md, "data/i18n/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: post-merge
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync index and counts
+        run: python3 scripts/render.py --fix-numbers
+
+      - name: Translate new entries
+        id: translate
+        continue-on-error: true
+        env:
+          TRANSLATE_API_KEY: ${{ secrets.AGNES_API_KEY }}
+          TRANSLATE_BASE_URL: https://apihub.agnes-ai.com/v1
+          TRANSLATE_MODEL: agnes-3.0-flash
+        run: python3 scripts/translate.py
+
+      - name: Regenerate translated READMEs
+        run: python3 scripts/render.py --fix-numbers
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.zh-CN.md README.ja.md README.ko.md index.json index.csv data/i18n
+          git diff --cached --quiet || { git commit -m "chore: sync counts, index and translations after merge"; git push; }
+
+      - name: Open a reminder issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRANSLATE_OUTCOME: ${{ steps.translate.outcome }}
+        run: |
+          python3 - > todo.md <<'PY'
+          import json, os
+          new = [e["id"] for e in json.load(open("index.json"))["entries"] if not e.get("checked_at")]
+          if new:
+              print("Run `python3 scripts/verify.py --write` locally. Not verified yet:\n")
+              print("\n".join(f"- `{i}`" for i in new))
+          if os.environ["TRANSLATE_OUTCOME"] != "success":
+              print("\nTranslation failed, so new entries show in English. See the workflow log.")
+          PY
+          title="Post-merge steps pending"
+          if [ -s todo.md ] && [ -z "$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[].number')" ]; then
+            gh issue create --title "$title" --body-file todo.md
+          fi

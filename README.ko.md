@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-151-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
@@ -6,9 +6,9 @@
 
 아이디어 구상 → 문헌 → 연구 설계 → 방법과 이론 → 데이터 → 학습 → 다이어그램 → 실험 → 통계 → 질적 연구 → 해석 가능성 → 시각화 → 글쓰기 → 동료 심사
 
-스킬 150개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
+스킬 151개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
 
-모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 54개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-10-26 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
+모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 53개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-10-31 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
 
 항목 이름과 링크는 영문판과 같습니다. 설명은 번역이며, 내용이 다를 경우 [영문판](README.md)을 기준으로 합니다.
 
@@ -230,8 +230,6 @@
 
 - [PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce) - arXiv URL에서 측정 가능한 재현 실행까지 일곱 단계로 진행합니다. 코드, 하이퍼파라미터, 비공개 데이터셋이 없을 때는 공개된 대체 수단으로 대응합니다.
 
-- [PhD Skills: Research Publishing](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/research-publishing) - 논문 투고에 맞춰 연구 코드를 공개할 준비를 합니다. 저장소 정리, 의존성 점검, 재현성 체크리스트를 다룹니다.
-
 - [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - artifact evaluation 제출을 위해 연구 코드와 데이터를 묶습니다. README와 부록, 이중 맹검 심사를 위한 익명화, ACM 배지 체계, Zenodo 또는 Software Heritage의 보관용 DOI 안내를 다루며, 학회의 현행 규정에 비추어 확인합니다.
 
 - [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - AEA 데이터 및 코드 공개 기준에 맞춰 바로 제출할 수 있는 재현 자료를 구성합니다. README, 데이터셋 목록, 계산 환경 요건, 표·그림과 스크립트의 대응표, 기밀 데이터 기탁 계획을 포함합니다.
@@ -314,6 +312,8 @@
 
 - [Map Research Sites](https://github.com/Revonia-gh/evidence-first-research-skills/tree/HEAD/.agents/skills/map-research-sites) - 표 형식의 경도·위도 데이터를 검증하고 재현 가능한 SVG 연구 지점 지도를 그립니다. 행마다 공개, 일반화, 제한 중 하나의 공개 정책을 적용하고 좌표를 반올림합니다.
 
+- [mpltweak](https://github.com/shdbl/mpltweak/tree/HEAD/skills/mpltweak) - matplotlib 서브플롯 레이아웃을 드래그하여 조정(파워포인트 슬라이드 스타일)하고, 사용자가 확인한 후에만 정확한 값을 사용자의 스크립트에 다시 기록합니다.
+
 - [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Python 또는 R로 영향력 높은 학술지를 위한 투고 수준의 과학 그림을 만들고, 수정하고, 점검합니다. 다중 패널과 학술지 요건에 맞는 내보내기를 지원합니다.
 
 - [Nature Paper Skills: Figure Planner](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/figure-planner) - 원고의 그림 구성을 계획하고 점검합니다. 그림 하나에 주장 하나라는 원칙을 지키게 하고, 각 패널에 역할을 배정하며, 그림 설명이나 결과 본문을 쓰기 전에 본문과 보충 자료 중 어디에 둘지 결정합니다.
@@ -340,6 +340,8 @@
 
 - [Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill) - 참조 말뭉치를 분석하고 원고를 섹션별로 수정하여, 학술 원고를 투고 대상 학술지의 글쓰기 관행에 맞춥니다.
 
+- [JP Essay Scientific](https://github.com/lucasbabur/jp-essay/tree/HEAD/scientific) - Claude Code에서 출처가 있는 학술 에세이를 연구, 초안 작성 및 수정하며, 수정 과정에서 출처가 연결된 주장을 보존하고 본문 내 인용과 참고 문헌 목록을 생성합니다.
+
 - [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - 학술 글쓰기를 위한 LaTeX 문서의 작성, 컴파일, 형식 변환, 문서 분석을 처리합니다.
 
 - [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) `zh` - 중국어 LaTeX 학위논문을 쓰는 대학원생을 돕습니다. 컴파일 진단, GB/T 7714 참고문헌 서식, 구조 검토, 블라인드 심사를 위한 익명화를 다룹니다.
@@ -352,7 +354,7 @@
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - 가공되지 않은 연구 자료를 그림 계획, 문헌 검색 계획, 섹션 계획이 포함된 구조화된 개요로 변환합니다. 학술 논문 작성을 위한 것입니다.
 
-- [PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification) - 수치 정확성, 용어 일관성, 수식-코드 대응 점검을 통해 논문의 주장을 코드와 데이터에 비추어 검증합니다.
+- [PhD Skills: Paper Check](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-check) - 논문 제출 전에 코드, 결과, 인용과 대조하여 수치, 용어, 수식-코드 일치 여부, BibTeX를 점검하고 오픈소스 릴리스를 위한 코드 준비를 지원합니다.
 
 - [Post-Publication Corrector](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/post-publication-corrector/skills/post-publication-corrector) - 이미 출판된 논문에서 확인된 오류를 저자 정정(corrigendum), 출판사 정정(erratum), 우려 표명, 철회 중 하나로 분류한 뒤, 공저자 통지문, 편집자 요청서, 공개 공지문 초안을 작성합니다.
 
@@ -390,7 +392,7 @@
 
 이것은 선별한 목록이지 인증이 아닙니다. 각 항목은 사람이 `SKILL.md`를 읽고 골랐습니다. 설명은 그 스킬이 무엇을 하는지를 말할 뿐, 여러분의 문제에 대해 처음부터 끝까지 실행해 본 결과를 보고하는 것이 아닙니다. 실행 가능한 엔드투엔드 테스트를 했다고 주장하는 항목은 하나도 없습니다. 실제로 하지 않았기 때문입니다. `SKILL.md`가 영어가 아닌 항목에는 이름 옆에 언어 태그를 붙였습니다.
 
-**확인은 두 단계입니다.** `static check`(150개 중 96개)는 경로, 라이선스, 커밋 날짜, 필요한 권한과 환경을 실제 저장소에서 확인하고 `SKILL.md`를 읽었다는 뜻입니다. `audited`(150개 중 54개)는 여기에 더해, 문서화된 감사 명세에 따라 스킬 자체의 지시를 함께 제공되는 파일과 대조하며 단계별로 따라가 본 뒤 다음 중 하나의 판정을 받았다는 뜻입니다. `works`, `works with caveats`(목적은 달성하지만 미리 알아야 할 조건이 있음), `unverifiable`(자격 증명, 유료 접근 권한, 하드웨어 없이는 평가할 수 없음). 감사를 통해, 읽기에는 좋아 보이지만 작성자 본인 말고는 아무도 쓸 수 없는 항목을 삭제해 왔습니다.
+**확인은 두 단계입니다.** `static check`(151개 중 98개)는 경로, 라이선스, 커밋 날짜, 필요한 권한과 환경을 실제 저장소에서 확인하고 `SKILL.md`를 읽었다는 뜻입니다. `audited`(151개 중 53개)는 여기에 더해, 문서화된 감사 명세에 따라 스킬 자체의 지시를 함께 제공되는 파일과 대조하며 단계별로 따라가 본 뒤 다음 중 하나의 판정을 받았다는 뜻입니다. `works`, `works with caveats`(목적은 달성하지만 미리 알아야 할 조건이 있음), `unverifiable`(자격 증명, 유료 접근 권한, 하드웨어 없이는 평가할 수 없음). 감사를 통해, 읽기에는 좋아 보이지만 작성자 본인 말고는 아무도 쓸 수 없는 항목을 삭제해 왔습니다.
 
 **라이선스, 스타 수, 권한 및 환경 표시, 항목별 확인 상태는 이 페이지의 각 줄이 아니라 기계가 읽을 수 있는 색인에 있습니다.** [`index.json`](index.json)과 [`index.csv`](index.csv)이며, 이 페이지와 같은 데이터에서 생성됩니다. 스킬의 라이선스, 네트워크·자격 증명·훅이 필요한지 여부, 정확한 감사 판정이 중요하다면 열어 보기 전에 거기서 찾아보세요. 요약하면, 스킬 자체의 프런트매터에 있는 `license:`와 저장소의 LICENSE가 다를 때는 전자를 따릅니다. `repo ★N`은 그 *저장소*의 스타 수이며, 스킬 자체에 대한 평가가 결코 아닙니다. 이 스킬들의 91%는 다른 사람의 더 큰 저장소 안에 있으므로, 스타 2만 개짜리 모노레포에 있는 스킬이라도 한 번 커밋된 뒤 아무도 쓰지 않았을 수 있습니다.
 
@@ -398,4 +400,4 @@
 
 ## 기여하기
 
-[CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요. 이 목록은 데이터에서 생성되므로 README를 직접 편집하지 마세요.
+[CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요. 번역판 README는 영문판에서 생성되므로 직접 편집하지 마세요.

@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-151-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
@@ -6,9 +6,9 @@
 
 アイデア出し → 文献 → 研究デザイン → 手法と理論 → データ → 学習 → 図解 → 実験 → 統計 → 質的研究 → 解釈可能性 → 作図 → 執筆 → 査読
 
-150 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
+151 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
 
-すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 54 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-10-26 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
+すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 53 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-10-31 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
 
 項目名とリンクは英語版と同じです。説明文は翻訳で、内容に違いがある場合は[英語版](README.md)が正となります。
 
@@ -230,8 +230,6 @@
 
 - [PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce) - arXiv の URL から測定可能な再現実行まで、7つの段階で進めます。コード、ハイパーパラメータ、非公開データセットが欠けている場合は、公開されている代替手段で対処します。
 
-- [PhD Skills: Research Publishing](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/research-publishing) - 論文の投稿に合わせて研究コードを公開する準備をします。リポジトリの整理、依存関係の監査、再現性チェックリストを扱います。
-
 - [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - artifact evaluation への提出に向けて、研究のコードとデータをまとめます。README と付録、ダブルブラインド査読のための匿名化、ACM バッジの体系、Zenodo や Software Heritage でのアーカイブ用 DOI の指針を扱い、会議の最新の規則と照らして確認します。
 
 - [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - AEA のデータ・コード公開基準に沿って、そのまま提出できる再現用の資料一式をまとめます。README、データセットの一覧、計算環境の要件、表・図とスクリプトの対応表、機密データの寄託計画を含みます。
@@ -314,6 +312,8 @@
 
 - [Map Research Sites](https://github.com/Revonia-gh/evidence-first-research-skills/tree/HEAD/.agents/skills/map-research-sites) - 表形式の経度・緯度データを検証し、再現可能な SVG の調査地点地図を描画します。行ごとに公開、概略化、制限のいずれかの公開方針を適用し、座標を丸めます。
 
+- [mpltweak](https://github.com/shdbl/mpltweak/tree/HEAD/skills/mpltweak) - matplotlib のサブプロットレイアウトをドラッグで調整し（PowerPoint のスライドのような操作）、ユーザーの確認後にその数値のみをユーザーのスクリプトに書き戻します。
+
 - [Nature Figure](https://github.com/Yuan1z0825/nature-skills/tree/HEAD/skills/nature-figure) - Python または R で、インパクトの高い雑誌向けの投稿品質の科学的な図を作成、修正、監査します。複数パネルと、ジャーナルの要件に合った書き出しに対応します。
 
 - [Nature Paper Skills: Figure Planner](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/figure-planner) - 原稿の図の構成を計画し、監査します。1つの図に1つの主張という原則を徹底し、各パネルに役割を割り当て、図の説明文や結果の本文を書く前に本文か補足資料かを決めます。
@@ -340,6 +340,8 @@
 
 - [Journal Adapt Writing Skill](https://github.com/wantongc/journal-adapt-writing-skill/tree/HEAD/skill) - 参照コーパスを分析し、原稿をセクションごとに改訂することで、学術原稿を投稿先ジャーナルの文章の慣行に合わせます。
 
+- [JP Essay Scientific](https://github.com/lucasbabur/jp-essay/tree/HEAD/scientific) - Claude Code 内で学術論文の調査、起草、改訂を行います。改訂後も出典との関連性を保ち、本文中の引用と参考文献リストを作成します。
+
 - [LaTeX Document Skill](https://github.com/ndpvt-web/latex-document-skill) - 学術的な執筆のための LaTeX 文書の作成、コンパイル、形式変換、文書分析を扱います。
 
 - [LaTeX Thesis (Chinese)](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/latex-thesis-zh) `zh` - 中国語の LaTeX 学位論文に取り組む大学院生を支援します。コンパイルの診断、GB/T 7714 の参考文献書式、構成のレビュー、ブラインド審査向けの匿名化を扱います。
@@ -352,7 +354,7 @@
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - 生の研究資料を、作図計画、文献検索計画、セクション計画を含む構造化されたアウトラインに変換します。学術論文の執筆向けです。
 
-- [PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification) - 数値の正確さ、用語の一貫性、数式とコードの対応の確認を通じて、論文の主張をコードとデータに照らして検証します。
+- [PhD Skills: Paper Check](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-check) - 提出前に論文をコード・結果・引用と照合し、数値、用語、数式とコードの整合性、BibTeX を確認して、コードのオープンソース公開用に整えます。
 
 - [Post-Publication Corrector](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/post-publication-corrector/skills/post-publication-corrector) - 出版済みの論文で確認された誤りを、著者訂正（corrigendum）、出版社訂正（erratum）、懸念表明、撤回のいずれかに分類し、共著者への通知、編集者への依頼、公開する告知を起草します。
 
@@ -390,7 +392,7 @@
 
 これはキュレーションしたリストであり、認証ではありません。各項目は、人が `SKILL.md` を読んだうえで選んでいます。説明文はそのスキルが何をするかを述べたもので、あなたの課題に対して最初から最後まで実行した結果の報告ではありません。実行可能なエンドツーエンドのテストを行ったと主張する項目は1つもありません。実際に行っていないからです。`SKILL.md` が英語以外で書かれている項目には、名前の横に言語タグを付けています。
 
-**確認は2段階です。** `static check`（150 件中 96 件）は、パス、ライセンス、コミット日、必要な権限や環境を実際のリポジトリで確認し、`SKILL.md` を読んだことを意味します。`audited`（150 件中 54 件）は、それに加えて、文書化した監査仕様に沿ってスキル自身の指示を同梱ファイルと照らしながら手順どおりにたどり、次のいずれかの判定を得たことを意味します。`works`、`works with caveats`（目的は果たせるが、事前に知っておくべき条件がある）、`unverifiable`（認証情報、有料アクセス、ハードウェアがないと評価できない）。監査の結果、読むかぎりは良さそうでも作者本人以外には動かせない項目を削除してきました。
+**確認は2段階です。** `static check`（151 件中 98 件）は、パス、ライセンス、コミット日、必要な権限や環境を実際のリポジトリで確認し、`SKILL.md` を読んだことを意味します。`audited`（151 件中 53 件）は、それに加えて、文書化した監査仕様に沿ってスキル自身の指示を同梱ファイルと照らしながら手順どおりにたどり、次のいずれかの判定を得たことを意味します。`works`、`works with caveats`（目的は果たせるが、事前に知っておくべき条件がある）、`unverifiable`（認証情報、有料アクセス、ハードウェアがないと評価できない）。監査の結果、読むかぎりは良さそうでも作者本人以外には動かせない項目を削除してきました。
 
 **ライセンス、スター数、権限や環境のフラグ、項目ごとの確認状況は、このページの各行ではなく、機械可読のインデックスにあります。** [`index.json`](index.json) と [`index.csv`](index.csv) で、このページと同じデータから生成しています。スキルのライセンス、ネットワーク・認証情報・フックが必要かどうか、正確な監査判定が気になる場合は、開く前にそこで調べてください。要点だけ述べると、スキル自身のフロントマターにある `license:` とリポジトリの LICENSE が食い違う場合は前者を優先します。`repo ★N` はその*リポジトリ*のスター数であり、スキル自体の評価ではありません。これらのスキルの 91% は他者のより大きなリポジトリの中にあるため、スター2万のモノレポにあるスキルでも、一度コミットされたきり誰にも使われていないことがあります。
 
@@ -398,4 +400,4 @@
 
 ## コントリビュート
 
-[CONTRIBUTING.md](CONTRIBUTING.md) をご覧ください。このリストはデータから生成しているため、README を手で編集しないでください。
+[CONTRIBUTING.md](CONTRIBUTING.md) をご覧ください。翻訳版の README は英語版から生成しているため、手で編集しないでください。

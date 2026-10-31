@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-151-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
@@ -6,9 +6,9 @@ English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한�
 
 Ideation → Literature → Study design → Method and theory → Data → Training → Diagrams → Experiments → Statistics → Qualitative methods → Interpretability → Plotting → Writing → Peer review
 
-150 skills, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful. They cover the steps you do yourself; full autoresearch loops and MLOps/deployment tooling are out of scope.
+151 skills, read and chosen one at a time — every entry is one exact `SKILL.md` directory, not a repo that might contain something useful. They cover the steps you do yourself; full autoresearch loops and MLOps/deployment tooling are out of scope.
 
-Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 54 have also been walked through by hand against a written spec. Whether an entry is `static check` or `audited: <verdict>` is recorded per entry in `index.json`, along with the date it was last checked — full definitions in *How these entries are checked* below.
+Every entry is read and checked against its repository — license, last commit, and what it needs to run (network, credentials, hooks) — not template-farmed or abandoned. 53 have also been walked through by hand against a written spec. Whether an entry is `static check` or `audited: <verdict>` is recorded per entry in `index.json`, along with the date it was last checked — full definitions in *How these entries are checked* below.
 
 ## Contents
 
@@ -228,8 +228,6 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [PhD Skills: Reproduce](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/reproduce) - Walks through seven stages from an arXiv URL to a measurable replication run, handling missing code, hyperparameters, and private datasets via public-substitute strategies.
 
-- [PhD Skills: Research Publishing](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/research-publishing) - Prepares research code for public release alongside a paper submission, covering repository cleanup, dependency auditing, and a reproducibility checklist.
-
 - [Prepare Artifacts](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills/tree/HEAD/skills/prepare-artifacts) - Packages research code and data for artifact-evaluation submission — README and appendix, anonymization for double-blind review, ACM badge taxonomy, and archival-DOI guidance for Zenodo or Software Heritage — checked against live venue rules.
 
 - [Replication Package](https://github.com/pedrohcgs/claude-code-my-workflow/tree/HEAD/.claude/skills/replication-package) - Assembles submission-ready reproducibility materials to the AEA Data and Code Availability Standard, including a README, dataset manifest, computational-requirements capture, a table/figure-to-script map, and a confidential-data deposit plan.
@@ -354,7 +352,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [PaperOrchestra: Outline Agent](https://github.com/Ar9av/PaperOrchestra/tree/HEAD/skills/outline-agent) - Converts raw research materials into a structured outline with a plotting plan, literature-search plan, and section plan for academic paper writing.
 
-- [PhD Skills: Paper Verification](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-verification) - Verifies paper claims against code and data through numerical-accuracy, terminology-consistency, and formula-code alignment checks.
+- [PhD Skills: Paper Check](https://github.com/fcakyon/phd-skills/tree/HEAD/plugin/skills/paper-check) - Checks a paper against its code, results, and citations before submission, covering numbers, terminology, formula-code alignment, and BibTeX, and prepares the code for open-source release.
 
 - [Post-Publication Corrector](https://github.com/yaotingsun/academic-publishing-skills/tree/HEAD/plugins/post-publication-corrector/skills/post-publication-corrector) - Classifies a confirmed error in an already-published paper as a corrigendum, erratum, expression of concern, or retraction, then drafts the co-author notification, editor request, and public notice.
 
@@ -392,7 +390,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 This is a curated list, not a certification. Each entry is chosen by a person reading its `SKILL.md`. A description states what the skill does; it is not a report of it having been run end to end on your problem. No entry claims an executable end-to-end test, because none has been run. Entries whose `SKILL.md` is not in English carry a language tag next to the name.
 
-**Two levels of checking.** `static check` (96 of 150) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (54 of 150) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
+**Two levels of checking.** `static check` (98 of 151) means the path, license, commit date, and required capabilities were verified against the live repo and the `SKILL.md` was read. `audited` (53 of 151) means someone additionally walked the skill's own instructions against the files it ships, against a written audit spec, and got one of: `works`, `works with caveats` (delivers the outcome but with a condition worth knowing up front), or `unverifiable` (couldn't be assessed without credentials, paid access, or hardware). Auditing has removed entries that read well but could not work for anyone but their author.
 
 **License, stars, capability flags, and per-entry check status live in the machine-readable index, not inline here** — [`index.json`](index.json) and [`index.csv`](index.csv), generated from this page plus the verification data. Look a skill up there before you open it if you care about its license, whether it needs network/credentials/hooks, or its exact audit verdict. In short: a `license:` in the skill's own frontmatter wins over the repo LICENSE where they disagree; `repo ★N` is that *repo's* stars, never the skill's own rating — 91% of these skills live inside someone's larger repo, so a skill in a 20,000-star monorepo may have been committed once and never used.
 
