@@ -366,6 +366,8 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Typst Paper](https://github.com/bahayonghang/academic-writing-skills/tree/HEAD/academic-writing-skills/typst-paper) - Assists with existing Typst manuscripts covering compilation, venue formatting, grammar, bibliography, and submission readiness.
 
+- [Zz Workflow Test](https://github.com/neverbiasu/awesome-research-skills/tree/HEAD/scripts) - reads the workflow test without a capital or period
+
 ## Peer Review & Rebuttal
 
 *The other side of submission: refereeing someone else's manuscript, and answering the reviews of your own.*
