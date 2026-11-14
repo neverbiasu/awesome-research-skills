@@ -346,6 +346,8 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit) - Runs a late-stage manuscript preflight audit that cross-checks claims, figures, legends, methods, and supplement against venue expectations before submission or resubmission.
 
+- [Paper Proof](https://github.com/zch6a/paper-proof/tree/HEAD/plugin/skills/paper-proof) - Checks a LaTeX paper before submission: references looked up in Crossref, OpenAlex, Semantic Scholar and arXiv, bold numbers, claimed gains and abstract numbers checked against the tables, with file and line for every finding.
+
 - [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) `zh` - Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code.
 
 - [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) `zh` - Fixes LaTeX overflow defects — overfull boxes, long formulas, and URL overflows — starting from layout-only edits and escalating to delegated rewording when layout alone cannot fit it.
