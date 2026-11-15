@@ -146,7 +146,7 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [RDKit Cheminformatics](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/rdkit) - Parses and sanitizes molecular structures, then computes descriptors, fingerprints, substructure matches, reactions, and 2D or 3D coordinates for cheminformatics work.
 
-- [YouTube Transcripts](https://github.com/tubeagentkit/youtube-transcript-skills/tree/HEAD/skills/youtube-transcript) - Pulls the full captions of YouTube videos (any caption language, optional timestamps and translation) as text for interview, lecture and media-analysis corpora, using a GetYouTubeTranscript API key.
+- [YouTube Transcripts](https://github.com/tubeagentkit/youtube-transcript-skills/tree/HEAD/skills/youtube-transcript) - Pulls the full captions of YouTube videos (available caption languages, optional timestamps) as text for interview, lecture and media-analysis corpora, using a GetYouTubeTranscript API key.
 
 ## Model Training & Fine-Tuning
 
