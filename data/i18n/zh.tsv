@@ -55,6 +55,8 @@ hermes-saelens	训练并分析稀疏自编码器，把多义的模型激活分�
 hf-llm-trainer	在 Hugging Face Jobs 上通过 TRL 或 Unsloth 微调语言模型和视觉语言模型，涵盖 SFT、DPO、GRPO 和奖励建模。
 hf-vision-trainer	在 Hugging Face Jobs 的云端 GPU 上训练和微调检测、分类以及 SAM/SAM2 分割模型。
 hkustdial-drawio-reconstruction	把示意图、图表或架构图的参考图像重建为可编辑的 Draw.io 文件，优先保证与原图的视觉一致，其次才是可编辑性。
+hypothesis-generation	将观察结果转化为可测试的研究计划，通过撰写竞争性解释、区分性预测以及可直接用于预注册的分析来实现，并附带标准库脚本，无需网络或凭证。
+idea-generation	生成多个候选研究想法，通过最多五轮自我批评进行精炼，并使用附带脚本在 Semantic Scholar 上检查新颖性，同时评估趣味性、可行性和新颖性。
 interp-cli	通过捆绑的 CLI 在 GPT-2 级别模型上运行 logit lens、直接 logit 归因、激活补丁、归纳头检查、SAE 特征查找和 steering，其测试固定了已发布的电路结果。
 journal-adapt-writing-skill	通过分析参考语料并逐节修改，使学术稿件适配目标期刊的写作惯例。
 jp-essay-scientific	在 Claude Code 中研究、起草和修改带引用的学术论文，在修改过程中保留来源链接的论断，并生成文内引用和参考文献列表。
@@ -81,6 +83,7 @@ literature-weakness-scanner	扫描文献语料中反复出现的薄弱论点、�
 litllm	根据论文草稿生成排序后的候选文献和相关工作小节摘要，在 Semantic Scholar、arXiv 和 OpenAlex 上用 LLM 辩论式排序，并沿引用图扩展。
 map-research-sites	校验表格中的经纬度数据并渲染可复现的 SVG 研究地点图，逐行应用公开、模糊化或受限的可见性策略并对坐标取整。
 materials-ontology-explorer	为计算材料数据解析规范的 CMSO 和 ASMO 本体术语，在断言某个关系之前检查类层级以及属性的定义域和值域。
+mechanism-skills	根据每种方法使用的信号将机制问题路由到十一种方法族之一，然后在执行任何操作前要求阅读该方法族及其子方法的文件，并按方法族说明成本、优势和局限性。
 medical-manuscript-peer-review	按期刊格式为他人稿件起草结构化的审稿报告，通过脚本化门禁将建议与面向作者的评注隔离。
 medsci-analyze-stats	为诊断准确性、一致性、生存、倾向评分和调查加权分析生成可复现的 Python 或 R 代码，并在读取任何数据文件前检查是否含受保护的健康信息。
 medsci-design-study	在分析开始前审查医学研究的队列逻辑、对照选择和验证策略，找出数据泄漏和效度风险。
@@ -140,6 +143,7 @@ running-cluster-experiments	讲解在 Slurm 集群上开展多任务实验的方
 scdenney-conjoint-design	规划联合分析调查实验，涵盖属性结构、随机化与正交性、功效计算和 AMCE/AMIE 估计。
 scdenney-survey-design	依据已发表的社会科学方法论，起草和评审问卷的题目措辞、回答量表和问卷流程，以减少测量偏差。
 scholar-qual	开展扎根理论、反思性主题分析和内容分析，包含编码本开发和编码者间信度检验，并可导出为 NVivo、ATLAS.ti、Dedoose 和 MAXQDA 格式。
+scientific-brainstorming	将构思与证据评估及验证分离，采用独立生成、显式假设、对抗性审查和决策日志，并将所有输出视为提案而非发现。
 skill-deslop	去除学术和研究文稿中常见的 AI 写作痕迹，恢复更自然的文风。
 survey-writer	围绕一个研究主题撰写综述草稿，把多篇论文组织成以问题为驱动、体现方法演进的叙述，而不是逐篇摘要。
 surveying-literature	沿引用图向外扩展并独立检索草稿主题，找出草稿可能遗漏的相关工作，并按其对新颖性声明的威胁程度为每个候选评级。
