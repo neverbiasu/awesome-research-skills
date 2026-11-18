@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-154-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-155-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
@@ -6,7 +6,7 @@
 
 选题 → 文献 → 研究设计 → 方法与理论 → 数据 → 训练 → 示意图 → 实验 → 统计 → 定性 → 可解释性 → 绘图 → 写作 → 同行评审
 
-共 154 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
+共 155 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
 
 每一条都对照其仓库读过并核对过（许可证、最近提交、运行所需的网络/凭据/hook），不收模板批量生成或已无人维护的条目。其中 52 条还按一份书面规范逐步动手走过一遍。数据核对至 2026-11-18；每条属于 `static check` 还是 `audited: <结论>`，记录在 `index.json` 中，定义见下文“这些条目是怎么检查的”。
 
@@ -354,6 +354,8 @@
 
 - [Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit) - 在投稿或重投前做后期预检，把论断、图、图注、方法和补充材料与期刊要求交叉核对。
 
+- [Paper Proof](https://github.com/zch6a/paper-proof/tree/HEAD/plugin/skills/paper-proof) - 在提交前检查 LaTeX 论文：在 Crossref、OpenAlex、Semantic Scholar 和 arXiv 中核查参考文献，核对加粗数字、声称的提升幅度以及摘要数字与表格的一致性，并为每一项发现标注文件和行号。
+
 - [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) `zh` - 修复学术论文 LaTeX 源码中的浮动体位置问题：离首次引用太远、宽度不匹配、扎堆和孤页。
 
 - [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) `zh` - 修复 LaTeX 溢出问题（overfull box、过长公式和 URL 溢出），先只做版式调整，版式无法解决时再升级为委托改写措辞。
@@ -398,7 +400,7 @@
 
 这是一份策展列表，不是认证。每一条都是有人读过它的 `SKILL.md` 之后选入的。描述说明的是这个 skill 做什么，并不代表它已在你的问题上端到端运行过。没有任何条目声称做过可执行的端到端测试，因为确实没有做过。`SKILL.md` 不是英文的条目，名称旁带有语言标记。
 
-**两级检查。** `static check`（102/154）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（52/154）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
+**两级检查。** `static check`（103/155）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（52/155）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
 
 **许可证、star 数、能力标记和每条的检查状态都在机器可读的索引里，不在本页行内**：[`index.json`](index.json) 和 [`index.csv`](index.csv)，与本页由同一份数据生成。如果你在意某个 skill 的许可证、是否需要网络/凭据/hook，或它确切的审计结论，打开之前先在那里查。简单说：skill 自己 frontmatter 里的 `license:` 与仓库 LICENSE 不一致时，以前者为准；`repo ★N` 是那个*仓库*的 star 数，绝不是对该 skill 的评分。这些 skill 中有 92% 位于别人更大的仓库里，一个 2 万 star 的大仓库里的 skill 可能只提交过一次、从没人用过。
 

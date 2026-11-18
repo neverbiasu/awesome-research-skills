@@ -112,6 +112,7 @@
  "paper-analyzer": "Converts an academic paper into a detailed HTML article via a six-round workflow with code search, formula rendering, and diagrams.",
  "paper-lifecycle-rebuttal-response": "Converts peer reviews into evidence-based rebuttal packages through triage, strategy, drafting, and tone-repair modes.",
  "paper-lifecycle-review-revision": "Structured review and revision workflow for academic manuscripts with six operating modes scaled to effort level.",
+ "paper-proof": "Checks a LaTeX paper before submission: references looked up in Crossref, OpenAlex, Semantic Scholar and arXiv, bold numbers, claimed gains and abstract numbers checked against the tables, with file and line for every finding.",
  "paper2code": "Turns an arXiv paper into a citation-anchored Python implementation, tagging each module to the paper section it implements and flagging rather than guessing at ambiguities.",
  "paperbanana": "Generates publication-quality academic diagrams and pipeline figures from a paper's methodology text and figure caption, orchestrating a multi-agent pipeline (Retriever, Planner, Stylist, Visualizer, Critic) targeting venues like NeurIPS, ICML, and ACL.",
  "paperfit-float-optimizer": "Fixes LaTeX float placement defects — distance from first reference, width mismatch, clustering, page orphaning — in academic paper source code.",

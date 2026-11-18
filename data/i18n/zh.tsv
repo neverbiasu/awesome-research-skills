@@ -111,6 +111,7 @@ orchestra-transformer-lens	通过挂在每个模型激活上的 hook 点检查�
 paper-analyzer	通过六轮工作流把学术论文转成详细的 HTML 文章，包含代码检索、公式渲染和示意图。
 paper-lifecycle-rebuttal-response	通过分诊、策略、起草和语气修复几种模式，把同行评审意见转化为以证据为依据的答辩材料。
 paper-lifecycle-review-revision	面向学术稿件的结构化审阅与修改工作流，提供六种按投入程度分级的运行模式。
+paper-proof	在提交前检查 LaTeX 论文：在 Crossref、OpenAlex、Semantic Scholar 和 arXiv 中核查参考文献，核对加粗数字、声称的提升幅度以及摘要数字与表格的一致性，并为每一项发现标注文件和行号。
 paper2code	把 arXiv 论文转成带引用锚点的 Python 实现，为每个模块标注它实现的论文章节；遇到含糊之处会标出而不是猜测。
 paperbanana	根据论文的方法描述和图注生成可发表质量的学术示意图和流程图，由多智能体流程（Retriever、Planner、Stylist、Visualizer、Critic）协作完成，面向 NeurIPS、ICML、ACL 等会议。
 paperfit-float-optimizer	修复学术论文 LaTeX 源码中的浮动体位置问题：离首次引用太远、宽度不匹配、扎堆和孤页。

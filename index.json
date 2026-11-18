@@ -1,5 +1,5 @@
 {
- "count": 154,
+ "count": 155,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -3774,6 +3774,30 @@
    "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
+  },
+  {
+   "id": "paper-proof",
+   "name": "Paper Proof",
+   "category": "writing_submission",
+   "repo": "zch6a/paper-proof",
+   "path": "plugin/skills/paper-proof",
+   "url": "https://github.com/zch6a/paper-proof/tree/HEAD/plugin/skills/paper-proof",
+   "description": "Checks a LaTeX paper before submission: references looked up in Crossref, OpenAlex, Semantic Scholar and arXiv, bold numbers, claimed gains and abstract numbers checked against the tables, with file and line for every finding.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": null,
+   "license_scope": null,
+   "repo_license": null,
+   "license_conflict": null,
+   "capabilities": [],
+   "repo_stars": null,
+   "stars_scope": null,
+   "path_last_commit": null,
+   "stale": null,
+   "checked_at": null,
+   "audit_level": "static",
+   "audit_verdict": null
   },
   {
    "id": "paperfit-float-optimizer",
