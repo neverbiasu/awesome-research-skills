@@ -42,15 +42,15 @@
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 組み合わせによる創造、類推的推論、制約の操作といった認知科学の創造性の技法を、研究の方向性の発想に応用します。
 
-- [Hypothesis Generation](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation) - Turns observations into testable research plans by writing rival explanations, discriminating predictions, and preregistration-ready analyses with bundled standard-library scripts that need no network or credentials.
+- [Hypothesis Generation](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation) - 競合する説明、識別的な予測、事前登録に準拠した分析を記述することで、観測結果をテスト可能な研究計画に変換します。ネットワークや認証情報を必要としない、バンドルされた標準ライブラリのスクリプトを使用します。
 
-- [Idea Generation](https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation) - Generates several candidate research ideas, refines each over up to five self-critique rounds, and checks novelty against Semantic Scholar with a bundled script that scores interestingness, feasibility, and novelty.
+- [Idea Generation](https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation) - 複数の研究アイデアの候補を生成し、最大5ラウンドの自己批判を通じてそれらを洗練させ、面白い度、実行可能性、新規性を含むノベルティチェックをバンドルされたスクリプトで Semantic Scholar に対して実行します。
 
 - [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - 文献群をスキャンし、繰り返される弱い主張、根拠のない仮定、反証された知見を特定して貢献ギャップを把握します。矛盾のステップでは、任意の外部検索 CLI に依存します。
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 文献と初期のアイデアを分析し、根拠のある研究ギャップと検証可能な着手点を特定します。新規性の主張を無理に作ることはしません。
 
-- [Scientific Brainstorming](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming) - Separates ideation from evidence assessment and validation, using independent generation, explicit assumptions, adversarial review, and decision logs while treating every output as a proposal rather than a finding.
+- [Scientific Brainstorming](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming) - アイデア出しとエビデンス評価および検証を分離し、独立した生成、明示的な仮定、敵対的レビュー、意思決定ログを用います。すべての出力を調査結果ではなく提案として扱います。
 
 ## 文献レビュー
 
@@ -296,7 +296,7 @@
 
 - [Interp CLI](https://github.com/azrabano23/interp) - バンドルされた CLI を通じて GPT-2 クラスのモデルで、logit lens、直接 logit 帰属解析、アクティベーションパッチング、induction-head チェック、SAE 特徴量検索、steering を実行します。この CLI のテストは、公開されている回路結果を固定（pin）しています。
 
-- [Mechanism Skills](https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills) - Routes a mechanism question to one of eleven method families by the signal each uses, then requires reading that family's and submethod's files before running anything, with cost, advantages, and limitations stated per family.
+- [Mechanism Skills](https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills) - 各メソッドファミリが使用するシグナルに基づいて、メカニズムに関する質問を11のメソッドファミリのいずれかにルーティングし、実行する前にそのファミリとサブメソッドのファイルの読み取りを必須とします。各ファミリについてコスト、利点、限界を明示します。
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 任意の PyTorch モデルの内部を調べて操作します。ローカルの GPU には大きすぎるモデルに対して、NDIF 経由でリモート実行することもできます。
 

@@ -42,15 +42,15 @@
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 把认知科学中的创造力技巧（组合创造、类比推理和约束操纵）用于生成研究方向。
 
-- [Hypothesis Generation](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation) - Turns observations into testable research plans by writing rival explanations, discriminating predictions, and preregistration-ready analyses with bundled standard-library scripts that need no network or credentials.
+- [Hypothesis Generation](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation) - 将观察结果转化为可测试的研究计划，通过撰写竞争性解释、区分性预测以及可直接用于预注册的分析来实现，并附带标准库脚本，无需网络或凭证。
 
-- [Idea Generation](https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation) - Generates several candidate research ideas, refines each over up to five self-critique rounds, and checks novelty against Semantic Scholar with a bundled script that scores interestingness, feasibility, and novelty.
+- [Idea Generation](https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation) - 生成多个候选研究想法，通过最多五轮自我批评进行精炼，并使用附带脚本在 Semantic Scholar 上检查新颖性，同时评估趣味性、可行性和新颖性。
 
 - [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - 扫描文献语料中反复出现的薄弱论点、未支撑的假设和被反驳的发现以定位贡献缺口，矛盾检查步骤依赖可选的外部搜索 CLI。
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 分析文献和早期想法，找出有依据的研究缺口和可检验的切入点，不强行声称新颖性。
 
-- [Scientific Brainstorming](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming) - Separates ideation from evidence assessment and validation, using independent generation, explicit assumptions, adversarial review, and decision logs while treating every output as a proposal rather than a finding.
+- [Scientific Brainstorming](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming) - 将构思与证据评估及验证分离，采用独立生成、显式假设、对抗性审查和决策日志，并将所有输出视为提案而非发现。
 
 ## 文献综述
 
@@ -296,7 +296,7 @@
 
 - [Interp CLI](https://github.com/azrabano23/interp) - 通过捆绑的 CLI 在 GPT-2 级别模型上运行 logit lens、直接 logit 归因、激活补丁、归纳头检查、SAE 特征查找和 steering，其测试固定了已发布的电路结果。
 
-- [Mechanism Skills](https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills) - Routes a mechanism question to one of eleven method families by the signal each uses, then requires reading that family's and submethod's files before running anything, with cost, advantages, and limitations stated per family.
+- [Mechanism Skills](https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills) - 根据每种方法使用的信号将机制问题路由到十一种方法族之一，然后在执行任何操作前要求阅读该方法族及其子方法的文件，并按方法族说明成本、优势和局限性。
 
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 检查并操纵任意 PyTorch 模型的内部状态，包括通过 NDIF 对本地 GPU 放不下的大模型远程执行。
 
