@@ -1,5 +1,5 @@
 {
- "count": 151,
+ "count": 150,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -22,7 +22,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -42,11 +42,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 14143,
+   "repo_stars": 14192,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -75,11 +75,11 @@
      "evidence": "Through the Zotero MCP server, the research-ideation workflow automates literature management:"
     }
    ],
-   "repo_stars": 5950,
+   "repo_stars": 5964,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-13",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -99,11 +99,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 14143,
+   "repo_stars": 14192,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -127,7 +127,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -147,11 +147,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 369,
+   "repo_stars": 371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-04-05",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -171,11 +171,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1173,
+   "repo_stars": 1176,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -195,11 +195,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3363,
+   "repo_stars": 3380,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-31",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -228,11 +228,11 @@
      "evidence": "Use `mcp__chrome-devtools__navigate_page` \u2192 `https://kns.cnki.net/kns8s/search`"
     }
    ],
-   "repo_stars": 1029,
+   "repo_stars": 1032,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-28",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -256,7 +256,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-09",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -276,11 +276,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1327,
+   "repo_stars": 1330,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-29",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -300,11 +300,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1327,
+   "repo_stars": 1330,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -333,11 +333,11 @@
      "evidence": "- GEMINI_API_KEY environment variable"
     }
    ],
-   "repo_stars": 449,
+   "repo_stars": 450,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-19",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -370,7 +370,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-04",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -411,7 +411,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-07",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -444,7 +444,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-24",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -464,11 +464,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 51592,
+   "repo_stars": 51815,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-10-16",
+   "path_last_commit": "2026-11-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -488,11 +488,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 51592,
+   "repo_stars": 51815,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -516,7 +516,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-09-10",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -536,11 +536,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1426,
+   "repo_stars": 1430,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-21",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -560,11 +560,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1021,
+   "repo_stars": 1028,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-23",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -593,11 +593,11 @@
      "evidence": "1. \u5df2\u8bbe\u7f6e `QINYAN_API_KEY` \u73af\u5883\u53d8\u91cf\uff08\u524d\u5f80 https://platform.qinyanai.com/ \u7533\u8bf7\uff09"
     }
    ],
-   "repo_stars": 996,
+   "repo_stars": 1001,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-13",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -626,11 +626,11 @@
      "evidence": "- **docx skill** (`/mnt/skills/public/docx/SKILL.md`) \u2014 Critical rules for docx-js when generating the Word document."
     }
    ],
-   "repo_stars": 116,
+   "repo_stars": 117,
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-03-28",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -654,7 +654,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-28",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -687,7 +687,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -716,11 +716,11 @@
      "evidence": "- Allow user to retry after installing MCP server"
     }
    ],
-   "repo_stars": 431,
+   "repo_stars": 435,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -744,7 +744,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -773,11 +773,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55767,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -801,7 +801,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -825,7 +825,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -845,11 +845,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 359,
+   "repo_stars": 362,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-05",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -869,11 +869,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1675,
+   "repo_stars": 1677,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -902,11 +902,11 @@
      "evidence": "argument-hint: \"[--style osf|aspredicted|aea-rct] [--input <spec-or-description>] [--no-verify]\""
     }
    ],
-   "repo_stars": 1675,
+   "repo_stars": 1677,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -930,7 +930,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -954,7 +954,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -978,7 +978,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-17",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -998,11 +998,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 18370,
+   "repo_stars": 18477,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-06",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1026,7 +1026,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-20",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1050,7 +1050,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1070,11 +1070,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 18370,
+   "repo_stars": 18477,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-06",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1098,7 +1098,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1122,7 +1122,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-29",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1142,11 +1142,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 359,
+   "repo_stars": 362,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1166,11 +1166,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1173,
+   "repo_stars": 1176,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-26",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1190,11 +1190,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 359,
+   "repo_stars": 362,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1218,7 +1218,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1247,11 +1247,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55767,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1271,11 +1271,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 444,
+   "repo_stars": 446,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1304,11 +1304,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55767,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1353,11 +1353,11 @@
      "evidence": "3. Verify auth: `mcp__huggingface__hf_whoami()`"
     }
    ],
-   "repo_stars": 11242,
+   "repo_stars": 11252,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-06",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1394,11 +1394,11 @@
      "evidence": "hf_jobs(\"uv\", {\"script\": training_script_content, \"flavor\": \"a10g-large\", \"timeout\": \"4h\", \"secrets\": {\"HF_TOKEN\": \"$HF_TOKEN\"}})"
     }
    ],
-   "repo_stars": 11242,
+   "repo_stars": 11252,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-23",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1427,11 +1427,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55767,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1460,11 +1460,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55767,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1509,11 +1509,11 @@
      "evidence": "| `docker run` flags, NGC auth, mounts, env passthrough, local/remote Docker job preflight (daemon, GPU smoke) | [`tao-skill-bank:tao-run-on-docker`](../../plat"
     }
    ],
-   "repo_stars": 3805,
+   "repo_stars": 3817,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1550,11 +1550,11 @@
      "evidence": "description: Pre-flight checklist for long-running ML training jobs covering config diff, run naming, path verification, monitoring setup, and restart-cleanup. "
     }
    ],
-   "repo_stars": 444,
+   "repo_stars": 446,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1591,11 +1591,11 @@
      "evidence": "- W&B credential: named environment variable `WANDB_API_KEY`."
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55767,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1624,11 +1624,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1665,11 +1665,11 @@
      "evidence": "hf auth login                                          # or set HF_TOKEN with write scope (for Hub push)"
     }
    ],
-   "repo_stars": 11242,
+   "repo_stars": 11252,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-18",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1689,11 +1689,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 11242,
+   "repo_stars": 11252,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1717,7 +1717,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-19",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1741,7 +1741,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-06",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -1761,11 +1761,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 245,
+   "repo_stars": 246,
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-06-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1785,11 +1785,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 10482,
+   "repo_stars": 10515,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-10-11",
+   "path_last_commit": "2026-10-23",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1809,11 +1809,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 11249,
+   "repo_stars": 11397,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1842,11 +1842,11 @@
      "evidence": "Select the appropriate diagram type based on the use case. Use your built-in knowledge of Mermaid syntax, or fetch up-to-date docs via the context7 MCP server i"
     }
    ],
-   "repo_stars": 18370,
+   "repo_stars": 18477,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-07",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -1866,11 +1866,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 233,
+   "repo_stars": 235,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-04",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1899,11 +1899,11 @@
      "evidence": "- OPENROUTER_API_KEY (recommended)"
     }
    ],
-   "repo_stars": 7517,
+   "repo_stars": 7531,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-18",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1927,7 +1927,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1964,11 +1964,11 @@
      "evidence": "primaryEnv: OPENROUTER_API_KEY"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -1992,7 +1992,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-04-24",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2021,11 +2021,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2045,11 +2045,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3363,
+   "repo_stars": 3380,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-31",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2073,7 +2073,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2097,7 +2097,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2117,11 +2117,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 369,
+   "repo_stars": 371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-04-05",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2145,7 +2145,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-06-29",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2174,11 +2174,11 @@
      "evidence": "suite (needs `ROBOFLOW_API_KEY`). This is the \"does it fine-tune well, not"
     }
    ],
-   "repo_stars": 944,
+   "repo_stars": 971,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2202,7 +2202,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-21",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2222,11 +2222,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": true,
    "capabilities": [],
-   "repo_stars": 51592,
+   "repo_stars": 51816,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2250,7 +2250,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-04-03",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2270,11 +2270,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 694,
+   "repo_stars": 696,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-04-17",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2303,11 +2303,11 @@
      "evidence": "1. `WANDB_API_KEY` env var set, or `wandb` imports or a `*.yaml` config with wandb keys in the project \u2192 **wandb**"
     }
    ],
-   "repo_stars": 444,
+   "repo_stars": 446,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2327,11 +2327,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 444,
+   "repo_stars": 446,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-04-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2351,11 +2351,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 444,
+   "repo_stars": 446,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2375,11 +2375,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 58,
+   "repo_stars": 59,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-21",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2399,11 +2399,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1675,
+   "repo_stars": 1677,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-27",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2436,7 +2436,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "unverifiable"
   },
@@ -2456,11 +2456,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 58,
+   "repo_stars": 59,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-21",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2489,11 +2489,11 @@
      "evidence": "When a StatsPAI MCP server is connected, **select the validated tool, then let it"
     }
    ],
-   "repo_stars": 60,
+   "repo_stars": 61,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2517,7 +2517,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2541,7 +2541,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2565,7 +2565,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2589,7 +2589,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-03",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2618,11 +2618,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2651,11 +2651,11 @@
      "evidence": "style_path = os.path.join(os.environ.get('CLAUDE_SKILL_DIR', '.'), 'references/style/figure_style.mplstyle')"
     }
    ],
-   "repo_stars": 359,
+   "repo_stars": 362,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-04",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2675,11 +2675,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 359,
+   "repo_stars": 362,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2699,11 +2699,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1173,
+   "repo_stars": 1176,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-26",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2744,7 +2744,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-08-06",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2773,11 +2773,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2801,7 +2801,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-24",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2821,11 +2821,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 82,
+   "repo_stars": 83,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-23",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2849,31 +2849,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-31",
    "stale": false,
-   "checked_at": "2026-10-31",
-   "audit_level": "hands_on",
-   "audit_verdict": "works"
-  },
-  {
-   "id": "grounded-theory",
-   "name": "Grounded Theory",
-   "category": "qualitative_methods",
-   "repo": "joyzhzh/grounded-theory",
-   "path": "",
-   "url": "https://github.com/joyzhzh/grounded-theory",
-   "description": "Performs source-near coding, constant comparison, versioned memos, and negative-case tracking with validators, and leaves theoretical saturation to human review rather than certifying it.",
-   "form": "skill",
-   "lang": "en",
-   "required_capabilities": "",
-   "license": "MIT",
-   "license_scope": "license_file_in_skill_dir",
-   "repo_license": "MIT",
-   "license_conflict": false,
-   "capabilities": [],
-   "repo_stars": 0,
-   "stars_scope": "whole_repo_is_skill",
-   "path_last_commit": "2026-09-07",
-   "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2897,7 +2873,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-02-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -2921,7 +2897,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-08-13",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -2945,7 +2921,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -2986,7 +2962,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-25",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3015,11 +2991,11 @@
      "evidence": "- **docx skill** (`/mnt/skills/public/docx/SKILL.md`) \u2014 Required for the Word document."
     }
    ],
-   "repo_stars": 18,
+   "repo_stars": 19,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-11",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -3043,7 +3019,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-08-24",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3072,11 +3048,11 @@
      "evidence": "os.environ[\"NDIF_API_KEY\"] = \"your_key\""
     }
    ],
-   "repo_stars": 14143,
+   "repo_stars": 14192,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3096,11 +3072,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 14143,
+   "repo_stars": 14192,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3116,15 +3092,15 @@
    "lang": "en",
    "required_capabilities": "",
    "license": "MIT",
-   "license_scope": "declared_in_skill_frontmatter",
+   "license_scope": "repo_fallback",
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 259169,
+   "repo_stars": 259644,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-08",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3153,11 +3129,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3186,11 +3162,11 @@
      "evidence": "os.environ[\"HF_TOKEN\"] = \"your_token\""
     }
    ],
-   "repo_stars": 14143,
+   "repo_stars": 14192,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2025-12-17",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3214,7 +3190,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3234,11 +3210,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 9423,
+   "repo_stars": 9451,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-24",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3262,7 +3238,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-12",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3303,7 +3279,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3323,11 +3299,11 @@
    "repo_license": "Apache-2.0",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 51592,
+   "repo_stars": 51815,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-10-21",
+   "path_last_commit": "2026-11-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -3347,11 +3323,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 645,
+   "repo_stars": 649,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3371,11 +3347,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 694,
+   "repo_stars": 696,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-21",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3395,11 +3371,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 230,
+   "repo_stars": 231,
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-02-19",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3428,11 +3404,11 @@
      "evidence": "| ElevenLabs | 3 (premium) | `pip install elevenlabs` + `ELEVENLABS_API_KEY` |"
     }
    ],
-   "repo_stars": 1173,
+   "repo_stars": 1176,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-03-04",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3452,11 +3428,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3363,
+   "repo_stars": 3380,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-31",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3485,11 +3461,11 @@
      "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
     }
    ],
-   "repo_stars": 55539,
+   "repo_stars": 55768,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-01",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -3513,7 +3489,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3533,11 +3509,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 693,
+   "repo_stars": 694,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3557,11 +3533,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 1021,
+   "repo_stars": 1028,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-23",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3585,7 +3561,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-05-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3605,11 +3581,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 4,
+   "repo_stars": 92,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-25",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3629,11 +3605,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 808,
+   "repo_stars": 810,
    "stars_scope": "whole_repo_is_skill",
-   "path_last_commit": "2026-10-31",
+   "path_last_commit": "2026-11-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3653,11 +3629,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 528,
+   "repo_stars": 530,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-10-15",
+   "path_last_commit": "2026-10-28",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3677,11 +3653,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 645,
+   "repo_stars": 649,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-10",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3701,11 +3677,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 333,
+   "repo_stars": 334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-26",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3725,11 +3701,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 333,
+   "repo_stars": 334,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-09-26",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3749,11 +3725,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 694,
+   "repo_stars": 696,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3773,11 +3749,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 444,
+   "repo_stars": 446,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-30",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3801,7 +3777,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3825,7 +3801,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   },
@@ -3845,11 +3821,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 7968,
+   "repo_stars": 8003,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-20",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3873,7 +3849,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-03-18",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3893,11 +3869,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 369,
+   "repo_stars": 371,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-04-05",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3917,11 +3893,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 528,
+   "repo_stars": 530,
    "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-09-07",
+   "path_last_commit": "2026-11-02",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3950,11 +3926,11 @@
      "evidence": "**Enforcement (v3.9.2):** Phase Boundary blocks on Bucket A agents + advisory verifier (`scripts/check_pipeline_integrity.py`) + a PreToolUse write-scope guard "
     }
    ],
-   "repo_stars": 54753,
+   "repo_stars": 54969,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-28",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3991,11 +3967,11 @@
      "evidence": "allowed-tools: Bash(*), Read, Write, Grep, Glob, Skill, WebSearch, WebFetch, mcp__codex__codex, mcp__mcp-dblp__search, mcp__mcp-dblp__fuzzy_title_search, mcp__m"
     }
    ],
-   "repo_stars": 172,
+   "repo_stars": 173,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-08-10",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -4015,11 +3991,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 3363,
+   "repo_stars": 3380,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-31",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -4043,7 +4019,7 @@
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-07-15",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -4063,11 +4039,11 @@
    "repo_license": "MIT",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 359,
+   "repo_stars": 362,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-10-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works_with_caveats"
   },
@@ -4087,11 +4063,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 705,
+   "repo_stars": 707,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -4111,11 +4087,11 @@
    "repo_license": "unverified",
    "license_conflict": false,
    "capabilities": [],
-   "repo_stars": 705,
+   "repo_stars": 707,
    "stars_scope": "monorepo_subpath_not_attributable",
    "path_last_commit": "2026-06-16",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -4139,7 +4115,7 @@
    "stars_scope": "whole_repo_is_skill",
    "path_last_commit": "2026-08-20",
    "stale": false,
-   "checked_at": "2026-10-31",
+   "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
   }
