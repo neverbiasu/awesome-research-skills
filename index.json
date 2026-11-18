@@ -1,5 +1,5 @@
 {
- "count": 150,
+ "count": 154,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -108,6 +108,63 @@
    "audit_verdict": null
   },
   {
+   "id": "hypothesis-generation",
+   "name": "Hypothesis Generation",
+   "category": "ideation",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "path": "skills/hypothesis-generation",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation",
+   "description": "Turns observations into testable research plans by writing rival explanations, discriminating predictions, and preregistration-ready analyses with bundled standard-library scripts that need no network or credentials.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [
+    {
+     "flag": "net",
+     "polarity": "mentioned",
+     "rule_id": "net.api",
+     "evidence_file": "SKILL.md",
+     "evidence_line": 288,
+     "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
+    }
+   ],
+   "repo_stars": 57607,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-10-01",
+   "stale": false,
+   "checked_at": "2026-11-18",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "idea-generation",
+   "name": "Idea Generation",
+   "category": "ideation",
+   "repo": "muye1112/skill",
+   "path": "skills/idea-generation",
+   "url": "https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation",
+   "description": "Generates several candidate research ideas, refines each over up to five self-critique rounds, and checks novelty against Semantic Scholar with a bundled script that scores interestingness, feasibility, and novelty.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 6,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-08-13",
+   "stale": false,
+   "checked_at": "2026-11-18",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
    "id": "literature-weakness-scanner",
    "name": "Literature Weakness Scanner",
    "category": "ideation",
@@ -152,6 +209,39 @@
    "path_last_commit": "2026-04-05",
    "stale": false,
    "checked_at": "2026-11-02",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "scientific-brainstorming",
+   "name": "Scientific Brainstorming",
+   "category": "ideation",
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "path": "skills/scientific-brainstorming",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming",
+   "description": "Separates ideation from evidence assessment and validation, using independent generation, explicit assumptions, adversarial review, and decision logs while treating every output as a proposal rather than a finding.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "declared_in_skill_frontmatter",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [
+    {
+     "flag": "net",
+     "polarity": "mentioned",
+     "rule_id": "net.api",
+     "evidence_file": "SKILL.md",
+     "evidence_line": 302,
+     "evidence": "http://export.arxiv.org/api/query?id_list=2609.00065) before writing the reference and take"
+    }
+   ],
+   "repo_stars": 57607,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-10-01",
+   "stale": false,
+   "checked_at": "2026-11-18",
    "audit_level": "static",
    "audit_verdict": null
   },
@@ -3022,6 +3112,30 @@
    "checked_at": "2026-11-02",
    "audit_level": "hands_on",
    "audit_verdict": "works"
+  },
+  {
+   "id": "mechanism-skills",
+   "name": "Mechanism Skills",
+   "category": "interpretability",
+   "repo": "zjunlp/Mechanist",
+   "path": "skills/mechanism-skills",
+   "url": "https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills",
+   "description": "Routes a mechanism question to one of eleven method families by the signal each uses, then requires reading that family's and submethod's files before running anything, with cost, advantages, and limitations stated per family.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": "MIT",
+   "license_scope": "repo_fallback",
+   "repo_license": "MIT",
+   "license_conflict": false,
+   "capabilities": [],
+   "repo_stars": 82,
+   "stars_scope": "monorepo_subpath_not_attributable",
+   "path_last_commit": "2026-08-19",
+   "stale": false,
+   "checked_at": "2026-11-18",
+   "audit_level": "static",
+   "audit_verdict": null
   },
   {
    "id": "orchestra-nnsight",

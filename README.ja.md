@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-154-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · 日本語 · [한국어](README.ko.md)
 
@@ -6,7 +6,7 @@
 
 アイデア出し → 文献 → 研究デザイン → 手法と理論 → データ → 学習 → 図解 → 実験 → 統計 → 質的研究 → 解釈可能性 → 作図 → 執筆 → 査読
 
-150 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
+154 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
 
 すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 52 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-11-18 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
 
@@ -42,9 +42,15 @@
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 組み合わせによる創造、類推的推論、制約の操作といった認知科学の創造性の技法を、研究の方向性の発想に応用します。
 
+- [Hypothesis Generation](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation) - Turns observations into testable research plans by writing rival explanations, discriminating predictions, and preregistration-ready analyses with bundled standard-library scripts that need no network or credentials.
+
+- [Idea Generation](https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation) - Generates several candidate research ideas, refines each over up to five self-critique rounds, and checks novelty against Semantic Scholar with a bundled script that scores interestingness, feasibility, and novelty.
+
 - [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - 文献群をスキャンし、繰り返される弱い主張、根拠のない仮定、反証された知見を特定して貢献ギャップを把握します。矛盾のステップでは、任意の外部検索 CLI に依存します。
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 文献と初期のアイデアを分析し、根拠のある研究ギャップと検証可能な着手点を特定します。新規性の主張を無理に作ることはしません。
+
+- [Scientific Brainstorming](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming) - Separates ideation from evidence assessment and validation, using independent generation, explicit assumptions, adversarial review, and decision logs while treating every output as a proposal rather than a finding.
 
 ## 文献レビュー
 
@@ -290,6 +296,8 @@
 
 - [Interp CLI](https://github.com/azrabano23/interp) - バンドルされた CLI を通じて GPT-2 クラスのモデルで、logit lens、直接 logit 帰属解析、アクティベーションパッチング、induction-head チェック、SAE 特徴量検索、steering を実行します。この CLI のテストは、公開されている回路結果を固定（pin）しています。
 
+- [Mechanism Skills](https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills) - Routes a mechanism question to one of eleven method families by the signal each uses, then requires reading that family's and submethod's files before running anything, with cost, advantages, and limitations stated per family.
+
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 任意の PyTorch モデルの内部を調べて操作します。ローカルの GPU には大きすぎるモデルに対して、NDIF 経由でリモート実行することもできます。
 
 - [pyvene](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/pyvene) - 宣言的な辞書ベースの介入フレームワークを通じて、PyTorch モデルに対する因果トレース、アクティベーションパッチング、交換介入学習を行います。
@@ -390,7 +398,7 @@
 
 これはキュレーションしたリストであり、認証ではありません。各項目は、人が `SKILL.md` を読んだうえで選んでいます。説明文はそのスキルが何をするかを述べたもので、あなたの課題に対して最初から最後まで実行した結果の報告ではありません。実行可能なエンドツーエンドのテストを行ったと主張する項目は1つもありません。実際に行っていないからです。`SKILL.md` が英語以外で書かれている項目には、名前の横に言語タグを付けています。
 
-**確認は2段階です。** `static check`（150 件中 98 件）は、パス、ライセンス、コミット日、必要な権限や環境を実際のリポジトリで確認し、`SKILL.md` を読んだことを意味します。`audited`（150 件中 52 件）は、それに加えて、文書化した監査仕様に沿ってスキル自身の指示を同梱ファイルと照らしながら手順どおりにたどり、次のいずれかの判定を得たことを意味します。`works`、`works with caveats`（目的は果たせるが、事前に知っておくべき条件がある）、`unverifiable`（認証情報、有料アクセス、ハードウェアがないと評価できない）。監査の結果、読むかぎりは良さそうでも作者本人以外には動かせない項目を削除してきました。
+**確認は2段階です。** `static check`（154 件中 102 件）は、パス、ライセンス、コミット日、必要な権限や環境を実際のリポジトリで確認し、`SKILL.md` を読んだことを意味します。`audited`（154 件中 52 件）は、それに加えて、文書化した監査仕様に沿ってスキル自身の指示を同梱ファイルと照らしながら手順どおりにたどり、次のいずれかの判定を得たことを意味します。`works`、`works with caveats`（目的は果たせるが、事前に知っておくべき条件がある）、`unverifiable`（認証情報、有料アクセス、ハードウェアがないと評価できない）。監査の結果、読むかぎりは良さそうでも作者本人以外には動かせない項目を削除してきました。
 
 **ライセンス、スター数、権限や環境のフラグ、項目ごとの確認状況は、このページの各行ではなく、機械可読のインデックスにあります。** [`index.json`](index.json) と [`index.csv`](index.csv) で、このページと同じデータから生成しています。スキルのライセンス、ネットワーク・認証情報・フックが必要かどうか、正確な監査判定が気になる場合は、開く前にそこで調べてください。要点だけ述べると、スキル自身のフロントマターにある `license:` とリポジトリの LICENSE が食い違う場合は前者を優先します。`repo ★N` はその*リポジトリ*のスター数であり、スキル自体の評価ではありません。これらのスキルの 92% は他者のより大きなリポジトリの中にあるため、スター2万のモノレポにあるスキルでも、一度コミットされたきり誰にも使われていないことがあります。
 
