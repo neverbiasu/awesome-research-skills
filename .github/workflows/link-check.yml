@@ -5,14 +5,12 @@ name: link-check
 
 on:
   schedule:
-    # Weekly only — was also firing on every README-touching push, which meant one run (and
-    # potentially one new issue) per commit instead of per week.
+    # Weekly checks; reports stay in Actions rather than opening reminder issues.
     - cron: "0 6 * * 1"
   workflow_dispatch:
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   check:
@@ -37,10 +35,9 @@ jobs:
           output: lychee-report.md
           fail: false
 
-      - name: Open an issue if anything is dead
-        if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: "Dead links in README.md"
-          content-filepath: lychee-report.md
-          labels: broken-link
+      - name: Record link-check report
+        if: always()
+        run: |
+          if [ -f lychee-report.md ]; then
+            cat lychee-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -11,7 +11,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency: post-merge
 
@@ -43,21 +42,15 @@ jobs:
           git add README.md README.zh-CN.md README.ja.md README.ko.md index.json index.csv data/i18n
           git diff --cached --quiet || { git commit -m "chore: sync counts, index and translations after merge"; git push; }
 
-      - name: Open a reminder issue
+      - name: Record local verification and translation status
         env:
-          GH_TOKEN: ${{ github.token }}
           TRANSLATE_OUTCOME: ${{ steps.translate.outcome }}
         run: |
-          python3 - > todo.md <<'PY'
+          python3 - >> "$GITHUB_STEP_SUMMARY" <<'PY'
           import json, os
           new = [e["id"] for e in json.load(open("index.json"))["entries"] if not e.get("checked_at")]
           if new:
-              print("Run `python3 scripts/verify.py --write` locally. Not verified yet:\n")
-              print("\n".join(f"- `{i}`" for i in new))
+              print("Local verification pending: " + ", ".join(f"`{i}`" for i in new))
           if os.environ["TRANSLATE_OUTCOME"] != "success":
-              print("\nTranslation failed, so new entries show in English. See the workflow log.")
+              print("Translation failed; new entries remain in English. See the workflow log.")
           PY
-          title="Post-merge steps pending"
-          if [ -s todo.md ] && [ -z "$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[].number')" ]; then
-            gh issue create --title "$title" --body-file todo.md
-          fi
