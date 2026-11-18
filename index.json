@@ -137,8 +137,8 @@
    "path_last_commit": "2026-10-01",
    "stale": false,
    "checked_at": "2026-11-18",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "idea-generation",
@@ -161,8 +161,8 @@
    "path_last_commit": "2026-08-13",
    "stale": false,
    "checked_at": "2026-11-18",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works_with_caveats"
   },
   {
    "id": "literature-weakness-scanner",
@@ -242,8 +242,8 @@
    "path_last_commit": "2026-10-01",
    "stale": false,
    "checked_at": "2026-11-18",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "drclaw-biorxiv",
@@ -3134,8 +3134,8 @@
    "path_last_commit": "2026-08-19",
    "stale": false,
    "checked_at": "2026-11-18",
-   "audit_level": "static",
-   "audit_verdict": null
+   "audit_level": "hands_on",
+   "audit_verdict": "works"
   },
   {
    "id": "orchestra-nnsight",
