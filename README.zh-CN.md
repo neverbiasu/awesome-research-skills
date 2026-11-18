@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-150-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-154-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · 简体中文 · [日本語](README.ja.md) · [한국어](README.ko.md)
 
@@ -6,7 +6,7 @@
 
 选题 → 文献 → 研究设计 → 方法与理论 → 数据 → 训练 → 示意图 → 实验 → 统计 → 定性 → 可解释性 → 绘图 → 写作 → 同行评审
 
-共 150 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
+共 154 个 skill，逐个阅读、逐个挑选。每一条都指向一个具体的 `SKILL.md` 目录，而不是一个“里面可能有点东西”的仓库。收录的是你自己动手做的那些步骤：查找已有工作、设计研究、把方法形式化、整理数据、跑实验、统计分析、定性分析、作图、写作、同行评审。完整的自动科研流水线和 MLOps/部署工具不在收录范围内。
 
 每一条都对照其仓库读过并核对过（许可证、最近提交、运行所需的网络/凭据/hook），不收模板批量生成或已无人维护的条目。其中 52 条还按一份书面规范逐步动手走过一遍。数据核对至 2026-11-18；每条属于 `static check` 还是 `audited: <结论>`，记录在 `index.json` 中，定义见下文“这些条目是怎么检查的”。
 
@@ -42,9 +42,15 @@
 
 - [Creative Thinking for Research](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/21-research-ideation/creative-thinking-for-research) - 把认知科学中的创造力技巧（组合创造、类比推理和约束操纵）用于生成研究方向。
 
+- [Hypothesis Generation](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/hypothesis-generation) - Turns observations into testable research plans by writing rival explanations, discriminating predictions, and preregistration-ready analyses with bundled standard-library scripts that need no network or credentials.
+
+- [Idea Generation](https://github.com/muye1112/skill/tree/HEAD/skills/idea-generation) - Generates several candidate research ideas, refines each over up to five self-critique rounds, and checks novelty against Semantic Scholar with a bundled script that scores interestingness, feasibility, and novelty.
+
 - [Literature Weakness Scanner](https://github.com/flonat/flonat-research/tree/HEAD/skills/weakness-scanner) - 扫描文献语料中反复出现的薄弱论点、未支撑的假设和被反驳的发现以定位贡献缺口，矛盾检查步骤依赖可选的外部搜索 CLI。
 
 - [Research Gap Finder](https://github.com/chtc66/academic-skills/tree/HEAD/research-gap-finder) `zh` - 分析文献和早期想法，找出有依据的研究缺口和可检验的切入点，不强行声称新颖性。
+
+- [Scientific Brainstorming](https://github.com/K-Dense-AI/scientific-agent-skills/tree/HEAD/skills/scientific-brainstorming) - Separates ideation from evidence assessment and validation, using independent generation, explicit assumptions, adversarial review, and decision logs while treating every output as a proposal rather than a finding.
 
 ## 文献综述
 
@@ -290,6 +296,8 @@
 
 - [Interp CLI](https://github.com/azrabano23/interp) - 通过捆绑的 CLI 在 GPT-2 级别模型上运行 logit lens、直接 logit 归因、激活补丁、归纳头检查、SAE 特征查找和 steering，其测试固定了已发布的电路结果。
 
+- [Mechanism Skills](https://github.com/zjunlp/Mechanist/tree/HEAD/skills/mechanism-skills) - Routes a mechanism question to one of eleven method families by the signal each uses, then requires reading that family's and submethod's files before running anything, with cost, advantages, and limitations stated per family.
+
 - [nnsight](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/nnsight) - 检查并操纵任意 PyTorch 模型的内部状态，包括通过 NDIF 对本地 GPU 放不下的大模型远程执行。
 
 - [pyvene](https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/HEAD/04-mechanistic-interpretability/pyvene) - 通过声明式、基于字典的干预框架，在 PyTorch 模型上做因果追踪、激活修补和互换干预训练。
@@ -390,7 +398,7 @@
 
 这是一份策展列表，不是认证。每一条都是有人读过它的 `SKILL.md` 之后选入的。描述说明的是这个 skill 做什么，并不代表它已在你的问题上端到端运行过。没有任何条目声称做过可执行的端到端测试，因为确实没有做过。`SKILL.md` 不是英文的条目，名称旁带有语言标记。
 
-**两级检查。** `static check`（98/150）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（52/150）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
+**两级检查。** `static check`（102/154）表示已对照线上仓库核实路径、许可证、提交日期和所需能力，并读过 `SKILL.md`。`audited`（52/154）表示另外有人按书面审计规范，把 skill 自己的指令对着它附带的文件逐步走了一遍，结论为以下之一：`works`、`works with caveats`（能达到效果，但有一个需要事先知道的条件）、`unverifiable`（没有凭据、付费权限或硬件就无法评估）。审计已经移除过一些读起来不错、但除了作者本人谁也用不了的条目。
 
 **许可证、star 数、能力标记和每条的检查状态都在机器可读的索引里，不在本页行内**：[`index.json`](index.json) 和 [`index.csv`](index.csv)，与本页由同一份数据生成。如果你在意某个 skill 的许可证、是否需要网络/凭据/hook，或它确切的审计结论，打开之前先在那里查。简单说：skill 自己 frontmatter 里的 `license:` 与仓库 LICENSE 不一致时，以前者为准；`repo ★N` 是那个*仓库*的 star 数，绝不是对该 skill 的评分。这些 skill 中有 92% 位于别人更大的仓库里，一个 2 万 star 的大仓库里的 skill 可能只提交过一次、从没人用过。
 
