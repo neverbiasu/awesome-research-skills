@@ -1,4 +1,4 @@
-# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-154-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
+# Awesome Research Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Skills](https://img.shields.io/badge/skills-155-blue?style=flat) [![Last Commit](https://img.shields.io/github/last-commit/neverbiasu/awesome-research-skills?style=flat)](https://github.com/neverbiasu/awesome-research-skills/commits/main)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · 한국어
 
@@ -6,7 +6,7 @@
 
 아이디어 구상 → 문헌 → 연구 설계 → 방법과 이론 → 데이터 → 학습 → 다이어그램 → 실험 → 통계 → 질적 연구 → 해석 가능성 → 시각화 → 글쓰기 → 동료 심사
 
-스킬 154개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
+스킬 155개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
 
 모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 52개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-11-18 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
 
@@ -354,6 +354,8 @@
 
 - [Nature Paper Skills: Submission Audit](https://github.com/boom5426/nature-paper-skills/tree/HEAD/skills/core/submission-audit) - 투고 또는 재투고 전에 원고의 최종 단계 사전 점검을 수행합니다. 주장, 그림, 그림 설명, 방법, 보충 자료를 투고처의 요건과 교차 확인합니다.
 
+- [Paper Proof](https://github.com/zch6a/paper-proof/tree/HEAD/plugin/skills/paper-proof) - LaTeX 논문을 제출 전 검토합니다. Crossref, OpenAlex, Semantic Scholar, arXiv에서 참조 문헌을 확인하고, 굵은 숫자, 주장하는 성능 향상 및 초록의 수치를 표와 대조하여 검증하며, 모든 발견 사항에 대해 파일명과 행을 명시합니다.
+
 - [PaperFit: Float Optimizer](https://github.com/openraiser/paperfit/tree/HEAD/skills/float-optimizer) `zh` - 학술 논문 LaTeX 소스의 플로트 배치 문제를 고칩니다. 첫 참조 위치와의 거리, 너비 불일치, 몰림, 고립된 페이지가 대상입니다.
 
 - [PaperFit: Overflow Repair](https://github.com/openraiser/paperfit/tree/HEAD/skills/overflow-repair) `zh` - LaTeX 넘침 문제(overfull box, 긴 수식, URL 넘침)를 고칩니다. 레이아웃만 바꾸는 편집부터 시작하고, 그것만으로 해결되지 않으면 문구 수정을 위임하는 단계로 넘어갑니다.
@@ -398,7 +400,7 @@
 
 이것은 선별한 목록이지 인증이 아닙니다. 각 항목은 사람이 `SKILL.md`를 읽고 골랐습니다. 설명은 그 스킬이 무엇을 하는지를 말할 뿐, 여러분의 문제에 대해 처음부터 끝까지 실행해 본 결과를 보고하는 것이 아닙니다. 실행 가능한 엔드투엔드 테스트를 했다고 주장하는 항목은 하나도 없습니다. 실제로 하지 않았기 때문입니다. `SKILL.md`가 영어가 아닌 항목에는 이름 옆에 언어 태그를 붙였습니다.
 
-**확인은 두 단계입니다.** `static check`(154개 중 102개)는 경로, 라이선스, 커밋 날짜, 필요한 권한과 환경을 실제 저장소에서 확인하고 `SKILL.md`를 읽었다는 뜻입니다. `audited`(154개 중 52개)는 여기에 더해, 문서화된 감사 명세에 따라 스킬 자체의 지시를 함께 제공되는 파일과 대조하며 단계별로 따라가 본 뒤 다음 중 하나의 판정을 받았다는 뜻입니다. `works`, `works with caveats`(목적은 달성하지만 미리 알아야 할 조건이 있음), `unverifiable`(자격 증명, 유료 접근 권한, 하드웨어 없이는 평가할 수 없음). 감사를 통해, 읽기에는 좋아 보이지만 작성자 본인 말고는 아무도 쓸 수 없는 항목을 삭제해 왔습니다.
+**확인은 두 단계입니다.** `static check`(155개 중 103개)는 경로, 라이선스, 커밋 날짜, 필요한 권한과 환경을 실제 저장소에서 확인하고 `SKILL.md`를 읽었다는 뜻입니다. `audited`(155개 중 52개)는 여기에 더해, 문서화된 감사 명세에 따라 스킬 자체의 지시를 함께 제공되는 파일과 대조하며 단계별로 따라가 본 뒤 다음 중 하나의 판정을 받았다는 뜻입니다. `works`, `works with caveats`(목적은 달성하지만 미리 알아야 할 조건이 있음), `unverifiable`(자격 증명, 유료 접근 권한, 하드웨어 없이는 평가할 수 없음). 감사를 통해, 읽기에는 좋아 보이지만 작성자 본인 말고는 아무도 쓸 수 없는 항목을 삭제해 왔습니다.
 
 **라이선스, 스타 수, 권한 및 환경 표시, 항목별 확인 상태는 이 페이지의 각 줄이 아니라 기계가 읽을 수 있는 색인에 있습니다.** [`index.json`](index.json)과 [`index.csv`](index.csv)이며, 이 페이지와 같은 데이터에서 생성됩니다. 스킬의 라이선스, 네트워크·자격 증명·훅이 필요한지 여부, 정확한 감사 판정이 중요하다면 열어 보기 전에 거기서 찾아보세요. 요약하면, 스킬 자체의 프런트매터에 있는 `license:`와 저장소의 LICENSE가 다를 때는 전자를 따릅니다. `repo ★N`은 그 *저장소*의 스타 수이며, 스킬 자체에 대한 평가가 결코 아닙니다. 이 스킬들의 92%는 다른 사람의 더 큰 저장소 안에 있으므로, 스타 2만 개짜리 모노레포에 있는 스킬이라도 한 번 커밋된 뒤 아무도 쓰지 않았을 수 있습니다.
 

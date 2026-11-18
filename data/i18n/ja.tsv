@@ -111,6 +111,7 @@ orchestra-transformer-lens	モデルのすべての活性に設けたフック�
 paper-analyzer	コード検索、数式のレンダリング、図を含む6ラウンドのワークフローで、学術論文を詳細な HTML 記事に変換します。
 paper-lifecycle-rebuttal-response	トリアージ、戦略、起草、トーン修正の各モードを通じて、査読コメントをエビデンスに基づく反論資料一式に変換します。
 paper-lifecycle-review-revision	学術原稿のための構造化されたレビューと改訂のワークフローです。作業量に応じた6つの動作モードがあります。
+paper-proof	LaTeX論文の提出前にチェックします。Crossref、OpenAlex、Semantic Scholar、arXivで参考文献を照会し、太字の数値、主張された向上度、要約の数値を表と照合し、各発見箇所についてファイル名と行番号を特定します。
 paper2code	arXiv の論文を、引用箇所に紐づいた Python 実装に変換します。各モジュールに、それが実装する論文のセクションを付記し、曖昧な点は推測せずに明示します。
 paperbanana	論文の手法の説明と図のキャプションから、掲載品質の学術的な模式図やパイプライン図を生成します。マルチエージェントのパイプライン（Retriever、Planner、Stylist、Visualizer、Critic）が連携し、NeurIPS、ICML、ACL などの会議を想定しています。
 paperfit-float-optimizer	学術論文の LaTeX ソースにおけるフロートの配置の問題を修正します。最初の参照箇所からの距離、幅の不一致、集中、孤立したページが対象です。

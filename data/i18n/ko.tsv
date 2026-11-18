@@ -111,6 +111,7 @@ orchestra-transformer-lens	모델의 모든 활성화에 걸린 훅 지점을 �
 paper-analyzer	코드 검색, 수식 렌더링, 다이어그램을 포함한 6라운드 워크플로로 학술 논문을 상세한 HTML 글로 변환합니다.
 paper-lifecycle-rebuttal-response	분류, 전략, 초안 작성, 어조 수정 모드를 통해 동료 심사 의견을 근거에 기반한 반박 자료 묶음으로 변환합니다.
 paper-lifecycle-review-revision	학술 원고를 위한 구조화된 검토 및 수정 워크플로입니다. 투입 노력 수준에 맞춘 여섯 가지 작동 모드가 있습니다.
+paper-proof	LaTeX 논문을 제출 전 검토합니다. Crossref, OpenAlex, Semantic Scholar, arXiv에서 참조 문헌을 확인하고, 굵은 숫자, 주장하는 성능 향상 및 초록의 수치를 표와 대조하여 검증하며, 모든 발견 사항에 대해 파일명과 행을 명시합니다.
 paper2code	arXiv 논문을 인용 위치가 연결된 Python 구현으로 바꿉니다. 각 모듈에 그것이 구현하는 논문 섹션을 표시하고, 모호한 부분은 추측하지 않고 따로 표시합니다.
 paperbanana	논문의 방법론 설명과 그림 캡션으로부터 게재 품질의 학술 도식과 파이프라인 그림을 생성합니다. 다중 에이전트 파이프라인(Retriever, Planner, Stylist, Visualizer, Critic)이 협력하며, NeurIPS, ICML, ACL 같은 학회를 겨냥합니다.
 paperfit-float-optimizer	학술 논문 LaTeX 소스의 플로트 배치 문제를 고칩니다. 첫 참조 위치와의 거리, 너비 불일치, 몰림, 고립된 페이지가 대상입니다.
