@@ -66,6 +66,8 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Daily Papers](https://github.com/huangkiki/dailypaper-skills/tree/HEAD/skills/daily-papers) `zh` - Automates a daily paper-recommendation pipeline — fetch, review, and note-taking — for keeping up with recent AI research.
 
+- [Firecrawl Research Papers](https://github.com/firecrawl/skills/tree/HEAD/skills/workflows/firecrawl-research-papers) - Builds a sourced literature review from PubMed, bioRxiv, medRxiv, and arXiv papers through the Firecrawl Alexandria Research Index, with semantic search, citation-graph expansion, and claim checks against full-text passages.
+
 - [Gemini Deep Research](https://github.com/sanjay3290/ai-skills/tree/HEAD/skills/deep-research) - Executes multi-step literature and technical research through Google's Gemini research agent API to produce a detailed cited report.
 
 - [Google Scholar Skills](https://github.com/cookjohn/gs-skills/tree/HEAD/skills/gs-search) - Searches Google Scholar via browser automation, returning structured results with citation counts and full-text links.
