@@ -8,7 +8,7 @@
 
 스킬 155개를 하나씩 읽고 골랐습니다. 모든 항목은 '쓸 만한 것이 들어 있을지도 모르는 저장소'가 아니라, 특정한 `SKILL.md` 디렉터리 하나를 가리킵니다. 연구자가 직접 수행하는 단계를 대상으로 합니다. 선행 연구 찾기, 연구 설계, 방법의 형식화, 데이터 정리, 실험 수행, 통계 분석, 질적 분석, 그림 작성, 글쓰기, 동료 심사를 다룹니다. 연구 전체를 자동으로 돌리는 파이프라인과 MLOps·배포 도구는 범위에 포함하지 않습니다.
 
-모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 56개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-11-18 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
+모든 항목은 해당 저장소와 대조하여 읽고, 라이선스, 마지막 커밋, 실행에 필요한 것(네트워크, 자격 증명, 훅)을 확인했습니다. 템플릿으로 찍어낸 항목이나 방치된 항목은 싣지 않습니다. 그중 56개는 문서화된 명세에 따라 사람이 직접 절차를 따라가며 점검했습니다. 데이터는 2026-11-26 기준으로 GitHub와 대조했습니다. 각 항목이 `static check`인지 `audited: <판정>`인지는 `index.json`에 기록되어 있으며, 정의는 아래 '항목을 확인하는 방법'에 있습니다.
 
 항목 이름과 링크는 영문판과 같습니다. 설명은 번역이며, 내용이 다를 경우 [영문판](README.md)을 기준으로 합니다.
 
@@ -190,7 +190,7 @@
 
 - [Draw.io Diagrams](https://github.com/Agents365-ai/drawio-skill/tree/HEAD/skills/drawio-skill) - .drawio XML 다이어그램을 생성하고 draw.io 데스크톱 CLI로 PNG/SVG/PDF/JPG로 내보냅니다. 순서도, 아키텍처 다이어그램, ER/UML 다이어그램, 네트워크 토폴로지, ML/DL 모델 그림(Transformer, CNN, LSTM)을 지원합니다.
 
-- [Draw.io Reconstruction](https://github.com/HKUSTDial/Supervisor-Skills/tree/HEAD/skills/drawio-reconstruction) - 다이어그램, 그림, 아키텍처 시각 자료의 참조 이미지를 편집 가능한 Draw.io 파일로 재구성합니다. 편집 편의성보다 원본과의 시각적 일치를 우선합니다.
+- [Draw.io Reconstruction](https://github.com/HKUSTDial/Supervisor-Skills/tree/HEAD/others/drawio-reconstruction) - 다이어그램, 그림, 아키텍처 시각 자료의 참조 이미지를 편집 가능한 Draw.io 파일로 재구성합니다. 편집 편의성보다 원본과의 시각적 일치를 우선합니다.
 
 - [Mermaid Diagram Generator](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/mermaid-diagram) - 자연어 설명으로부터 Mermaid 다이어그램을 생성하고 문법을 검증합니다. 순서도, 시퀀스 다이어그램, 클래스 다이어그램, ER 다이어그램, 간트 차트 등 총 23가지 유형을 지원합니다.
 

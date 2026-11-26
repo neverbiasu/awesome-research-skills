@@ -8,7 +8,7 @@
 
 155 件のスキルを、1つずつ読んで選びました。どの項目も、「何か役に立つものが入っているかもしれないリポジトリ」ではなく、特定の `SKILL.md` ディレクトリ1つを指しています。対象は、研究者が自分の手で行う作業です。先行研究の調査、研究デザイン、手法の定式化、データの整備、実験の実行、統計分析、質的分析、図の作成、執筆、査読を扱います。研究全体を自動で回すパイプラインや、MLOps・デプロイ用のツールは対象外です。
 
-すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 56 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-11-18 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
+すべての項目は、リポジトリと照らして内容を読み、ライセンス、最終コミット、実行に必要なもの（ネットワーク、認証情報、フック）を確認しています。テンプレートで量産されたものや放置されたものは載せていません。そのうち 56 件は、文書化した仕様に沿って手作業で手順をたどって確認しています。データは 2026-11-26 時点で GitHub と照合済みです。各項目が `static check` か `audited: <判定>` かは `index.json` に記録しており、定義は下の「各項目の確認方法」にあります。
 
 項目名とリンクは英語版と同じです。説明文は翻訳で、内容に違いがある場合は[英語版](README.md)が正となります。
 
@@ -190,7 +190,7 @@
 
 - [Draw.io Diagrams](https://github.com/Agents365-ai/drawio-skill/tree/HEAD/skills/drawio-skill) - .drawio XML の図を生成し、draw.io デスクトップ版の CLI で PNG/SVG/PDF/JPG に書き出します。フローチャート、アーキテクチャ図、ER/UML 図、ネットワーク構成図、ML/DL モデル図（Transformer、CNN、LSTM）に対応します。
 
-- [Draw.io Reconstruction](https://github.com/HKUSTDial/Supervisor-Skills/tree/HEAD/skills/drawio-reconstruction) - 図、グラフ、アーキテクチャ図の参照画像を、編集可能な Draw.io ファイルとして再構成します。編集のしやすさよりも元画像への視覚的な忠実さを優先します。
+- [Draw.io Reconstruction](https://github.com/HKUSTDial/Supervisor-Skills/tree/HEAD/others/drawio-reconstruction) - 図、グラフ、アーキテクチャ図の参照画像を、編集可能な Draw.io ファイルとして再構成します。編集のしやすさよりも元画像への視覚的な忠実さを優先します。
 
 - [Mermaid Diagram Generator](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/HEAD/skills/mermaid-diagram) - 自然言語の説明から Mermaid 図を生成し、構文を検証します。フローチャート、シーケンス図、クラス図、ER 図、ガントチャートなど計23種類に対応します。
 
