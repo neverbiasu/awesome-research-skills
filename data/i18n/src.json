@@ -147,6 +147,7 @@
  "scholar-qual": "Runs grounded theory, reflexive thematic analysis, and content analysis with codebook development and inter-coder reliability checks, exporting to NVivo, ATLAS.ti, Dedoose, and MAXQDA formats.",
  "scientific-brainstorming": "Separates ideation from evidence assessment and validation, using independent generation, explicit assumptions, adversarial review, and decision logs while treating every output as a proposal rather than a finding.",
  "skill-deslop": "Removes common AI-writing patterns from academic and research prose to restore a more natural voice.",
+ "survey-weighting": "Builds respondent weights from known population targets, by raking to separate margins or cell weighting to a joint table, and reports the design effect, Kish effective sample size, and weighted against unweighted estimates.",
  "survey-writer": "Writes a survey draft around a research topic by organizing multiple papers into problem-driven, method-evolution narratives rather than paper-by-paper summaries.",
  "surveying-literature": "Finds related work a draft may have missed by expanding outward through the citation graph and searching the draft's topic independently, grading each candidate by how much it threatens the novelty claim.",
  "train-sentence-transformers": "Trains bi-encoder, cross-encoder, and SPLADE sparse embedding models with the sentence-transformers library.",

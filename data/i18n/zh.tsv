@@ -146,6 +146,7 @@ scdenney-survey-design	依据已发表的社会科学方法论，起草和评审
 scholar-qual	开展扎根理论、反思性主题分析和内容分析，包含编码本开发和编码者间信度检验，并可导出为 NVivo、ATLAS.ti、Dedoose 和 MAXQDA 格式。
 scientific-brainstorming	将构思与证据评估及验证分离，采用独立生成、显式假设、对抗性审查和决策日志，并将所有输出视为提案而非发现。
 skill-deslop	去除学术和研究文稿中常见的 AI 写作痕迹，恢复更自然的文风。
+survey-weighting	基于已知总体目标构建受访者权重，支持对边缘分布进行 raking 或对联合表进行单元加权，并报告设计效应、Kish 有效样本量以及加权与未加权估计值的对比。
 survey-writer	围绕一个研究主题撰写综述草稿，把多篇论文组织成以问题为驱动、体现方法演进的叙述，而不是逐篇摘要。
 surveying-literature	沿引用图向外扩展并独立检索草稿主题，找出草稿可能遗漏的相关工作，并按其对新颖性声明的威胁程度为每个候选评级。
 train-sentence-transformers	用 sentence-transformers 库训练双编码器、交叉编码器和 SPLADE 稀疏嵌入模型。

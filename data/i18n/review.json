@@ -15,7 +15,8 @@
   "paper-proof",
   "phd-skills-paper-check",
   "rebuttal-skill",
-  "scientific-brainstorming"
+  "scientific-brainstorming",
+  "survey-weighting"
  ],
  "ko": [
   "dataset-codebook-generator",
@@ -33,7 +34,8 @@
   "paper-proof",
   "phd-skills-paper-check",
   "rebuttal-skill",
-  "scientific-brainstorming"
+  "scientific-brainstorming",
+  "survey-weighting"
  ],
  "zh": [
   "dataset-codebook-generator",
@@ -51,6 +53,7 @@
   "paper-proof",
   "phd-skills-paper-check",
   "rebuttal-skill",
-  "scientific-brainstorming"
+  "scientific-brainstorming",
+  "survey-weighting"
  ]
 }

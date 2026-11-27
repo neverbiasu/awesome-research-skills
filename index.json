@@ -1,5 +1,5 @@
 {
- "count": 154,
+ "count": 155,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -2843,6 +2843,30 @@
    "path_last_commit": "2026-11-03",
    "stale": false,
    "checked_at": "2026-11-23",
+   "audit_level": "static",
+   "audit_verdict": null
+  },
+  {
+   "id": "survey-weighting",
+   "name": "Survey Weighting",
+   "category": "statistical_analysis",
+   "repo": "questionpunk/research-skills",
+   "path": "skills/survey-weighting",
+   "url": "https://github.com/questionpunk/research-skills/tree/HEAD/skills/survey-weighting",
+   "description": "Builds respondent weights from known population targets, by raking to separate margins or cell weighting to a joint table, and reports the design effect, Kish effective sample size, and weighted against unweighted estimates.",
+   "form": "skill",
+   "lang": "en",
+   "required_capabilities": "",
+   "license": null,
+   "license_scope": null,
+   "repo_license": null,
+   "license_conflict": null,
+   "capabilities": [],
+   "repo_stars": null,
+   "stars_scope": null,
+   "path_last_commit": null,
+   "stale": null,
+   "checked_at": null,
    "audit_level": "static",
    "audit_verdict": null
   },
