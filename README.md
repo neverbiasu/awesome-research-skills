@@ -269,6 +269,8 @@ Every entry is read and checked against its repository — license, last commit,
 
 - [Stata-to-R Translation](https://github.com/DAAF-Contribution-Community/daaf/tree/HEAD/.claude/skills/stata-r-translation) - Maps Stata commands (reghdfe, xtreg, ivregress, margins, esttab, svy:) to their R equivalents for researchers moving an analysis between the two ecosystems.
 
+- [Survey Weighting](https://github.com/questionpunk/research-skills/tree/HEAD/skills/survey-weighting) - Builds respondent weights from known population targets, by raking to separate margins or cell weighting to a joint table, and reports the design effect, Kish effective sample size, and weighted against unweighted estimates.
+
 ## Qualitative & Mixed Methods
 
 *Interviews, fieldwork, and coded text — thematic analysis, grounded theory, ethnography, intercoder reliability.*
