@@ -1,5 +1,5 @@
 {
- "count": 155,
+ "count": 154,
  "generated_from": "data/skills.json",
  "entries": [
   {
@@ -1401,55 +1401,6 @@
    "checked_at": "2026-11-23",
    "audit_level": "hands_on",
    "audit_verdict": "works"
-  },
-  {
-   "id": "hf-llm-trainer",
-   "name": "Hugging Face LLM Trainer",
-   "category": "model_training_finetuning",
-   "repo": "huggingface/skills",
-   "path": "skills/huggingface-llm-trainer",
-   "url": "https://github.com/huggingface/skills/tree/HEAD/skills/huggingface-llm-trainer",
-   "description": "Fine-tunes language and vision-language models via TRL or Unsloth on Hugging Face Jobs, covering SFT, DPO, GRPO, and reward modeling.",
-   "form": "skill",
-   "lang": "en",
-   "required_capabilities": "creds|external|net",
-   "license": "Apache-2.0",
-   "license_scope": "repo_fallback",
-   "repo_license": "Apache-2.0",
-   "license_conflict": false,
-   "capabilities": [
-    {
-     "flag": "net",
-     "polarity": "required",
-     "rule_id": "net.hub",
-     "evidence_file": "SKILL.md",
-     "evidence_line": 89,
-     "evidence": "- **Hub push must be enabled** - Config: `push_to_hub=True`, `hub_model_id=\"username/model-name\"`; Job: `secrets={\"HF_TOKEN\": \"$HF_TOKEN\"}`"
-    },
-    {
-     "flag": "creds",
-     "polarity": "required",
-     "rule_id": "creds.envvar",
-     "evidence_file": "SKILL.md",
-     "evidence_line": 76,
-     "evidence": "- **HF_TOKEN for Hub Push** \u26a0\ufe0f CRITICAL - Training environment is ephemeral, must push to Hub or ALL training results are lost"
-    },
-    {
-     "flag": "external",
-     "polarity": "required",
-     "rule_id": "external.mcp",
-     "evidence_file": "SKILL.md",
-     "evidence_line": 668,
-     "evidence": "3. Verify auth: `mcp__huggingface__hf_whoami()`"
-    }
-   ],
-   "repo_stars": 11386,
-   "stars_scope": "monorepo_subpath_not_attributable",
-   "path_last_commit": "2026-07-06",
-   "stale": false,
-   "checked_at": "2026-11-23",
-   "audit_level": "static",
-   "audit_verdict": null
   },
   {
    "id": "hf-vision-trainer",
